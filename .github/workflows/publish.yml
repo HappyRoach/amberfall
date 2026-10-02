@@ -12,10 +12,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+
+    env:
+      CHANGELOG_FILE: ${{ vars.AMBERFALL_CHANGELOG_FILE || 'Resources/Changelog/AmberfallChangelog.yml' }}
+      CHANGELOG_PUBLISH_ROLE_ID: ${{ vars.CHANGELOG_PUBLISH_ROLE_ID }}
+      CHANGELOG_WEBHOOK_USERNAME: ${{ vars.CHANGELOG_WEBHOOK_USERNAME }}
+      CHANGELOG_WEBHOOK_AVATAR_URL: ${{ vars.CHANGELOG_WEBHOOK_AVATAR_URL }}
 
     steps:
     - name: Install dependencies
-      run: sudo apt-get install -y python3-paramiko python3-lxml
+      run: sudo apt-get install -y python3-paramiko python3-lxml python3-requests python3-yaml
 
     - uses: actions/checkout@v7
       with:
@@ -58,10 +67,16 @@ jobs:
         GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
 
     - name: Publish changelog (Discord)
+      id: publish-changelog
       continue-on-error: true
       run: Tools/actions_changelogs_since_last_run.py
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
+
+    - name: Notify Discord about server update
+      run: Tools/actions_changelogs_since_last_run.py --publish-notification
+      env:
         DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
 
     - name: Publish changelog (RSS)
@@ -69,3 +84,7 @@ jobs:
       run: Tools/actions_changelog_rss.py
       env:
         CHANGELOG_RSS_KEY: ${{ secrets.CHANGELOG_RSS_KEY }}
+
+    - name: Fail if changelog notification failed
+      if: ${{ steps.publish-changelog.outcome == 'failure' }}
+      run: exit 1

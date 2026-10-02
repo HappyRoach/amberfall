@@ -5,7 +5,8 @@ on:
     types: [closed]
 
 env:
-  GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.BOT_TOKEN || github.token }}
+  CHANGELOG_DIR: ${{ vars.AMBERFALL_CHANGELOG_FILE || 'Resources/Changelog/AmberfallChangelog.yml' }}
   PR_NUMBER: ${{ github.event.number }}
 
 jobs:
@@ -14,17 +15,21 @@ jobs:
     if: github.event.pull_request.merged == true
     permissions:
       contents: write
+      pull-requests: read
     steps:
-      - name: Checkout Master
+      - name: Checkout changelog branch
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.BOT_TOKEN }}
-          ref: "${{ vars.CHANGELOG_BRANCH }}"
+          token: ${{ secrets.BOT_TOKEN || github.token }}
+          ref: ${{ vars.CHANGELOG_BRANCH || github.event.repository.default_branch }}
 
       - name: Setup Git
+        env:
+          CHANGELOG_USER: ${{ vars.CHANGELOG_USER || 'amberfall-changelog' }}
+          CHANGELOG_EMAIL: ${{ vars.CHANGELOG_EMAIL || '41898282+github-actions[bot]@users.noreply.github.com' }}
         run: |
-          git config --global user.name "${{ vars.CHANGELOG_USER }}"
-          git config --global user.email "${{ vars.CHANGELOG_EMAIL }}"
+          git config user.name "${CHANGELOG_USER}"
+          git config user.email "${CHANGELOG_EMAIL}"
         shell: bash
 
       - name: Setup Node
@@ -33,23 +38,25 @@ jobs:
           node-version: 24.x
 
       - name: Install Dependencies
-        run: |
-          cd "Tools/changelog"
-          npm install
+        working-directory: Tools/changelog
+        run: npm install --ignore-scripts --no-package-lock
         shell: bash
-        continue-on-error: true
 
       - name: Generate Changelog
-        run: |
-          cd "Tools/changelog"
-          node changelog.js
+        working-directory: Tools/changelog
+        run: node changelog.js
         shell: bash
-        continue-on-error: true
 
       - name: Commit Changelog
+        env:
+          CHANGELOG_BRANCH: ${{ vars.CHANGELOG_BRANCH || github.event.repository.default_branch }}
+          CHANGELOG_MESSAGE: ${{ vars.CHANGELOG_MESSAGE || 'Automatic changelog update' }}
         run: |
-          git add *.yml
-          git commit -m "${{ vars.CHANGELOG_MESSAGE }} (PR ${{ env.PR_NUMBER }})"
-          git push
+          git add -- Resources/Changelog "${CHANGELOG_DIR}"
+          if git diff --cached --quiet; then
+            echo "Changelog unchanged."
+            exit 0
+          fi
+          git commit -m "${CHANGELOG_MESSAGE} (PR ${PR_NUMBER})"
+          git push origin "HEAD:${CHANGELOG_BRANCH}"
         shell: bash
-        continue-on-error: true

@@ -1,12 +1,18 @@
 /* Category structure data: category and entry types */
 
+const fs = require("fs");
+const path = require("path");
+const yaml = require("js-yaml");
+const { getMedia } = require("./media");
+
 // The default category, and a map of category cl name to filename in Resources/Changelog
-const ChangelogsDir = "../../Resources/Changelog/"; // must have trailing /
-// IF YOU ARE A FORK, CHANGE THESE!!!!!!!!!!!!
-const MainCategory = "TRAUMA";
-const MainCategoryPath = "TraumaChangelog.yml";
+const ChangelogsDir = path.resolve(__dirname, "../../Resources/Changelog");
+const MainCategory = "AMBERFALL";
+const MainCategoryPath = path.resolve(__dirname, "../..",
+    process.env.CHANGELOG_DIR || "Resources/Changelog/AmberfallChangelog.yml");
 const CategoryPaths = {
 	[MainCategory]: MainCategoryPath,
+	TRAUMA: "TraumaChangelog.yml",
 	WIZDEN: "Changelog.yml",
     WIZDENADMIN: "Admin.yml",
     MAPS: "Maps.yml",
@@ -33,15 +39,11 @@ function categoryExists(category) {
 // Options for saving the changelog yml files
 const YamlOptions = { indent: 2, noArrayIndent: true };
 
-// Dependencies
-const fs = require("fs");
-const yaml = require("js-yaml");
-
 // Regexes
-const HeaderRegex = /^\s*(?::cl:|🆑) *([a-z0-9_\-() ,.]+)?\s+(.+)/ims; // :cl: or 🆑 [0] followed by optional author name [1] and the changelog [2]
+const HeaderRegex = /^[\t ]*(?::cl:|🆑)[\t ]*([^\r\n]*)\r?\n([\s\S]*)/im;
 const LineRegex = /\r?\n/;
 const CategoryRegex = /^([a-zA-Z]+)\s*:/;
-const EntryRegex = /^ *[*-]? *(add|remove|tweak|fix): *([^\n\r]+)\r?$/im; // * or - followed by change type [0] and change message [1]
+const EntryRegex = /^ *[*-]? *(add|remove|tweak|fix|bugfix|bug): *([^\n\r]+)\r?$/i;
 const CommentRegex = /<!--.*?-->/gs; // HTML comments
 
 // Main function
@@ -67,7 +69,7 @@ async function main() {
 	if (!res.ok)
 		throw new Error(`Failed to fetch PR information for #${prnum}: ${res.status}`);
 
-    const { merged_at, body, user } = await res.json();
+    const { merged_at, body, user, number, html_url } = await res.json();
 
     // Time is something like 2021-08-29T20:00:00Z
     // Time should be something like 2023-02-18T00:00:00.0000000+00:00
@@ -80,7 +82,7 @@ async function main() {
     time = time.replace("z", ".0000000+00:00").replace("Z", ".0000000+00:00");
 
     // Remove comments from the body
-    commentlessBody = body.replace(CommentRegex, '');
+    const commentlessBody = (body || "").replace(CommentRegex, '');
 
     // Get author
     const headerMatch = HeaderRegex.exec(commentlessBody);
@@ -89,7 +91,7 @@ async function main() {
         return;
     }
 
-    let author = headerMatch[1];
+    let author = headerMatch[1].trim();
     if (!author) {
         console.log("No author found, setting it to author of the PR\n");
         author = user.login;
@@ -101,20 +103,24 @@ async function main() {
     if (entries === null)
     	return;
 
+    const media = getMedia(body);
+
     // Construct changelog yml entries
     // Write changelogs
     for (const category in entries)
     {
     	const changes = entries[category];
-    	const path = ChangelogsDir + CategoryPaths[category];
+	    const filePath = path.resolve(ChangelogsDir, CategoryPaths[category]);
 	    const entry = {
 	        author: author,
 	        changes: changes,
 	        id: -1, // set inside writeChangelog
 	        time: time,
-	        url: prUrl
+	        prNumber: number || Number(prnum),
+	        url: html_url || prUrl,
+	        ...(media.length ? { media } : {})
 	    };
-	    writeChangelog(path, entry);
+	    writeChangelog(filePath, entry);
     }
 
     console.log(`Changelog updated with changes from PR #${prnum}`);
@@ -133,6 +139,15 @@ function getChanges(body) {
     	if (line === "")
     		continue;
 
+        const match = EntryRegex.exec(line);
+        if (match !== null) {
+            (entries[category] ??= []).push({
+                type: match[1].toLowerCase(), message: match[2].trim()
+            });
+            empty = false;
+            continue;
+        }
+
     	const matchedCat = CategoryRegex.exec(line);
     	if (matchedCat !== null) {
     		const name = matchedCat[1].toUpperCase();
@@ -146,15 +161,7 @@ function getChanges(body) {
     		continue;
     	}
 
-    	const match = EntryRegex.exec(line);
-    	if (match === null) {
-    		console.log("Invalid line in changelog:", line);
-    		continue;
-    	}
-
-        (entries[category] ??= [])
-        	.push({ type: match[1], message: match[2] });
-        empty = false;
+        console.log("Invalid line in changelog:", line);
     }
 
     if (empty)
@@ -189,18 +196,16 @@ function getHighestCLNumber(entries) {
 
 // Append a changelog entry to a given file
 function writeChangelog(path, entry) {
-    if (!fs.existsSync(path)) {
-    	console.log('skipping nonexistent changelog: ', path);
-    	return;
+    const data = fs.existsSync(path)
+        ? yaml.load(fs.readFileSync(path, "utf8"))
+        : { Name: "Amberfall", Order: -3, Entries: [] };
+
+    if (data.Entries.some(existing => existing.url === entry.url)) {
+        console.log(`PR already present in ${path}, skipping`);
+        return;
     }
 
-    const file = fs.readFileSync(path, "utf8");
-    const data = yaml.load(file);
-
 	entry.id = getHighestCLNumber(data.Entries) + 1;
-
-    console.log('entry (line 183): ', entry);
-    console.log('data (line 184): ', data);
 
     data.Entries.push(entry);
 
@@ -212,4 +217,11 @@ function writeChangelog(path, entry) {
 }
 
 // Run main
-main();
+if (require.main === module) {
+    main().catch(error => {
+        console.error(error);
+        process.exitCode = 1;
+    });
+}
+
+module.exports = { main, getChanges, writeChangelog };
