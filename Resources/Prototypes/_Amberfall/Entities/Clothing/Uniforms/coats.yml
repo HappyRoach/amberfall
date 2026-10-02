@@ -1,0 +1,33 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformNoblecoat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/noblecoat.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/noblecoat.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/noblecoat.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/noblecoat_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformWintercoat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/wintercoat.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/wintercoat.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/wintercoat.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/wintercoat_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves

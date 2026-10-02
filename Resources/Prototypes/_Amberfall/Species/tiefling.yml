@@ -1,0 +1,9 @@
+- type: species
+  id: Tiefling
+  name: species-name-tiefling
+  category: Godtouched
+  roundStart: true
+  prototype: MobTiefling
+  dollPrototype: AppearanceTiefling
+  skinColoration: Hues
+  defaultSkinTone: "#BF594D"

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from https://github.com/Twilight-Fortress-SS13/Twilight-Axis: icons/mob/sprite_accessory/ears/ears_big.dmi",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "rabbit_floppy_flip_ADJ_1",
+      "directions": 4
+    },
+    {
+      "name": "rabbit_floppy_flip_ADJ_2",
+      "directions": 4
+    },
+    {
+      "name": "rabbit_floppy_flip_ADJ_3",
+      "directions": 4
+    }
+  ]
+}

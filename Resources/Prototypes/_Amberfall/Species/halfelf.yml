@@ -1,0 +1,9 @@
+- type: species
+  id: HalfElf
+  name: species-name-halfelf
+  category: Humankind
+  roundStart: true
+  prototype: MobHalfElf
+  dollPrototype: AppearanceHalfElf
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"

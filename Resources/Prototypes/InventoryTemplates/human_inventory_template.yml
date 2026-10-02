@@ -1,6 +1,13 @@
 - type: inventoryTemplate
   id: human
   slots:
+    - name: pants
+      slotTexture: pants
+      slotFlags: LEGS
+      stripTime: 6
+      uiWindowPos: 0,1
+      strippingWindowPos: 2,3
+      displayName: Pants
     - name: shoes
       slotTexture: shoes
       slotFlags: FEET
@@ -12,7 +19,7 @@
       slotTexture: uniform
       slotFlags: INNERCLOTHING
       stripTime: 6
-      uiWindowPos: 0,1
+      uiWindowPos: 0,2
       strippingWindowPos: 0,2
       displayName: Jumpsuit
     - name: outerClothing
@@ -31,13 +38,13 @@
     - name: neck
       slotTexture: neck
       slotFlags: NECK
-      uiWindowPos: 0,2
+      uiWindowPos: 1,2
       strippingWindowPos: 0,1
       displayName: Neck
     - name: mask
       slotTexture: mask
       slotFlags: MASK
-      uiWindowPos: 1,2
+      uiWindowPos: 2,2
       strippingWindowPos: 1,1
       displayName: Mask
     - name: eyes
@@ -51,7 +58,7 @@
       slotTexture: ears
       slotFlags: EARS
       stripTime: 3
-      uiWindowPos: 2,2
+      uiWindowPos: 2,3
       strippingWindowPos: 2,0
       displayName: Ears
     - name: head

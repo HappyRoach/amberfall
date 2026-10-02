@@ -1,0 +1,9 @@
+- type: species
+  id: HalfKin
+  name: species-name-halfkin
+  category: Humankind
+  roundStart: true
+  prototype: MobHalfKin
+  dollPrototype: AppearanceHalfKin
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"

@@ -1,0 +1,9 @@
+- type: species
+  id: Fluvian
+  name: species-name-fluvian
+  category: Beastvolk
+  roundStart: true
+  prototype: MobFluvian
+  dollPrototype: AppearanceFluvian
+  skinColoration: Hues
+  defaultSkinTone: "#FFFFFF"

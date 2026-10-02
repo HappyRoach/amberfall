@@ -36,6 +36,13 @@ namespace Content.Shared.Humanoid.Markings
         [DataField("sprites", required: true)]
         public List<SpriteSpecifier> Sprites { get; private set; } = default!;
 
+        /// <summary>
+        /// Optional sprite state to layer bookmark mapping. Allows a single selectable
+        /// marking, such as a tail or wings, to have parts behind and in front of the body.
+        /// </summary>
+        [DataField]
+        public Dictionary<string, string> SpriteLayerOverrides { get; private set; } = new();
+
         public Marking AsMarking()
         {
             return new Marking(ID, Sprites.Count);

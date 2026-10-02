@@ -1,0 +1,9 @@
+- type: species
+  id: SunElf
+  name: species-name-sunelf
+  category: Elven
+  roundStart: true
+  prototype: MobSunElf
+  dollPrototype: AppearanceSunElf
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"

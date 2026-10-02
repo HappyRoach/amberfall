@@ -1,0 +1,9 @@
+- type: species
+  id: DarkElf
+  name: species-name-darkelf
+  category: Elven
+  roundStart: true
+  prototype: MobDarkElf
+  dollPrototype: AppearanceDarkElf
+  skinColoration: Hues
+  defaultSkinTone: "#74617F"

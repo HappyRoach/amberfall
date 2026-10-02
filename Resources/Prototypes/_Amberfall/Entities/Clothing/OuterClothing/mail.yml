@@ -1,0 +1,92 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterHaubergeon
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/haubergeon.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/haubergeon.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/haubergeon.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/haubergeon_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterHaubyrnie
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/haubyrnie.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/haubyrnie.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/haubyrnie.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/haubyrnie_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterLamellar
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/lamellar.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/lamellar.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/lamellar.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/lamellar_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterHauberk
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/hauberk.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/hauberk.rsi
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/hauberk_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.7
+        Piercing: 0.8

@@ -1,0 +1,31 @@
+- type: markingsGroup
+  parent: Human
+  id: Fluvian
+  limits:
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 0
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 1
+      required: true
+      onlyGroupWhitelisted: true
+      default: [ AntennaMothPlain ]
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.SnoutCover:
+      limit: 1
+      required: true
+      onlyGroupWhitelisted: true
+      default: [ NeckFeatureMothFluffPlain ]
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.Wings:
+      limit: 1
+      required: true
+      onlyGroupWhitelisted: true
+      default: [ WingsMothPlain ]

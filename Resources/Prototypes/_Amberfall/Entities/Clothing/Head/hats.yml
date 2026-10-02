@@ -1,0 +1,113 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadStrawHat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/straw_hat.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Head/Hats/straw_hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadBandana
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/bandana.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/bandana.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/bandana.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadChaperon
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/chaperon.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/chaperon.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/chaperon.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadFisherhat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/fisherhat.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/fisherhat.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/fisherhat.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadKnitcap
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/knitcap.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/knitcap.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/knitcap.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadTricorn
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/tricorn.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/tricorn.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/tricorn.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadTurban
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/turban.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/turban.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/turban.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadWitch
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/witch.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/witch.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/witch.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadArmingCap
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hats/arming_cap.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hats/arming_cap.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hats/arming_cap.rsi
+    bodyProfile: true

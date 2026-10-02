@@ -1,11 +1,13 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Numerics;
 using Content.Client.DisplacementMap;
 using Content.Client.Inventory;
 using Content.Goobstation.Common.Clothing;
 using Content.Shared.Clothing;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
+using Content.Shared.Clothing.Prototypes;
 using Content.Shared.Humanoid;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
@@ -13,6 +15,7 @@ using Content.Shared.Item;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations;
 using Robust.Shared.Utility;
 using static Robust.Client.GameObjects.SpriteComponent;
@@ -36,6 +39,7 @@ public sealed partial class ClientClothingSystem : ClothingSystem
         {"mask", "MASK"},
         {"outerClothing", "OUTERCLOTHING"},
         {Jumpsuit, "INNERCLOTHING"},
+        {"pants", "LEGS"},
         {"neck", "NECK"},
         {"back", "BACKPACK"},
         {"belt", "BELT"},
@@ -51,6 +55,7 @@ public sealed partial class ClientClothingSystem : ClothingSystem
     [Dependency] private InventorySystem _inventorySystem = default!;
     [Dependency] private DisplacementMapSystem _displacement = default!;
     [Dependency] private SpriteSystem _sprite = default!;
+    [Dependency] private IPrototypeManager _prototypes = default!;
 
     public override void Initialize()
     {
@@ -102,16 +107,24 @@ public sealed partial class ClientClothingSystem : ClothingSystem
             return;
 
         List<PrototypeLayerData>? layers = null;
+        var (speciesId, sexSuffix) = GetClothingAppearance(args.Equipee, inventory);
+        var bodyProfile = GetBodyProfile(args.Equipee, item);
 
-        // first attempt to get species specific data.
-        if (inventory.SpeciesId != null)
-            item.ClothingVisuals.TryGetValue($"{args.Slot}-{inventory.SpeciesId}", out layers);
+        if (sexSuffix != null && speciesId != null)
+            item.ClothingVisuals.TryGetValue($"{args.Slot}-{speciesId}-{sexSuffix}", out layers);
+
+        if (layers == null && speciesId != null)
+            item.ClothingVisuals.TryGetValue($"{args.Slot}-{speciesId}", out layers);
+
+        if (layers == null && sexSuffix != null)
+            item.ClothingVisuals.TryGetValue($"{args.Slot}-{sexSuffix}", out layers);
 
         // if that returned nothing, attempt to find generic data
         if (layers == null && !item.ClothingVisuals.TryGetValue(args.Slot, out layers))
         {
             // No generic data either. Attempt to generate defaults from the item's RSI & item-prefixes
-            if (!TryGetDefaultVisuals(uid, item, args.Slot, inventory.SpeciesId, out layers))
+            if (!TryGetDefaultVisuals(uid, item, args.Slot, speciesId, sexSuffix, bodyProfile,
+                    CompOrNull<HumanoidProfileComponent>(args.Equipee)?.Sex, out layers))
                 return;
         }
 
@@ -130,6 +143,82 @@ public sealed partial class ClientClothingSystem : ClothingSystem
             item.MappedLayer = key;
             args.Layers.Add((key, layer));
         }
+
+        if (item.LowerState is { } lowerState && item.LowerRsiPath is { } lowerPath)
+        {
+            var lowerRsi = _cache.GetResource<RSIResource>(SpriteSpecifierSerializer.TextureRoot / lowerPath).RSI;
+            if (TryResolveWornState(lowerRsi, lowerState, speciesId, sexSuffix,
+                    bodyProfile, CompOrNull<HumanoidProfileComponent>(args.Equipee)?.Sex, out var resolvedLowerState))
+            {
+                var lowerKey = $"{args.Slot}-lower";
+                args.Layers.Add((lowerKey, new PrototypeLayerData
+                {
+                    RsiPath = lowerRsi.Path.ToString(),
+                    State = resolvedLowerState,
+                    Scale = item.Scale,
+                }));
+                args.LayerBookmarks[lowerKey] = "pantsBody";
+            }
+        }
+
+        if (item.SleeveState is not { } sleeveState)
+            return;
+
+        var sleeveLayer = item.SleeveLayer ?? (args.Slot switch
+        {
+            Jumpsuit => "shirtSleeves",
+            "outerClothing" => "armorSleeves",
+            "gloves" => "gloveSleeves",
+            _ => null,
+        });
+        if (sleeveLayer == null)
+            return;
+
+        RSI? sleeveRsi = null;
+        var sleevePath = item.SleeveRsiPath ?? item.RsiPath;
+        if (sleevePath != null)
+            sleeveRsi = _cache.GetResource<RSIResource>(SpriteSpecifierSerializer.TextureRoot / sleevePath).RSI;
+        else if (TryComp(uid, out SpriteComponent? sprite))
+            sleeveRsi = sprite.BaseRSI;
+
+        if (sleeveRsi == null || !TryResolveWornState(sleeveRsi, sleeveState, speciesId, sexSuffix,
+                bodyProfile, CompOrNull<HumanoidProfileComponent>(args.Equipee)?.Sex, out var resolvedSleeveState))
+            return;
+
+        var sleeveKey = $"{args.Slot}-sleeves";
+        args.Layers.Add((sleeveKey, new PrototypeLayerData
+        {
+            RsiPath = sleeveRsi.Path.ToString(),
+            State = resolvedSleeveState,
+            Scale = item.Scale,
+        }));
+        args.LayerBookmarks[sleeveKey] = sleeveLayer;
+    }
+
+    private (string? Species, string? Sex) GetClothingAppearance(EntityUid wearer, InventoryComponent inventory)
+    {
+        var profile = CompOrNull<HumanoidProfileComponent>(wearer);
+        var sex = profile?.Sex;
+        if (profile != null && _prototypes.TryIndex(profile.Species, out var species))
+            sex = species.ClothingSex ?? sex;
+
+        // Preserve explicit inventory aliases used by existing species/NPCs.
+        return (inventory.SpeciesId ?? profile?.Species.Id, sex switch
+        {
+            Sex.Male => "m",
+            Sex.Female => "f",
+            _ => null,
+        });
+    }
+
+    private ClothingBodyProfilePrototype? GetBodyProfile(EntityUid wearer, ClothingComponent clothing)
+    {
+        if (!clothing.BodyProfile || !TryComp(wearer, out HumanoidProfileComponent? humanoid))
+            return null;
+
+        return _prototypes.TryIndex<ClothingBodyProfilePrototype>(humanoid.Species.Id, out var bodyProfile)
+            ? bodyProfile
+            : null;
     }
 
     /// <summary>
@@ -139,6 +228,7 @@ public sealed partial class ClientClothingSystem : ClothingSystem
     ///     Useful for lazily adding clothing sprites without modifying yaml. And for backwards compatibility.
     /// </remarks>
     private bool TryGetDefaultVisuals(EntityUid uid, ClothingComponent clothing, string slot, string? speciesId,
+        string? sexSuffix, ClothingBodyProfilePrototype? bodyProfile, Sex? bodySex,
         [NotNullWhen(true)] out List<PrototypeLayerData>? layers)
     {
         layers = null;
@@ -166,19 +256,47 @@ public sealed partial class ClientClothingSystem : ClothingSystem
         if (clothing.EquippedState != null)
             state = $"{clothing.EquippedState}";
 
-        // species specific
-        if (speciesId != null && rsi.TryGetState($"{state}-{speciesId}", out _))
-            state = $"{state}-{speciesId}";
-        else if (!rsi.TryGetState(state, out _))
+        if (!TryResolveWornState(rsi, state, speciesId, sexSuffix, bodyProfile, bodySex, out var resolvedState))
             return false;
 
         var layer = new PrototypeLayerData();
         layer.RsiPath = rsi.Path.ToString();
-        layer.State = state;
+        layer.State = resolvedState;
         layer.Scale = clothing.Scale;
         layers = new() { layer };
 
         return true;
+    }
+
+    private static bool TryResolveWornState(RSI rsi, string state, string? speciesId, string? sexSuffix,
+        ClothingBodyProfilePrototype? bodyProfile, Sex? bodySex,
+        [NotNullWhen(true)] out string? resolvedState)
+    {
+        resolvedState = null;
+        if (bodyProfile != null && bodySex is Sex.Male or Sex.Female)
+        {
+            var suffix = bodySex == Sex.Male ? bodyProfile.MaleStateSuffix : bodyProfile.FemaleStateSuffix;
+            var sharedState = state + suffix;
+            if (rsi.TryGetState(sharedState, out _))
+            {
+                resolvedState = sharedState;
+                return true;
+            }
+        }
+
+        if (speciesId != null && sexSuffix != null && rsi.TryGetState($"{state}-{speciesId}-{sexSuffix}", out _))
+            resolvedState = $"{state}-{speciesId}-{sexSuffix}";
+        else if (speciesId != null && sexSuffix != null && rsi.TryGetState($"{state}-{speciesId}_{sexSuffix}", out _))
+            resolvedState = $"{state}-{speciesId}_{sexSuffix}";
+        else if (speciesId != null && rsi.TryGetState($"{state}-{speciesId}", out _))
+            resolvedState = $"{state}-{speciesId}";
+        else if (sexSuffix != null && rsi.TryGetState($"{state}-{sexSuffix}", out _))
+            resolvedState = $"{state}-{sexSuffix}";
+        else if (sexSuffix != null && rsi.TryGetState($"{state}_{sexSuffix}", out _))
+            resolvedState = $"{state}_{sexSuffix}";
+        else if (rsi.TryGetState(state, out _))
+            resolvedState = state;
+        return resolvedState != null;
     }
 
     private void OnVisualsChanged(EntityUid uid, InventoryComponent component, VisualsChangedEvent args)
@@ -266,18 +384,17 @@ public sealed partial class ClientClothingSystem : ClothingSystem
         }
 
         // Goob edit start
-        var slotLayerExists = false;
-        var index = 0;
         var mapLayerEv = new GetActualMapLayerEvent(slot);
         RaiseLocalEvent(equipment, ref mapLayerEv);
-        if (mapLayerEv.MapLayer != slot)
-            slotLayerExists = sprite.LayerMapTryGet(mapLayerEv.MapLayer, out index);
-
-        // temporary, until layer draw depths get added. Basically: a layer with the key "slot" is being used as a
-        // bookmark to determine where in the list of layers we should insert the clothing layers.
-        if (!slotLayerExists)
-            slotLayerExists = _sprite.LayerMapTryGet((equipee, sprite), slot, out index, false);
-
+        if (clothingComponent.WornLayer != null)
+            mapLayerEv.MapLayer = clothingComponent.WornLayer;
+        else if (clothingComponent.SleeveState != null && mapLayerEv.MapLayer == slot)
+            mapLayerEv.MapLayer = slot switch
+            {
+                Jumpsuit => "shirtBody",
+                "outerClothing" => "armorBody",
+                _ => slot,
+            };
         var hiddenEv = new CheckClothingSlotHiddenEvent(slot);
         RaiseLocalEvent(equipee, ref hiddenEv);
         // Goob edit end
@@ -286,6 +403,11 @@ public sealed partial class ClientClothingSystem : ClothingSystem
         var displacementData = inventory.Displacements.GetValueOrDefault(slot); //Default unsexed map
 
         var equipeeSex = CompOrNull<HumanoidProfileComponent>(equipee)?.Sex;
+        var (clothingSpecies, clothingSex) = GetClothingAppearance(equipee, inventory);
+        var bodyProfile = GetBodyProfile(equipee, clothingComponent);
+        var profileOffsets = equipeeSex == Sex.Male ? bodyProfile?.MaleOffsets : bodyProfile?.FemaleOffsets;
+        var clothingOffset = (profileOffsets?.GetValueOrDefault(slot) ?? Vector2.Zero) / 32f;
+        var lowerOffset = (profileOffsets?.GetValueOrDefault("pants") ?? Vector2.Zero) / 32f;
         if (equipeeSex != null)
         {
             switch (equipeeSex)
@@ -302,6 +424,7 @@ public sealed partial class ClientClothingSystem : ClothingSystem
         }
 
         // add the new layers
+        var insertionPoints = new Dictionary<string, string>();
         foreach (var (key, layerData) in ev.Layers)
         {
             if (!revealedLayers.Add(key))
@@ -310,7 +433,14 @@ public sealed partial class ClientClothingSystem : ClothingSystem
                 continue;
             }
 
-            if (slotLayerExists)
+            var bookmark = ev.LayerBookmarks.GetValueOrDefault(key) ?? mapLayerEv.MapLayer;
+            var insertAfter = insertionPoints.GetValueOrDefault(bookmark) ?? bookmark;
+            // Bookmarks determine the draw order until sprite layers support explicit depths.
+            var layerExists = _sprite.LayerMapTryGet((equipee, sprite), insertAfter, out var index, false);
+            if (!layerExists && insertAfter != slot)
+                layerExists = _sprite.LayerMapTryGet((equipee, sprite), slot, out index, false);
+
+            if (layerExists)
             {
                 index++;
                 // note that every insertion requires reshuffling & remapping all the existing layers.
@@ -340,7 +470,9 @@ public sealed partial class ClientClothingSystem : ClothingSystem
             }
 
             _sprite.LayerSetData((equipee, sprite), index, layerData);
-            _sprite.LayerSetOffset(layer, layer.Offset + slotDef.Offset);
+            insertionPoints[bookmark] = key;
+            var offset = key == $"{slot}-lower" ? lowerOffset : clothingOffset;
+            _sprite.LayerSetOffset(layer, layer.Offset + slotDef.Offset + offset);
             // <Trauma>
             if (!hiddenEv.Visible)
                 _sprite.LayerSetVisible(layer, false);
@@ -350,13 +482,21 @@ public sealed partial class ClientClothingSystem : ClothingSystem
 
             if (displacementData is not null)
             {
-                //Checking that the state is not tied to the current race. In this case we don't need to use the displacement maps.
-                if (layerData.State is not null && inventory.SpeciesId is not null && layerData.State.EndsWith(inventory.SpeciesId))
+                if (bodyProfile != null)
+                    continue;
+                // Only a species-specific state is already fitted to the body.
+                // Generic male/female states still need any legacy displacement.
+                if (layerData.State is not null && clothingSpecies is not null &&
+                    (layerData.State.EndsWith($"-{clothingSpecies}") ||
+                     (clothingSex is not null &&
+                      (layerData.State.EndsWith($"-{clothingSpecies}-{clothingSex}") ||
+                       layerData.State.EndsWith($"-{clothingSpecies}_{clothingSex}")))))
                     continue;
 
                 if (_displacement.TryAddDisplacement(displacementData, (equipee, sprite), index, key, out var displacementKey))
                 {
                     revealedLayers.Add(displacementKey);
+                    insertionPoints[bookmark] = displacementKey;
                     index++;
                 }
             }

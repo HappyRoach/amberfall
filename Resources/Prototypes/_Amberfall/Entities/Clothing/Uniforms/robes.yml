@@ -1,0 +1,16 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformArchivist
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/archivist.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/archivist.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/archivist.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/archivist_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves

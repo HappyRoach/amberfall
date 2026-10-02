@@ -187,6 +187,10 @@ public abstract partial class ClothingSystem : EntitySystem
         clothing.ClothingVisuals = otherClothing.ClothingVisuals;
         clothing.EquippedPrefix = otherClothing.EquippedPrefix;
         clothing.RsiPath = otherClothing.RsiPath;
+        clothing.WornLayer = otherClothing.WornLayer;
+        clothing.SleeveState = otherClothing.SleeveState;
+        clothing.SleeveRsiPath = otherClothing.SleeveRsiPath;
+        clothing.SleeveLayer = otherClothing.SleeveLayer;
 
         _itemSys.VisualsChanged(uid);
         Dirty(uid, clothing);

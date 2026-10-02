@@ -1,0 +1,41 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckApron
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Aprons/apron.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Aprons/apron.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Aprons/apron.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckAproncook
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Aprons/aproncook.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Aprons/aproncook.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Aprons/aproncook.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckWaistpron
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Aprons/waistpron.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Aprons/waistpron.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Aprons/waistpron.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind

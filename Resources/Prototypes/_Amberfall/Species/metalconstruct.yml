@@ -1,0 +1,9 @@
+- type: species
+  id: MetalConstruct
+  name: species-name-metalconstruct
+  category: Godtouched
+  roundStart: true
+  prototype: MobMetalConstruct
+  dollPrototype: AppearanceMetalConstruct
+  skinColoration: Hues
+  defaultSkinTone: "#BABBB9"

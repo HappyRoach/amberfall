@@ -29,6 +29,43 @@ public sealed partial class ClothingComponent : Component
     [DataField]
     public string? MappedLayer;
 
+    /// <summary>
+    ///     Sprite layer bookmark used while this item is worn, when it differs from the inventory slot.
+    /// </summary>
+    [DataField]
+    public string? WornLayer;
+
+    /// <summary>
+    /// Resolve shared clothing cuts and slot offsets from the wearer's clothing body profile.
+    /// </summary>
+    [DataField]
+    public bool BodyProfile;
+
+    /// <summary>Optional trousers drawn independently beneath the shirt.</summary>
+    [DataField]
+    public string? LowerState;
+
+    [DataField("lowerSprite")]
+    public string? LowerRsiPath;
+
+    /// <summary>
+    ///     Optional sleeve state. Sleeves are drawn separately from the main clothing sprite.
+    /// </summary>
+    [DataField]
+    public string? SleeveState;
+
+    /// <summary>
+    ///     Optional RSI for sleeves; the main clothing RSI is used when omitted.
+    /// </summary>
+    [DataField("sleeveSprite")]
+    public string? SleeveRsiPath;
+
+    /// <summary>
+    ///     Sprite layer bookmark above the wearer's arms for the sleeve state.
+    /// </summary>
+    [DataField]
+    public string? SleeveLayer;
+
     [DataField]
     public bool QuickEquip = true;
 

@@ -1,0 +1,9 @@
+- type: species
+  id: Revenant
+  name: species-name-revenant
+  category: Godtouched
+  roundStart: true
+  prototype: MobRevenant
+  dollPrototype: AppearanceRevenant
+  skinColoration: Hues
+  defaultSkinTone: "#B5BDC4"

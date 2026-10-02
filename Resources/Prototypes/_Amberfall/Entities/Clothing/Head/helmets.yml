@@ -1,0 +1,179 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadPaddedarmingcap
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/paddedarmingcap.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/paddedarmingcap.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/paddedarmingcap.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadSkullcap
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/skullcap.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/skullcap.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/skullcap.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadArmet
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/armet.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/armet.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/armet.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadSallet
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/sallet.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/sallet.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/sallet.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadKnight
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/knight.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/knight.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/knight.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHounskull
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/hounskull.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/hounskull.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/hounskull.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadLeatherHelm
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/leather_helm.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/leather_helm.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/leather_helm.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.9
+        Piercing: 0.95
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadKettleHelm
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/kettle_helm.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/kettle_helm.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/kettle_helm.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.75
+        Piercing: 0.85
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadNasalHelm
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Helmets/nasal_helm.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Helmets/nasal_helm.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Helmets/nasal_helm.rsi
+    bodyProfile: true
+  - type: Armor
+    coverage: [ Head ]
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.8
+        Piercing: 0.85

@@ -3,7 +3,19 @@
   name: job-name-wanderer
   description: job-description-wanderer
   playTimeTracker: Overall
+  startingGear: WandererGear
   supervisors: job-supervisors-nobody
+
+- type: startingGear
+  id: WandererGear
+  equipment:
+    jumpsuit: ClothingUniformTravelTunic
+    pants: ClothingPantsCloth
+    head: ClothingHeadBasicHood
+    neck: ClothingNeckShortCloak
+    gloves: ClothingHandsFingerlessGloves
+    shoes: ClothingShoesLeatherBoots
+    belt: ClothingBeltLeather
 
 - type: department
   id: Inhabitants

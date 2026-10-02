@@ -205,9 +205,12 @@ namespace Content.Client.Lobby.UI
 
             SpeciesButton.OnItemSelected += args =>
             {
-                SpeciesButton.SelectId(args.Id);
-                SetSpecies(_species[args.Id].ID);
-                OnSkinColorOnValueChanged();
+                SetSpecies(_speciesChoices[args.Id].DefaultSpecies.ID);
+            };
+
+            SubspeciesButton.OnItemSelected += args =>
+            {
+                SetSpecies(_subspecies[args.Id].ID);
             };
 
             #region Skin

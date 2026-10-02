@@ -1,0 +1,51 @@
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesFootwraps
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Misc/footwraps.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Misc/footwraps.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Misc/footwraps.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesTogasandals
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Misc/togasandals.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Misc/togasandals.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Misc/togasandals.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesTravelSandals
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Misc/travel_sandals.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Misc/travel_sandals.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Misc/travel_sandals.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesSimpleLeather
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Misc/simple_leather_shoes.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Misc/simple_leather_shoes.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Misc/simple_leather_shoes.rsi
+    bodyProfile: true

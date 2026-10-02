@@ -1,0 +1,62 @@
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsFormalskirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Skirts/formalskirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Skirts/formalskirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Skirts/formalskirt.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsSkirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Skirts/skirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Skirts/skirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Skirts/skirt.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsChainSkirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Skirts/chain_skirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Skirts/chain_skirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Skirts/chain_skirt.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsBaothaskirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Skirts/baothaskirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Skirts/baothaskirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Skirts/baothaskirt.rsi
+    bodyProfile: true
+    wornLayer: pantsBody

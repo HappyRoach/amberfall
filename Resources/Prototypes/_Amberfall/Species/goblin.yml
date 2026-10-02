@@ -1,0 +1,9 @@
+- type: species
+  id: Goblin
+  name: species-name-goblin
+  category: Godtouched
+  roundStart: true
+  prototype: MobGoblin
+  dollPrototype: AppearanceGoblin
+  skinColoration: Hues
+  defaultSkinTone: "#7B8D54"

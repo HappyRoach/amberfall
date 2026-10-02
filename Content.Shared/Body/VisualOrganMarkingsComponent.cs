@@ -1,3 +1,4 @@
+using System.Numerics;
 using Content.Shared.DisplacementMap;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
@@ -44,6 +45,19 @@ public sealed partial class VisualOrganMarkingsComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public Dictionary<HumanoidVisualLayers, DisplacementData> MarkingsDisplacement = new();
+
+    /// <summary>
+    /// Sprite offsets for markings on female organs, in world units.
+    /// Configured layers use zero offset for other sexes.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public Dictionary<HumanoidVisualLayers, Vector2> FemaleLayerOffsets = new();
+
+    /// <summary>
+    /// Base offsets for markings, overridden by FemaleLayerOffsets for female organs.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public Dictionary<HumanoidVisualLayers, Vector2> LayerOffsets = new();
 
     /// <summary>
     /// Client only - the last markings applied by this component

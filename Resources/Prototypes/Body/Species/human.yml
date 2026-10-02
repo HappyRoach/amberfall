@@ -101,7 +101,7 @@
       components:
       - KitchenSpikeHooked # have to be on a spike to skin people
     skinnedSprite: _Trauma/Mobs/Species/Human/skinned.rsi
-    unskinnedSprite: Mobs/Species/Human/parts.rsi
+    unskinnedSprite: _Amberfall/Mobs/Human/parts.rsi
   # </Trauma>
   - type: Butcherable
     spawned:
@@ -141,10 +141,10 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Human/parts.rsi
+    sprite: _Amberfall/Mobs/Human/parts.rsi
   - type: VisualOrgan
     data:
-      sprite: Mobs/Species/Human/parts.rsi
+      sprite: _Amberfall/Mobs/Human/parts.rsi
   - type: VisualOrganMarkings
     markingData:
       group: Human
@@ -158,6 +158,8 @@
   id: OrganHumanHead
   components:
   - type: VisualOrganMarkings
+    femaleLayerOffsets:
+      Hair: 0, -0.03125 # One pixel down at 32 pixels per meter.
     hideableLayers:
     - enum.HumanoidVisualLayers.Hair
     - enum.HumanoidVisualLayers.Snout
@@ -165,26 +167,54 @@
 - type: entity
   parent: [ OrganBaseArmLeft, OrganHumanExternal ]
   id: OrganHumanArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Female: l_arm_f
 
 - type: entity
   parent: [ OrganBaseArmRight, OrganHumanExternal ]
   id: OrganHumanArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Female: r_arm_f
 
 - type: entity
   parent: [ OrganBaseHandLeft, OrganHumanExternal ]
   id: OrganHumanHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Female: l_hand_f
 
 - type: entity
   parent: [ OrganBaseHandRight, OrganHumanExternal ]
   id: OrganHumanHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Female: r_hand_f
 
 - type: entity
   parent: [ OrganBaseLegLeft, OrganHumanExternal ]
   id: OrganHumanLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Female: l_leg_f
 
 - type: entity
   parent: [ OrganBaseLegRight, OrganHumanExternal ]
   id: OrganHumanLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
 
 - type: entity
   parent: [ OrganBaseFootLeft, OrganHumanExternal ]
@@ -204,7 +234,10 @@
   components:
   - type: VisualOrgan
     data:
-      sprite: Mobs/Customization/eyes.rsi
+      sprite: _Amberfall/Mobs/Human/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f
 
 - type: entity
   parent: [ OrganBaseTongue, OrganHumanInternal ]

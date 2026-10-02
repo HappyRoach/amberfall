@@ -1,0 +1,9 @@
+- type: species
+  id: Tabaxi
+  name: species-name-tabaxi
+  category: Beastvolk
+  roundStart: true
+  prototype: MobTabaxi
+  dollPrototype: AppearanceTabaxi
+  skinColoration: Hues
+  defaultSkinTone: "#C99E6C"

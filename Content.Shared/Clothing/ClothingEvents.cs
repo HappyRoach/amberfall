@@ -27,6 +27,11 @@ public sealed class GetEquipmentVisualsEvent : EntityEventArgs
     /// </remarks>
     public List<(string, PrototypeLayerData)> Layers = new();
 
+    /// <summary>
+    ///     Optional insertion bookmark for an individual layer, independent of the item's inventory slot.
+    /// </summary>
+    public Dictionary<string, string> LayerBookmarks = new();
+
     public GetEquipmentVisualsEvent(EntityUid equipee, string slot)
     {
         Equipee = equipee;

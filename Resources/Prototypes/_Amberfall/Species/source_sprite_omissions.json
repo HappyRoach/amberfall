@@ -1,0 +1,67 @@
+[
+  {
+    "accessory": "/datum/sprite_accessory/ears/big/bunny_floppy",
+    "file": "icons/mob/sprite_accessory/ears/ears_big.dmi",
+    "state": "bunny_floppy_BEHIND_3"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/big/bunny_floppy",
+    "file": "icons/mob/sprite_accessory/ears/ears_big.dmi",
+    "state": "bunny_floppy_ADJ_2"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/big/bunny_floppy",
+    "file": "icons/mob/sprite_accessory/ears/ears_big.dmi",
+    "state": "bunny_floppy_ADJ_3"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/lynx",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "lynx_BEHIND_1"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/lynx",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "lynx_BEHIND_2"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/lynx",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "lynx_BEHIND_3"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/zorzor",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "zorgoia_BEHIND_1"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/zorzor",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "zorgoia_BEHIND_2"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/zorzor",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "zorgoia_BEHIND_3"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/zorzor",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "zorgoia_ADJ_1"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/zorzor",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "zorgoia_ADJ_2"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/ears/zorzor",
+    "file": "icons/mob/sprite_accessory/ears/ears.dmi",
+    "state": "zorgoia_ADJ_3"
+  },
+  {
+    "accessory": "/datum/sprite_accessory/horns/smallramhornsthree",
+    "file": "icons/mob/sprite_accessory/horns/horns.dmi",
+    "state": "ramcurledsmall3_FRONT"
+  }
+]

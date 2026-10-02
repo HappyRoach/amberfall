@@ -1,0 +1,9 @@
+- type: species
+  id: WoodElf
+  name: species-name-woodelf
+  category: Elven
+  roundStart: true
+  prototype: MobWoodElf
+  dollPrototype: AppearanceWoodElf
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"

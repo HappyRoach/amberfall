@@ -1,0 +1,202 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceVerminvolk
+  name: Verminvolk appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganVerminvolkTorso
+      Head: OrganVerminvolkHead
+      ArmLeft: OrganVerminvolkArmLeft
+      ArmRight: OrganVerminvolkArmRight
+      HandLeft: OrganVerminvolkHandLeft
+      HandRight: OrganVerminvolkHandRight
+      LegLeft: OrganVerminvolkLegLeft
+      LegRight: OrganVerminvolkLegRight
+      FootLeft: OrganVerminvolkFootLeft
+      FootRight: OrganVerminvolkFootRight
+      Tail: OrganVerminvolkTail
+      Wings: OrganVerminvolkWings
+      Eyes: OrganVerminvolkEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganHumanHeart
+      Stomach: OrganHumanStomach
+      Liver: OrganHumanLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Verminvolk
+
+- type: entity
+  parent: [ AppearanceVerminvolk, BaseSpeciesMobOrganic ]
+  id: MobVerminvolk
+  name: Verminvolk
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganVerminvolkExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/Verminvolk/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Verminvolk/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Verminvolk
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganVerminvolkExternal ]
+  id: OrganVerminvolkTorso
+  components:
+  - type: BodyPart
+    slots: [ Head, ArmLeft, ArmRight, LegLeft, LegRight, Appendix, Lungs, Heart, Stomach, Liver, Kidneys, Tail, Wings ]
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganVerminvolkExternal ]
+  id: OrganVerminvolkHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, -0.125
+      FacialHair: 0, -0.15625
+      HeadSide: 0, -0.15625
+      HeadTop: 0, -0.15625
+      Snout: 0, -0.15625
+      SnoutCover: 0, -0.125
+    femaleLayerOffsets:
+      Hair: 0, -0.15625
+      FacialHair: 0, -0.15625
+      HeadSide: 0, -0.15625
+      HeadTop: 0, -0.15625
+      Snout: 0, -0.15625
+      SnoutCover: 0, -0.15625
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganVerminvolkExternal ]
+  id: OrganVerminvolkArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganVerminvolkExternal ]
+  id: OrganVerminvolkArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganVerminvolkExternal ]
+  id: OrganVerminvolkHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganVerminvolkExternal ]
+  id: OrganVerminvolkHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganVerminvolkExternal ]
+  id: OrganVerminvolkLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganVerminvolkExternal ]
+  id: OrganVerminvolkLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganVerminvolkExternal ]
+  id: OrganVerminvolkFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganVerminvolkExternal ]
+  id: OrganVerminvolkFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseTail, OrganVerminvolkExternal ]
+  id: OrganVerminvolkTail
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Tail: 0, -0.125
+    femaleLayerOffsets:
+      Tail: 0, -0.125
+    hideableLayers: [ enum.HumanoidVisualLayers.Tail ]
+
+- type: entity
+  parent: [ OrganBaseWings, OrganVerminvolkExternal ]
+  id: OrganVerminvolkWings
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Wings: 0, -0.125
+    femaleLayerOffsets:
+      Wings: 0, -0.15625
+    hideableLayers: [ enum.HumanoidVisualLayers.Wings ]
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganVerminvolkEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Verminvolk/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

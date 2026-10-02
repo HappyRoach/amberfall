@@ -1,0 +1,9 @@
+- type: species
+  id: Venardine
+  name: species-name-venardine
+  category: Beastvolk
+  roundStart: true
+  prototype: MobVenardine
+  dollPrototype: AppearanceVenardine
+  skinColoration: Hues
+  defaultSkinTone: "#C68C63"

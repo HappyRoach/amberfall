@@ -1,0 +1,202 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceRevenant
+  name: Revenant appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganRevenantTorso
+      Head: OrganRevenantHead
+      ArmLeft: OrganRevenantArmLeft
+      ArmRight: OrganRevenantArmRight
+      HandLeft: OrganRevenantHandLeft
+      HandRight: OrganRevenantHandRight
+      LegLeft: OrganRevenantLegLeft
+      LegRight: OrganRevenantLegRight
+      FootLeft: OrganRevenantFootLeft
+      FootRight: OrganRevenantFootRight
+      Tail: OrganRevenantTail
+      Wings: OrganRevenantWings
+      Eyes: OrganRevenantEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganHumanHeart
+      Stomach: OrganHumanStomach
+      Liver: OrganHumanLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Revenant
+
+- type: entity
+  parent: [ AppearanceRevenant, BaseSpeciesMobOrganic ]
+  id: MobRevenant
+  name: Revenant
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganRevenantExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/Revenant/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Revenant/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Revenant
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganRevenantExternal ]
+  id: OrganRevenantTorso
+  components:
+  - type: BodyPart
+    slots: [ Head, ArmLeft, ArmRight, LegLeft, LegRight, Appendix, Lungs, Heart, Stomach, Liver, Kidneys, Tail, Wings ]
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganRevenantExternal ]
+  id: OrganRevenantHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, 0.03125
+      FacialHair: 0, 0.03125
+      HeadSide: 0, 0.03125
+      HeadTop: 0, 0.03125
+      Snout: 0, 0.03125
+      SnoutCover: 0, 0.03125
+    femaleLayerOffsets:
+      Hair: 0, -0.03125
+      FacialHair: 0, -0.03125
+      HeadSide: 0, -0.03125
+      HeadTop: 0, -0.03125
+      Snout: 0, -0.03125
+      SnoutCover: 0, -0.03125
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganRevenantExternal ]
+  id: OrganRevenantArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganRevenantExternal ]
+  id: OrganRevenantArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganRevenantExternal ]
+  id: OrganRevenantHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganRevenantExternal ]
+  id: OrganRevenantHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganRevenantExternal ]
+  id: OrganRevenantLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganRevenantExternal ]
+  id: OrganRevenantLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganRevenantExternal ]
+  id: OrganRevenantFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganRevenantExternal ]
+  id: OrganRevenantFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseTail, OrganRevenantExternal ]
+  id: OrganRevenantTail
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Tail: 0, 0.03125
+    femaleLayerOffsets:
+      Tail: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Tail ]
+
+- type: entity
+  parent: [ OrganBaseWings, OrganRevenantExternal ]
+  id: OrganRevenantWings
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Wings: 0, 0.03125
+    femaleLayerOffsets:
+      Wings: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Wings ]
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganRevenantEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Revenant/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

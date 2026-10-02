@@ -3,7 +3,7 @@
 - type: species
   id: Decapoid
   name: species-name-decapoid
-  roundStart: true
+  roundStart: false
   prototype: MobDecapoid
   defaultSkinTone: "#385878"
   dollPrototype: AppearanceDecapoid

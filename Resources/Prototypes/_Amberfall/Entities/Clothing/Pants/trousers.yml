@@ -1,0 +1,167 @@
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsDhoti
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/dhoti.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/dhoti.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/dhoti.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsHose
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/hose.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/hose.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/hose.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsLeathertights
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/leathertights.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/leathertights.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/leathertights.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsMonkpants
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/monkpants.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/monkpants.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/monkpants.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsPaddedchausses
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/paddedchausses.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/paddedchausses.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/paddedchausses.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsRoguepants
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/roguepants.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/roguepants.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/roguepants.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsSailorpants
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/sailorpants.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/sailorpants.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/sailorpants.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsShalwar
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/shalwar.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/shalwar.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/shalwar.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsTights
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/tights.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/tights.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/tights.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsCloth
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/cloth_trousers.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/cloth_trousers.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/cloth_trousers.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsLeather
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/leather_trousers.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/leather_trousers.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/leather_trousers.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsBaggy
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/baggy_trousers.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/baggy_trousers.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/baggy_trousers.rsi
+    bodyProfile: true
+    wornLayer: pantsBody

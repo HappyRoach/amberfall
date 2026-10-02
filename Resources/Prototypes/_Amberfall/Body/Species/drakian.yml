@@ -1,0 +1,202 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceDrakian
+  name: Drakian appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganDrakianTorso
+      Head: OrganDrakianHead
+      ArmLeft: OrganDrakianArmLeft
+      ArmRight: OrganDrakianArmRight
+      HandLeft: OrganDrakianHandLeft
+      HandRight: OrganDrakianHandRight
+      LegLeft: OrganDrakianLegLeft
+      LegRight: OrganDrakianLegRight
+      FootLeft: OrganDrakianFootLeft
+      FootRight: OrganDrakianFootRight
+      Tail: OrganDrakianTail
+      Wings: OrganDrakianWings
+      Eyes: OrganDrakianEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganHumanHeart
+      Stomach: OrganHumanStomach
+      Liver: OrganHumanLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Drakian
+
+- type: entity
+  parent: [ AppearanceDrakian, BaseSpeciesMobOrganic ]
+  id: MobDrakian
+  name: Drakian
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganDrakianExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/Drakian/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Drakian/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Drakian
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganDrakianExternal ]
+  id: OrganDrakianTorso
+  components:
+  - type: BodyPart
+    slots: [ Head, ArmLeft, ArmRight, LegLeft, LegRight, Appendix, Lungs, Heart, Stomach, Liver, Kidneys, Tail, Wings ]
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganDrakianExternal ]
+  id: OrganDrakianHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, 0.03125
+      FacialHair: 0, 0.03125
+      HeadSide: 0, 0.03125
+      HeadTop: 0, 0.03125
+      Snout: 0, 0.03125
+      SnoutCover: 0, 0.03125
+    femaleLayerOffsets:
+      Hair: 0, -0.03125
+      FacialHair: 0, -0.03125
+      HeadSide: 0, -0.03125
+      HeadTop: 0, -0.03125
+      Snout: 0, -0.03125
+      SnoutCover: 0, -0.03125
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganDrakianExternal ]
+  id: OrganDrakianArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganDrakianExternal ]
+  id: OrganDrakianArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganDrakianExternal ]
+  id: OrganDrakianHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganDrakianExternal ]
+  id: OrganDrakianHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganDrakianExternal ]
+  id: OrganDrakianLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganDrakianExternal ]
+  id: OrganDrakianLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganDrakianExternal ]
+  id: OrganDrakianFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganDrakianExternal ]
+  id: OrganDrakianFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseTail, OrganDrakianExternal ]
+  id: OrganDrakianTail
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Tail: 0, 0.03125
+    femaleLayerOffsets:
+      Tail: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Tail ]
+
+- type: entity
+  parent: [ OrganBaseWings, OrganDrakianExternal ]
+  id: OrganDrakianWings
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Wings: 0, 0.03125
+    femaleLayerOffsets:
+      Wings: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Wings ]
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganDrakianEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Drakian/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

@@ -1,0 +1,202 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceMurkling
+  name: Murkling appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganMurklingTorso
+      Head: OrganMurklingHead
+      ArmLeft: OrganMurklingArmLeft
+      ArmRight: OrganMurklingArmRight
+      HandLeft: OrganMurklingHandLeft
+      HandRight: OrganMurklingHandRight
+      LegLeft: OrganMurklingLegLeft
+      LegRight: OrganMurklingLegRight
+      FootLeft: OrganMurklingFootLeft
+      FootRight: OrganMurklingFootRight
+      Tail: OrganMurklingTail
+      Wings: OrganMurklingWings
+      Eyes: OrganMurklingEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganHumanHeart
+      Stomach: OrganHumanStomach
+      Liver: OrganHumanLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Murkling
+
+- type: entity
+  parent: [ AppearanceMurkling, BaseSpeciesMobOrganic ]
+  id: MobMurkling
+  name: Murkling
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganMurklingExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/Murkling/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Murkling/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Murkling
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganMurklingExternal ]
+  id: OrganMurklingTorso
+  components:
+  - type: BodyPart
+    slots: [ Head, ArmLeft, ArmRight, LegLeft, LegRight, Appendix, Lungs, Heart, Stomach, Liver, Kidneys, Tail, Wings ]
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganMurklingExternal ]
+  id: OrganMurklingHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, 0.03125
+      FacialHair: 0, 0.03125
+      HeadSide: 0, 0.03125
+      HeadTop: 0, 0.03125
+      Snout: 0, 0.03125
+      SnoutCover: 0, 0.03125
+    femaleLayerOffsets:
+      Hair: 0, -0.03125
+      FacialHair: 0, -0.03125
+      HeadSide: 0, -0.03125
+      HeadTop: 0, -0.03125
+      Snout: 0, -0.03125
+      SnoutCover: 0, -0.03125
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganMurklingExternal ]
+  id: OrganMurklingArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganMurklingExternal ]
+  id: OrganMurklingArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganMurklingExternal ]
+  id: OrganMurklingHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganMurklingExternal ]
+  id: OrganMurklingHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganMurklingExternal ]
+  id: OrganMurklingLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganMurklingExternal ]
+  id: OrganMurklingLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganMurklingExternal ]
+  id: OrganMurklingFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganMurklingExternal ]
+  id: OrganMurklingFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseTail, OrganMurklingExternal ]
+  id: OrganMurklingTail
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Tail: 0, 0.03125
+    femaleLayerOffsets:
+      Tail: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Tail ]
+
+- type: entity
+  parent: [ OrganBaseWings, OrganMurklingExternal ]
+  id: OrganMurklingWings
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Wings: 0, 0.03125
+    femaleLayerOffsets:
+      Wings: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Wings ]
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganMurklingEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Murkling/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

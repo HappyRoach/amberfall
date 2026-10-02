@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from https://github.com/Twilight-Fortress-SS13/Twilight-Axis: icons/mob/sprite_accessory/horns/horns.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "marauder_FRONT",
+      "directions": 4
+    }
+  ]
+}

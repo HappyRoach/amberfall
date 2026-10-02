@@ -1,0 +1,47 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformTraveler
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Jumpsuit/traveler_clothes.rsi
+  - type: Clothing
+    lowerSprite: _Amberfall/Clothing/Uniforms/Jumpsuit/traveler_clothes_pants.rsi
+    lowerState: equipped-PANTS
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Uniforms/Jumpsuit/traveler_clothes.rsi
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Jumpsuit/traveler_clothes_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformExplorer
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Jumpsuit/explorer_clothes.rsi
+  - type: Clothing
+    lowerSprite: _Amberfall/Clothing/Uniforms/Jumpsuit/explorer_clothes_pants.rsi
+    lowerState: equipped-PANTS
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Uniforms/Jumpsuit/explorer_clothes.rsi
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Jumpsuit/explorer_clothes_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformRags
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Jumpsuit/ragged_clothes.rsi
+  - type: Clothing
+    lowerSprite: _Amberfall/Clothing/Uniforms/Jumpsuit/ragged_clothes_pants.rsi
+    lowerState: equipped-PANTS
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Uniforms/Jumpsuit/ragged_clothes.rsi
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Jumpsuit/ragged_clothes_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves

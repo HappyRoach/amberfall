@@ -6,6 +6,9 @@
   id: jumpsuit
 
 - type: inventorySlot
+  id: pants
+
+- type: inventorySlot
   id: back
 
 - type: inventorySlot

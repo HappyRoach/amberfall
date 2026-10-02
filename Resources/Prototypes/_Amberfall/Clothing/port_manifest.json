@@ -1,0 +1,4654 @@
+{
+  "items": [
+    {
+      "id": "ClothingUniformTraveler",
+      "sprite": "Uniforms/Jumpsuit/traveler_clothes",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "tunic"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "tunic_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "tunic_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "tunic_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformExplorer",
+      "sprite": "Uniforms/Jumpsuit/explorer_clothes",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "explorervest"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "explorervest_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "tunic_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "tunic_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformRags",
+      "sprite": "Uniforms/Jumpsuit/ragged_clothes",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "rags"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "rags_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "rags_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "rags_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterLeatherJerkin",
+      "sprite": "OuterClothing/Armor/leather_jerkin",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leather"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leather_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leather_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leather_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterGambeson",
+      "sprite": "OuterClothing/Armor/gambeson",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "gambeson"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "gambeson_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "gambeson_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "gambeson_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterHauberk",
+      "sprite": "OuterClothing/Armor/hauberk",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "hauberk"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "hauberk_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "hauberk_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "hauberk_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckCape",
+      "sprite": "Neck/Cloaks/cape",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "cape"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "cape_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "cape_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "cape_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckShortCloak",
+      "sprite": "Neck/Cloaks/short_cloak",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "shortcloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "shortcloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "shortcloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "shortcloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckForestCloak",
+      "sprite": "Neck/Cloaks/forest_cloak",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "forestcloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "forestcloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "forestcloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "forestcloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadBasicHood",
+      "sprite": "Head/Hoods/basic_hood",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "basichood"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "basichood"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "basichood"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "basichood"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadBanditHood",
+      "sprite": "Head/Hoods/bandit_hood",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bandithood"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bandithood"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bandithood"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bandithood"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadStrawHat",
+      "sprite": "Head/Hats/straw_hat",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "strawhat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "strawhat"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "strawhat"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "strawhat"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesLeatherBoots",
+      "sprite": "Shoes/Boots/leather_boots",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leatherboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leatherboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leatherboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leatherboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesShortBoots",
+      "sprite": "Shoes/Boots/short_boots",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "shortboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "shortboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "shortboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "shortboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsLeatherGloves",
+      "sprite": "Hands/Gloves/leather_gloves",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leather_gloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leather_gloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leather_gloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leather_gloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsFingerlessGloves",
+      "sprite": "Hands/Gloves/fingerless_gloves",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "fingerless_gloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "fingerless_gloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "fingerless_gloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "fingerless_gloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltLeather",
+      "sprite": "Belt/leather_belt",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leather"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leather_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leather_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leather_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformLinenShirt",
+      "sprite": "Uniforms/Shirts/linen_shirt",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "undershirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "undershirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "undershirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "undershirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformShortShirt",
+      "sprite": "Uniforms/Shirts/short_shirt",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "shortshirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "shortshirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "shortshirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "shortshirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformTravelTunic",
+      "sprite": "Uniforms/Shirts/travel_tunic",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "tunic"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "tunic_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "tunic_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "tunic_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsCloth",
+      "sprite": "Pants/cloth_trousers",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "trou"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "trou_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "trou_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "trou_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsLeather",
+      "sprite": "Pants/leather_trousers",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leathertrou"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leathertrou_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leathertrou_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leathertrou_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsBaggy",
+      "sprite": "Pants/baggy_trousers",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "baggypants"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "baggypants_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "baggypants_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "baggypants_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsChainLeggings",
+      "sprite": "Pants/chain_leggings",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "chain_legs"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "chain_legs_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "chain_legs_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "chain_legs_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsPlateLeggings",
+      "sprite": "Pants/plate_leggings",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "plate_legs"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "plate_legs_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "plate_legs_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "plate_legs_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterPlateHarness",
+      "sprite": "OuterClothing/Armor/plate_harness",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "plate"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "plate_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "plate_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "plate_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterSteelCuirass",
+      "sprite": "OuterClothing/Armor/steel_cuirass",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "cuirass"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "cuirass_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "cuirass_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "cuirass_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterTravelRobe",
+      "sprite": "OuterClothing/Robes/travel_robe",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "white_robe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "white_robe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "white_robe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "white_robe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckHalfCloak",
+      "sprite": "Neck/Cloaks/half_cloak",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "halfcloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "halfcloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "halfcloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "halfcloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckSnowCloak",
+      "sprite": "Neck/Cloaks/snow_cloak",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "snowcloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "snowcloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "snowcloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "snowcloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesTravelSandals",
+      "sprite": "Shoes/Misc/travel_sandals",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "sandals"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "sandals_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "sandals_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "sandals_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesSimpleLeather",
+      "sprite": "Shoes/Misc/simple_leather_shoes",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "simpleshoe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "simpleshoe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "simpleshoe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "simpleshoe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesPlateBoots",
+      "sprite": "Shoes/Boots/plate_boots",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "armorboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "armorboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "armorboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "armorboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsChainGloves",
+      "sprite": "Hands/Gloves/chain_gloves",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "cgloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "cgloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "cgloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "cgloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadArmingCap",
+      "sprite": "Head/Hats/arming_cap",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "armingcap"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "armingcap"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "armingcap"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "armingcap"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadLeatherHelm",
+      "sprite": "Head/Helmets/leather_helm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leatherhelm"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leatherhelm"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leatherhelm"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leatherhelm"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadKettleHelm",
+      "sprite": "Head/Helmets/kettle_helm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "kettle"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "kettle"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "kettle"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "kettle"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadNasalHelm",
+      "sprite": "Head/Helmets/nasal_helm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "nasal"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "nasal"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "nasal"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "nasal"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformApothshirt",
+      "sprite": "Uniforms/Shirts/apothshirt",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/apothshirt",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "apothshirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "apothshirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "apothshirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "apothshirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformArchivist",
+      "sprite": "Uniforms/Shirts/archivist",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/archivist",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "archivist"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "archivist_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "archivist_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "archivist_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformArtishirt",
+      "sprite": "Uniforms/Shirts/artishirt",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/undershirt/artificer",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "artishirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "artishirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "artishirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "artishirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformBlouse",
+      "sprite": "Uniforms/Shirts/blouse",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/undershirt/blouse",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "blouse"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "blouse_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "blouse_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "blouse_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformBluedress",
+      "sprite": "Uniforms/Shirts/bluedress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/blue",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bluedress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bluedress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bluedress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bluedress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformButlershirt",
+      "sprite": "Uniforms/Shirts/butlershirt",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/undershirt/formal",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "butlershirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "butlershirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "butlershirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "butlershirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformCourtesandress",
+      "sprite": "Uniforms/Shirts/courtesandress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/courtesan",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "courtesandress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "courtesandress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "courtesandress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "courtesandress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformGreendress",
+      "sprite": "Uniforms/Shirts/greendress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/green",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "greendress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "greendress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "greendress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "greendress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformJestershirt",
+      "sprite": "Uniforms/Shirts/jestershirt",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/jester",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "jestershirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "jestershirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "jestershirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "jestershirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformLowcut",
+      "sprite": "Uniforms/Shirts/lowcut",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/undershirt/lowcut",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "lowcut"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "lowcut_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "lowcut_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "lowcut_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformMaiddressfancy",
+      "sprite": "Uniforms/Shirts/maiddressfancy",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/maidfancy",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "maiddressfancy"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "maiddressfancy_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "maiddressfancy_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "maiddressfancy_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformMaidgown",
+      "sprite": "Uniforms/Shirts/maidgown",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/maidservant",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "maidgown"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "maidgown_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "maidgown_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "maidgown_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformNightgown",
+      "sprite": "Uniforms/Shirts/nightgown",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/nightgown",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "nightgown"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "nightgown_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "nightgown_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "nightgown_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformNoblecoat",
+      "sprite": "Uniforms/Shirts/noblecoat",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/tunic/noblecoat",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "noblecoat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "noblecoat_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "noblecoat_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "noblecoat_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformNobledress",
+      "sprite": "Uniforms/Shirts/nobledress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/nobledress",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "nobledress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "nobledress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "nobledress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "nobledress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformSilkydress",
+      "sprite": "Uniforms/Shirts/silkydress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/silkydress",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "silkydress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "silkydress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "silkydress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "silkydress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformStewardtunic",
+      "sprite": "Uniforms/Shirts/stewardtunic",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/tunic/silktunic",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "stewardtunic"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "stewardtunic_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "stewardtunic_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "stewardtunic_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformTaverndress",
+      "sprite": "Uniforms/Shirts/taverndress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/tavern",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "taverndress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "taverndress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "taverndress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "taverndress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformVelvetdress",
+      "sprite": "Uniforms/Shirts/velvetdress",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/dress/velvetdress",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "velvetdress"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "velvetdress_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "velvetdress_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "velvetdress_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingUniformWintercoat",
+      "sprite": "Uniforms/Shirts/wintercoat",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/tunic/winter",
+      "sourceFile": "code/modules/clothing/rogueclothes/shirts.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "wintercoat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "wintercoat_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "wintercoat_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "wintercoat_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsChainhose",
+      "sprite": "Pants/Trousers/chainhose",
+      "sourceType": "/obj/item/clothing/under/roguetown/chainlegs/hose",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "chainhose"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "chainhose_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "chainhose_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "chainhose_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsChainkilt",
+      "sprite": "Pants/Trousers/chainkilt",
+      "sourceType": "/obj/item/clothing/under/roguetown/chainlegs/kilt",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "chainkilt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "chainkilt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "chainkilt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "chainkilt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsDhoti",
+      "sprite": "Pants/Trousers/dhoti",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights/dhoti",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "dhoti"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "dhoti_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "dhoti_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "dhoti_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsHose",
+      "sprite": "Pants/Trousers/hose",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights/hose",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "hose"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "hose_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "hose_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "hose_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsLeathertights",
+      "sprite": "Pants/Trousers/leathertights",
+      "sourceType": "/obj/item/clothing/under/roguetown/trou/leathertights",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leathertights"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leathertights_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leathertights_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leathertights_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsMonkpants",
+      "sprite": "Pants/Trousers/monkpants",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights/puritan",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "monkpants"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "monkpants_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "monkpants_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "monkpants_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsPaddedchausses",
+      "sprite": "Pants/Trousers/paddedchausses",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights/clothlegs",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "paddedchausses"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "paddedchausses_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "paddedchausses_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "paddedchausses_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsRoguepants",
+      "sprite": "Pants/Trousers/roguepants",
+      "sourceType": "/obj/item/clothing/under/roguetown/heavy_leather_pants",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/heavy_leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "roguepants"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "roguepants_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "roguepants_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "roguepants_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsSailorpants",
+      "sprite": "Pants/Trousers/sailorpants",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights/sailor",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "sailorpants"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "sailorpants_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "sailorpants_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "sailorpants_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsShalwar",
+      "sprite": "Pants/Trousers/shalwar",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights/shalwar",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "shalwar"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "shalwar_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "shalwar_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "shalwar_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsTights",
+      "sprite": "Pants/Trousers/tights",
+      "sourceType": "/obj/item/clothing/under/roguetown/tights",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "tights"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "tights_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "tights_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "tights_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsUpchainhose",
+      "sprite": "Pants/Trousers/upchainhose",
+      "sourceType": "/obj/item/clothing/under/roguetown/chainlegs/hose/dyeable",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "upchainhose"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "upchainhose_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "upchainhose_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "upchainhose_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsFormalskirt",
+      "sprite": "Pants/Skirts/formalskirt",
+      "sourceType": "/obj/item/clothing/under/roguetown/skirt/formal",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/skirt.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "formalskirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "formalskirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "formalskirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "formalskirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsSkirt",
+      "sprite": "Pants/Skirts/skirt",
+      "sourceType": "/obj/item/clothing/under/roguetown/skirt",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/skirt.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "skirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "skirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "skirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "skirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsChainSkirt",
+      "sprite": "Pants/Skirts/chain_skirt",
+      "sourceType": "/obj/item/clothing/under/roguetown/chainlegs/skirt",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "chain_skirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "chain_skirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "chain_skirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "chain_skirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsBaothaskirt",
+      "sprite": "Pants/Skirts/baothaskirt",
+      "sourceType": "/obj/item/clothing/under/roguetown/skirt/baotha",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/skirt.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "baothaskirt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "baothaskirt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "baothaskirt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "baothaskirt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsSplintlegs",
+      "sprite": "Pants/Armor/splintlegs",
+      "sourceType": "/obj/item/clothing/under/roguetown/brigandinelegs",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "splintlegs"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "splintlegs_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "splintlegs_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "splintlegs_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsBplatelegs",
+      "sprite": "Pants/Armor/bplatelegs",
+      "sourceType": "/obj/item/clothing/under/roguetown/platelegs/blacksteel/modern",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/blacksteel.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bplatelegs"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bplatelegs_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bplatelegs_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bplatelegs_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingPantsIronsplintlegs",
+      "sprite": "Pants/Armor/ironsplintlegs",
+      "sourceType": "/obj/item/clothing/under/roguetown/splintlegs",
+      "sourceFile": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "ironsplintlegs"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "ironsplintlegs_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "ironsplintlegs_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "ironsplintlegs_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterBrigandine",
+      "sprite": "OuterClothing/Armor/brigandine",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/brigandine",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/brigandine.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "brigandine"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "brigandine_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "brigandine_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "brigandine_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterLightBrigandine",
+      "sprite": "OuterClothing/Armor/light_brigandine",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/brigandine/light",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/brigandine.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "light_brigandine"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "light_brigandine_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "light_brigandine_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "light_brigandine_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterHaubergeon",
+      "sprite": "OuterClothing/Armor/haubergeon",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/chainmail",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/chainmail.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "haubergeon"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "haubergeon_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "haubergeon_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "haubergeon_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterHaubyrnie",
+      "sprite": "OuterClothing/Armor/haubyrnie",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/chainmail/light",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/chainmail.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "haubyrnie"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "haubyrnie_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "haubyrnie_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "haubyrnie_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterGambesonp",
+      "sprite": "OuterClothing/Armor/gambesonp",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/gambeson/heavy",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/gambeson.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "gambesonp"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "gambesonp_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "gambesonp_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "gambesonp_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterLeathercoat",
+      "sprite": "OuterClothing/Armor/leathercoat",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/plate/scale/marshal",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/plate.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leathercoat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leathercoat_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leathercoat_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leathercoat_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterLeathertunic",
+      "sprite": "OuterClothing/Armor/leathertunic",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/inq",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/gambeson.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "leathertunic"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "leathertunic_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "leathertunic_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "leathertunic_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterStudleather",
+      "sprite": "OuterClothing/Armor/studleather",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/studded",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "studleather"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "studleather_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "studleather_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "studleather_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterLamellar",
+      "sprite": "OuterClothing/Armor/lamellar",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/plate/scale",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/plate.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "lamellar"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "lamellar_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "lamellar_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "lamellar_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterHalfplate",
+      "sprite": "OuterClothing/Armor/halfplate",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/plate",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/plate.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "halfplate"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "halfplate_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "halfplate_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "halfplate_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterCuirbouilli",
+      "sprite": "OuterClothing/Armor/cuirbouilli",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/studded/psyaltrist",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "cuirbouilli"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "cuirbouilli_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "cuirbouilli_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "cuirbouilli_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterRoguearmor",
+      "sprite": "OuterClothing/Armor/roguearmor",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "roguearmor"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "roguearmor_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "roguearmor_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "roguearmor_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterDruidarmor",
+      "sprite": "OuterClothing/Armor/druidarmor",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/druid",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "druidarmor"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "druidarmor_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "druidarmor_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "druidarmor_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterWorkervest",
+      "sprite": "OuterClothing/Armor/workervest",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/workervest",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/misc.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "workervest"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "workervest_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "workervest_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "workervest_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterSailorvest",
+      "sprite": "OuterClothing/Armor/sailorvest",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/vest/sailor",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "sailorvest"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "sailorvest_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "sailorvest_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "sailorvest_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterMonkleather",
+      "sprite": "OuterClothing/Armor/monkleather",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/pontifex",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/gambeson.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "monkleather"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "monkleather_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "monkleather_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "monkleather_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterLongcoat",
+      "sprite": "OuterClothing/Armor/longcoat",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/longcoat",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/misc.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "longcoat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "longcoat_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "longcoat_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "longcoat_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterWinterjacket",
+      "sprite": "OuterClothing/Armor/winterjacket",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/vest/winterjacket",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "winterjacket"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "winterjacket_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "winterjacket_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "winterjacket_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterRoguetownVest",
+      "sprite": "OuterClothing/Armor/vest",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/vest",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "vest"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "vest_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "vest_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "vest_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterCorset",
+      "sprite": "OuterClothing/Armor/corset",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/corset",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/misc.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "corset"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "corset_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "corset_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "corset_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterCoatOfPlates",
+      "sprite": "OuterClothing/Armor/coat_of_plates",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/brigandine/heavy",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/brigandine.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "coat_of_plates"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "coat_of_plates_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "coat_of_plates_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "coat_of_plates_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterIronplate",
+      "sprite": "OuterClothing/Armor/ironplate",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/plate/full/iron",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/plate.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "ironplate"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "ironplate_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "ironplate_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "ironplate_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterHidearmor",
+      "sprite": "OuterClothing/Armor/hidearmor",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/leather/hide",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "hidearmor"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "hidearmor_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "hidearmor_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "hidearmor_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterOpenrobe",
+      "sprite": "OuterClothing/Robes/openrobe",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/bared",
+      "sourceFile": "code/modules/clothing/rogueclothes/robes.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "openrobe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "openrobe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "openrobe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "openrobe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterPriestrobe",
+      "sprite": "OuterClothing/Robes/priestrobe",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/priest",
+      "sourceFile": "code/modules/clothing/rogueclothes/robes.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "priestrobe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "priestrobe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "priestrobe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "priestrobe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterMonkcloth",
+      "sprite": "OuterClothing/Robes/monkcloth",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/pointfex",
+      "sourceFile": "code/modules/clothing/rogueclothes/robes.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "monkcloth"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "monkcloth_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "monkcloth_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "monkcloth_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterPhyscoat",
+      "sprite": "OuterClothing/Robes/physcoat",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/physician",
+      "sourceFile": "code/modules/clothing/rogueclothes/robes.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "physcoat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "physcoat_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "physcoat_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "physcoat_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterDendorrobe",
+      "sprite": "OuterClothing/Robes/dendorrobe",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/dendor",
+      "sourceFile": "code/modules/clothing/rogueclothes/robes.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "dendorrobe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "dendorrobe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "dendorrobe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "dendorrobe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterDesertrobe",
+      "sprite": "OuterClothing/Robes/desertrobe",
+      "sourceType": "/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/hierophant",
+      "sourceFile": "code/modules/clothing/rogueclothes/armor/gambeson.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "desertrobe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "desertrobe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "desertrobe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "desertrobe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingOuterMagerobe",
+      "sprite": "OuterClothing/Robes/magerobe",
+      "sourceType": "/obj/item/clothing/suit/roguetown/shirt/robe/magician",
+      "sourceFile": "code/modules/clothing/rogueclothes/robes.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "magerobe"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "magerobe_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "magerobe_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "magerobe_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadBandana",
+      "sprite": "Head/Hats/bandana",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/bandana",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bandana"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bandana"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bandana"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bandana"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadChaperon",
+      "sprite": "Head/Hats/chaperon",
+      "sourceType": "/obj/item/clothing/head/roguetown/chaperon",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "chaperon"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "chaperon"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "chaperon"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "chaperon"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadFisherhat",
+      "sprite": "Head/Hats/fisherhat",
+      "sourceType": "/obj/item/clothing/head/roguetown/fisherhat",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "fisherhat"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "fisherhat"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "fisherhat"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "fisherhat"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadKnitcap",
+      "sprite": "Head/Hats/knitcap",
+      "sourceType": "/obj/item/clothing/head/roguetown/knitcap",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "knitcap"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "knitcap"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "knitcap"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "knitcap"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadTricorn",
+      "sprite": "Head/Hats/tricorn",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/tricorn",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "tricorn"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "tricorn"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "tricorn"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "tricorn"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadTurban",
+      "sprite": "Head/Hats/turban",
+      "sourceType": "/obj/item/clothing/head/roguetown/turban",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "turban"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "turban"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "turban"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "turban"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadWitch",
+      "sprite": "Head/Hats/witch",
+      "sourceType": "/obj/item/clothing/head/roguetown/witchhat",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "witch"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "witch"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "witch"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "witch"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadMonkhood",
+      "sprite": "Head/Hoods/monkhood",
+      "sourceType": "/obj/item/clothing/head/roguetown/roguehood/undividedcleric",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/adjusthoods.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "monkhood"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "monkhood"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "monkhood"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "monkhood"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadPaddedarmingcap",
+      "sprite": "Head/Helmets/paddedarmingcap",
+      "sourceType": "/obj/item/clothing/head/roguetown/armingcap/padded",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/helmet/light_helmet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "paddedarmingcap"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "paddedarmingcap"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "paddedarmingcap"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "paddedarmingcap"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadSkullcap",
+      "sprite": "Head/Helmets/skullcap",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/skullcap/steel",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/helmet/medium_helmet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "skullcap"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "skullcap"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "skullcap"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "skullcap"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadArmet",
+      "sprite": "Head/Helmets/armet",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/heavy/knight/armet",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/helmet/heavy_helmet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "armet"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "armet"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "armet"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "armet"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadSallet",
+      "sprite": "Head/Helmets/sallet",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/sallet",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/helmet/medium_helmet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "sallet"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "sallet"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "sallet"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "sallet"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadKnight",
+      "sprite": "Head/Helmets/knight",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/heavy/knight",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/helmet/heavy_helmet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "knight"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "knight"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "knight"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "knight"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHeadHounskull",
+      "sprite": "Head/Helmets/hounskull",
+      "sourceType": "/obj/item/clothing/head/roguetown/helmet/bascinet/pigface/hounskull",
+      "sourceFile": "code/modules/clothing/rogueclothes/headwear/helmet/medium_helmet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "hounskull"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "hounskull"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "hounskull"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "hounskull"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesBlackboots",
+      "sprite": "Shoes/Boots/blackboots",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/boots",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "blackboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "blackboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "blackboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "blackboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesFurlinedboots",
+      "sprite": "Shoes/Boots/furlinedboots",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/boots/furlinedboots",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "furlinedboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "furlinedboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "furlinedboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "furlinedboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesSoldierboots",
+      "sprite": "Shoes/Boots/soldierboots",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/boots/maille/iron",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "soldierboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "soldierboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "soldierboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "soldierboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesNobleboots",
+      "sprite": "Shoes/Boots/nobleboots",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/boots/nobleboot",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "nobleboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "nobleboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "nobleboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "nobleboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesAncientboots",
+      "sprite": "Shoes/Boots/ancientboots",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/boots/aalloy",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "ancientboots"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "ancientboots_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "ancientboots_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "ancientboots_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesBronzegreaves",
+      "sprite": "Shoes/Boots/bronzegreaves",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/boots/armor/bronze",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bronzegreaves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bronzegreaves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bronzegreaves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bronzegreaves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesFootwraps",
+      "sprite": "Shoes/Misc/footwraps",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/footwraps",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "footwraps"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "footwraps_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "footwraps_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "footwraps_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoesTogasandals",
+      "sprite": "Shoes/Misc/togasandals",
+      "sourceType": "/obj/item/clothing/shoes/roguetown/sandals/toga",
+      "sourceFile": "code/modules/clothing/rogueclothes/feet.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "togasandals"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "togasandals_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "togasandals_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "togasandals_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsClothwraps",
+      "sprite": "Hands/Gloves/clothwraps",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/bandages",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/unique.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "clothwraps"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "clothwraps_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "clothwraps_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "clothwraps_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsGauntlets",
+      "sprite": "Hands/Gloves/gauntlets",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/plate",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/plate.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "gauntlets"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "gauntlets_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "gauntlets_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "gauntlets_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsPaddedmitts",
+      "sprite": "Hands/Gloves/paddedmitts",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/cloth",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "paddedmitts"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "paddedmitts_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "paddedmitts_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "paddedmitts_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsRoguegloves",
+      "sprite": "Hands/Gloves/roguegloves",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/fingerless_leather",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/leather.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "roguegloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "roguegloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "roguegloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "roguegloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsAgauntlets",
+      "sprite": "Hands/Gloves/agauntlets",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/plate/aalloy",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/plate.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "agauntlets"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "agauntlets_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "agauntlets_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "agauntlets_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsBcgloves",
+      "sprite": "Hands/Gloves/bcgloves",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/chain/bronze",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/chain.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bcgloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bcgloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bcgloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bcgloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsBplategloves",
+      "sprite": "Hands/Gloves/bplategloves",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/plate/blacksteel/modern",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/blacksteel.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bplategloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bplategloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bplategloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bplategloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingHandsFeldgloves",
+      "sprite": "Hands/Gloves/feldgloves",
+      "sourceType": "/obj/item/clothing/gloves/roguetown/angle/feld",
+      "sourceFile": "code/modules/clothing/rogueclothes/gloves/angle.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "feldgloves"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "feldgloves_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "feldgloves_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "feldgloves_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckBearCloak",
+      "sprite": "Neck/Cloaks/bear_cloak",
+      "sourceType": "/obj/item/clothing/cloak/darkcloak/bear",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "bear_cloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "bear_cloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "bear_cloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "bear_cloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckDupatta",
+      "sprite": "Neck/Cloaks/dupatta",
+      "sourceType": "/obj/item/clothing/cloak/sash/dupatta",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "dupatta"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "dupatta_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "dupatta_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "dupatta_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckPoncho",
+      "sprite": "Neck/Cloaks/poncho",
+      "sourceType": "/obj/item/clothing/cloak/poncho",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "poncho"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "poncho_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "poncho_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "poncho_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckRainCloak",
+      "sprite": "Neck/Cloaks/rain_cloak",
+      "sourceType": "/obj/item/clothing/cloak/raincloak",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "rain_cloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "rain_cloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "rain_cloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "rain_cloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckScoutCloak",
+      "sprite": "Neck/Cloaks/scout_cloak",
+      "sourceType": "/obj/item/clothing/cloak/scout",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "scout_cloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "scout_cloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "scout_cloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "scout_cloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckShadowcloak",
+      "sprite": "Neck/Cloaks/shadowcloak",
+      "sourceType": "/obj/item/clothing/cloak/half/shadowcloak",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "shadowcloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "shadowcloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "shadowcloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "shadowcloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckThiefcloak",
+      "sprite": "Neck/Cloaks/thiefcloak",
+      "sourceType": "/obj/item/clothing/cloak/thief_cloak",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "thiefcloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "thiefcloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "thiefcloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "thiefcloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckToga",
+      "sprite": "Neck/Cloaks/toga",
+      "sourceType": "/obj/item/clothing/cloak/tabard/toga",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "toga"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "toga_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "toga_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "toga_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckTribal",
+      "sprite": "Neck/Cloaks/tribal",
+      "sourceType": "/obj/item/clothing/cloak/tribal",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "tribal"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "tribal_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "tribal_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "tribal_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckWardencloak",
+      "sprite": "Neck/Cloaks/wardencloak",
+      "sourceType": "/obj/item/clothing/cloak/wardencloak",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "wardencloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "wardencloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "wardencloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "wardencloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckWickerCloak",
+      "sprite": "Neck/Cloaks/wicker_cloak",
+      "sourceType": "/obj/item/clothing/cloak/wickercloak",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "wicker_cloak"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "wicker_cloak_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "wicker_cloak_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "wicker_cloak_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckApron",
+      "sprite": "Neck/Aprons/apron",
+      "sourceType": "/obj/item/clothing/cloak/apron",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "apron"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "apron_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "apron_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "apron_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckAproncook",
+      "sprite": "Neck/Aprons/aproncook",
+      "sourceType": "/obj/item/clothing/cloak/apron/cook",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "aproncook"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "aproncook_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "aproncook_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "aproncook_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingNeckWaistpron",
+      "sprite": "Neck/Aprons/waistpron",
+      "sourceType": "/obj/item/clothing/cloak/apron/waist",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "waistpron"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "waistpron_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "waistpron_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "waistpron_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltBlackbelt",
+      "sprite": "Belt/Belts/blackbelt",
+      "sourceType": "/obj/item/storage/belt/rogue/leather/black",
+      "sourceFile": "code/modules/clothing/rogueclothes/storage/storage.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "blackbelt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "blackbelt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "blackbelt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "blackbelt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltCloth",
+      "sprite": "Belt/Belts/cloth",
+      "sourceType": "/obj/item/storage/belt/rogue/leather/cloth",
+      "sourceFile": "code/modules/clothing/rogueclothes/storage/storage.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "cloth"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "cloth_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "cloth_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "cloth_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltRope",
+      "sprite": "Belt/Belts/rope",
+      "sourceType": "/obj/item/storage/belt/rogue/leather/rope",
+      "sourceFile": "code/modules/clothing/rogueclothes/storage/storage.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "rope"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "rope_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "rope_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "rope_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltSilkbelt",
+      "sprite": "Belt/Belts/silkbelt",
+      "sourceType": "/obj/item/storage/belt/rogue/leather/silkbelt",
+      "sourceFile": "code/modules/clothing/rogueclothes/storage/storage.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "silkbelt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "silkbelt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "silkbelt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "silkbelt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltStewardbelt",
+      "sprite": "Belt/Belts/stewardbelt",
+      "sourceType": "/obj/item/storage/belt/rogue/leather/plaquegold/steward",
+      "sourceFile": "code/modules/clothing/rogueclothes/storage/storage.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "stewardbelt"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "stewardbelt_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "stewardbelt_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "stewardbelt_f_dwarf"
+        }
+      ]
+    },
+    {
+      "id": "ClothingBeltSuspenders",
+      "sprite": "Belt/Belts/suspenders",
+      "sourceType": "/obj/item/clothing/cloak/suspenders",
+      "sourceFile": "code/modules/clothing/rogueclothes/cloaks.dm",
+      "variants": [
+        {
+          "suffix": "",
+          "sourceState": "suspenders"
+        },
+        {
+          "suffix": "_f",
+          "sourceState": "suspenders_f"
+        },
+        {
+          "suffix": "_dwarf",
+          "sourceState": "suspenders_dwarf"
+        },
+        {
+          "suffix": "_f_dwarf",
+          "sourceState": "suspenders_f_dwarf"
+        }
+      ]
+    }
+  ],
+  "bodyProfiles": [
+    {
+      "species": "Human",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Dwarf",
+      "maleStateSuffix": "_dwarf",
+      "maleOffsets": {
+        "head": [
+          0,
+          -4
+        ]
+      },
+      "femaleStateSuffix": "_f_dwarf",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "species": "Gnome",
+      "maleStateSuffix": "_f_dwarf",
+      "maleOffsets": {
+        "head": [
+          0,
+          -5
+        ]
+      },
+      "femaleStateSuffix": "_f_dwarf",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "species": "WoodElf",
+      "maleStateSuffix": "_f",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          2
+        ],
+        "outerClothing": [
+          0,
+          2
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          2
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "SunElf",
+      "maleStateSuffix": "_f",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          -1
+        ],
+        "neck": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "DarkElf",
+      "maleStateSuffix": "_f",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          -1
+        ],
+        "neck": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "HalfElf",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "HalfOrc",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "",
+      "femaleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "species": "HalfKin",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Aasimar",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Tiefling",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Revenant",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "MetalConstruct",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Goblin",
+      "maleStateSuffix": "_f_dwarf",
+      "maleOffsets": {
+        "head": [
+          0,
+          -4
+        ]
+      },
+      "femaleStateSuffix": "_f_dwarf",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "species": "Murkling",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "WildKin",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Verminvolk",
+      "maleStateSuffix": "_f_dwarf",
+      "maleOffsets": {
+        "head": [
+          0,
+          -4
+        ]
+      },
+      "femaleStateSuffix": "_f_dwarf",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "species": "Tabaxi",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Venardine",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Lupian",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Axian",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Fluvian",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Zardman",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Drakian",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "pants": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "species": "Kobold",
+      "maleStateSuffix": "_f_dwarf",
+      "maleOffsets": {
+        "head": [
+          0,
+          -4
+        ]
+      },
+      "femaleStateSuffix": "_f_dwarf",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "species": "AuRa",
+      "maleStateSuffix": "",
+      "maleOffsets": {
+        "jumpsuit": [
+          0,
+          1
+        ],
+        "outerClothing": [
+          0,
+          1
+        ],
+        "head": [
+          0,
+          1
+        ],
+        "gloves": [
+          0,
+          1
+        ],
+        "neck": [
+          0,
+          1
+        ],
+        "belt": [
+          0,
+          1
+        ]
+      },
+      "femaleStateSuffix": "_f",
+      "femaleOffsets": {
+        "head": [
+          0,
+          -1
+        ]
+      }
+    }
+  ],
+  "nativeSmallCutSubstitutions": [
+    [
+      "pants.dmi",
+      "explorerpants_dwarf",
+      "trou_dwarf"
+    ],
+    [
+      "pants.dmi",
+      "explorerpants_f_dwarf",
+      "trou_f_dwarf"
+    ],
+    [
+      "shirts.dmi",
+      "explorervest_dwarf",
+      "tunic_dwarf"
+    ],
+    [
+      "shirts.dmi",
+      "explorervest_f_dwarf",
+      "tunic_f_dwarf"
+    ]
+  ]
+}

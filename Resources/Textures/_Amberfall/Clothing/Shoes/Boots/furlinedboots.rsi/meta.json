@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Twilight Fortress SS13 contributors (https://github.com/Twilight-Fortress-SS13/Twilight-Axis)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon",
+      "directions": 1
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET_f",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

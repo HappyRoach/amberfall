@@ -1,0 +1,9 @@
+- type: species
+  id: Lupian
+  name: species-name-lupian
+  category: Beastvolk
+  roundStart: true
+  prototype: MobLupian
+  dollPrototype: AppearanceLupian
+  skinColoration: Hues
+  defaultSkinTone: "#85817E"

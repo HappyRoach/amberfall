@@ -1,0 +1,356 @@
+- type: clothingBodyProfile
+  id: Human
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Dwarf
+  maleStateSuffix: "_dwarf"
+  maleOffsets:
+    head: 0, -4
+  femaleStateSuffix: "_f_dwarf"
+  femaleOffsets:
+    head: 0, -5
+
+- type: clothingBodyProfile
+  id: Gnome
+  maleStateSuffix: "_f_dwarf"
+  maleOffsets:
+    head: 0, -5
+  femaleStateSuffix: "_f_dwarf"
+  femaleOffsets:
+    head: 0, -5
+
+- type: clothingBodyProfile
+  id: WoodElf
+  maleStateSuffix: "_f"
+  maleOffsets:
+    jumpsuit: 0, 2
+    outerClothing: 0, 2
+    head: 0, 1
+    neck: 0, 2
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: SunElf
+  maleStateSuffix: "_f"
+  maleOffsets:
+    jumpsuit: 0, 1
+    outerClothing: 0, 1
+    gloves: 0, -1
+    neck: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: DarkElf
+  maleStateSuffix: "_f"
+  maleOffsets:
+    jumpsuit: 0, 1
+    outerClothing: 0, 1
+    gloves: 0, -1
+    neck: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: HalfElf
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: HalfOrc
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: ""
+  femaleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+
+- type: clothingBodyProfile
+  id: HalfKin
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Aasimar
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Tiefling
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Revenant
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: MetalConstruct
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Goblin
+  maleStateSuffix: "_f_dwarf"
+  maleOffsets:
+    head: 0, -4
+  femaleStateSuffix: "_f_dwarf"
+  femaleOffsets:
+    head: 0, -5
+
+- type: clothingBodyProfile
+  id: Murkling
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: WildKin
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Verminvolk
+  maleStateSuffix: "_f_dwarf"
+  maleOffsets:
+    head: 0, -4
+  femaleStateSuffix: "_f_dwarf"
+  femaleOffsets:
+    head: 0, -5
+
+- type: clothingBodyProfile
+  id: Tabaxi
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Venardine
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Lupian
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Axian
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Fluvian
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Zardman
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Drakian
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    pants: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1
+
+- type: clothingBodyProfile
+  id: Kobold
+  maleStateSuffix: "_f_dwarf"
+  maleOffsets:
+    head: 0, -4
+  femaleStateSuffix: "_f_dwarf"
+  femaleOffsets:
+    head: 0, -5
+
+- type: clothingBodyProfile
+  id: AuRa
+  maleStateSuffix: ""
+  maleOffsets:
+    jumpsuit: 0, 1
+    outerClothing: 0, 1
+    head: 0, 1
+    gloves: 0, 1
+    neck: 0, 1
+    belt: 0, 1
+  femaleStateSuffix: "_f"
+  femaleOffsets:
+    head: 0, -1

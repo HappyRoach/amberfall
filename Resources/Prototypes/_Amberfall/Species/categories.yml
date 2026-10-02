@@ -1,0 +1,29 @@
+- type: speciesCategory
+  id: Humankind
+  name: species-category-humankind
+  defaultSpecies: Human
+
+- type: speciesCategory
+  id: Dwarven
+  name: species-category-dwarven
+  defaultSpecies: Dwarf
+
+- type: speciesCategory
+  id: Elven
+  name: species-category-elven
+  defaultSpecies: WoodElf
+
+- type: speciesCategory
+  id: Godtouched
+  name: species-category-godtouched
+  defaultSpecies: Aasimar
+
+- type: speciesCategory
+  id: Beastvolk
+  name: species-category-beastvolk
+  defaultSpecies: WildKin
+
+- type: speciesCategory
+  id: Zard
+  name: species-category-zard
+  defaultSpecies: Zardman

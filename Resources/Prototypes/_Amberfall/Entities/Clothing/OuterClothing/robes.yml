@@ -1,0 +1,135 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterOpenrobe
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/openrobe.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/openrobe.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/openrobe.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/openrobe_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterPriestrobe
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/priestrobe.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/priestrobe.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/priestrobe.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/priestrobe_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterMonkcloth
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/monkcloth.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/monkcloth.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/monkcloth.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/monkcloth_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterPhyscoat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/physcoat.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/physcoat.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/physcoat.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/physcoat_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterDendorrobe
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/dendorrobe.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/dendorrobe.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/dendorrobe.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/dendorrobe_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterDesertrobe
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/desertrobe.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/desertrobe.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/desertrobe.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/desertrobe_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterMagerobe
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/magerobe.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/magerobe.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/magerobe.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/magerobe_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterTravelRobe
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/travel_robe.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/travel_robe.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Robes/travel_robe.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Robes/travel_robe_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves

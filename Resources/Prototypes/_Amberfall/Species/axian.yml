@@ -1,0 +1,9 @@
+- type: species
+  id: Axian
+  name: species-name-axian
+  category: Beastvolk
+  roundStart: true
+  prototype: MobAxian
+  dollPrototype: AppearanceAxian
+  skinColoration: Hues
+  defaultSkinTone: "#869FA9"

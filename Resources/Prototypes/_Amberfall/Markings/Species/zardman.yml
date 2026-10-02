@@ -1,0 +1,30 @@
+- type: markingsGroup
+  parent: Human
+  id: Zardman
+  limits:
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: true
+      onlyGroupWhitelisted: true
+      default: [ SnoutSharp ]
+    enum.HumanoidVisualLayers.SnoutCover:
+      limit: 0
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: true
+      onlyGroupWhitelisted: true
+      default: [ TailLizardSmooth ]
+    enum.HumanoidVisualLayers.Wings:
+      limit: 0
+      required: false
+      onlyGroupWhitelisted: true

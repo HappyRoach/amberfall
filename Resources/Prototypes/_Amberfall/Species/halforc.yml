@@ -1,0 +1,10 @@
+- type: species
+  id: HalfOrc
+  clothingSex: Male
+  name: species-name-halforc
+  category: Humankind
+  roundStart: true
+  prototype: MobHalfOrc
+  dollPrototype: AppearanceHalfOrc
+  skinColoration: Hues
+  defaultSkinTone: "#83915C"

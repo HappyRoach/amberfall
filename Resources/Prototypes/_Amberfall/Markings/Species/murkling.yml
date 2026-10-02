@@ -1,0 +1,28 @@
+- type: markingsGroup
+  parent: Human
+  id: Murkling
+  limits:
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 0
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.SnoutCover:
+      limit: 0
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true
+    enum.HumanoidVisualLayers.Wings:
+      limit: 1
+      required: false
+      onlyGroupWhitelisted: true

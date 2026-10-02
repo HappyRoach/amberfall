@@ -1,0 +1,212 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCape
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/cape.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Neck/Cloaks/cape.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckShortCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/short_cloak.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Neck/Cloaks/short_cloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckForestCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/forest_cloak.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Neck/Cloaks/forest_cloak.rsi
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBearCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/bear_cloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/bear_cloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/bear_cloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckDupatta
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/dupatta.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/dupatta.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/dupatta.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckPoncho
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/poncho.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/poncho.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/poncho.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRainCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/rain_cloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/rain_cloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/rain_cloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckScoutCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/scout_cloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/scout_cloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/scout_cloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckShadowcloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/shadowcloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/shadowcloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/shadowcloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckThiefcloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/thiefcloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/thiefcloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/thiefcloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckToga
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/toga.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/toga.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/toga.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTribal
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/tribal.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/tribal.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/tribal.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckWardencloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/wardencloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/wardencloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/wardencloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckWickerCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/wicker_cloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/wicker_cloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/wicker_cloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckHalfCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/half_cloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/half_cloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/half_cloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSnowCloak
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Neck/Cloaks/snow_cloak.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Neck/Cloaks/snow_cloak.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Neck/Cloaks/snow_cloak.rsi
+    bodyProfile: true
+    wornLayer: cloakBehind

@@ -229,6 +229,8 @@
   id: OrganDwarfHead
   components:
   - type: VisualOrganMarkings
+    femaleLayerOffsets:
+      Hair: 0, 0
     markingsDisplacement:
       Head:
         sizeMaps:

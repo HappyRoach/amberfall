@@ -1,0 +1,87 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltLeather
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/leather_belt.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Belt/leather_belt.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltBlackbelt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/Belts/blackbelt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Belt/Belts/blackbelt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Belt/Belts/blackbelt.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltCloth
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/Belts/cloth.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Belt/Belts/cloth.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Belt/Belts/cloth.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltRope
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/Belts/rope.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Belt/Belts/rope.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Belt/Belts/rope.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltSilkbelt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/Belts/silkbelt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Belt/Belts/silkbelt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Belt/Belts/silkbelt.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltStewardbelt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/Belts/stewardbelt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Belt/Belts/stewardbelt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Belt/Belts/stewardbelt.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltSuspenders
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Belt/Belts/suspenders.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Belt/Belts/suspenders.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Belt/Belts/suspenders.rsi
+    bodyProfile: true

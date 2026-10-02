@@ -2,6 +2,7 @@
 using Content.Medical.Common.Body;
 // </Trauma>
 using System.Linq;
+using System.Numerics;
 using Content.Client.DisplacementMap;
 using Content.Shared.Body;
 using Content.Shared.CCVar;
@@ -78,6 +79,24 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
 
         _sprite.LayerSetData(target, index, ent.Comp.Data);
 
+        // The organ profile can update independently of its markings state.
+        if (TryComp<VisualOrganMarkingsComponent>(ent, out var markings))
+            ApplyMarkingOffsets((ent.Owner, markings), target);
+
+        if (ent.Comp.OverlayLayer is { } overlayLayer && ent.Comp.OverlayState is { } overlayState &&
+            _sprite.LayerMapTryGet(target, overlayLayer, out var overlayIndex, false))
+        {
+            if (ent.Comp.OverlaySexStateOverrides?.TryGetValue(ent.Comp.Profile.Sex, out var sexState) == true)
+                overlayState = sexState;
+
+            _sprite.LayerSetData(target, overlayIndex, new PrototypeLayerData
+            {
+                RsiPath = ent.Comp.Data.RsiPath,
+                State = overlayState,
+                Color = ent.Comp.Data.Color,
+            });
+        }
+
         var displacement = ent.Comp.Displacement;
         if (displacement != null && ProtoMan.Resolve(displacement, out var displacementProto))
         {
@@ -99,6 +118,10 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
             return;
 
         _sprite.LayerSetRsiState(target, index, RSI.StateId.Invalid);
+
+        if (ent.Comp.OverlayLayer is { } overlayLayer &&
+            _sprite.LayerMapTryGet(target, overlayLayer, out var overlayIndex, false))
+            _sprite.LayerSetRsiState(target, overlayIndex, RSI.StateId.Invalid);
 
         _displacement.EnsureDisplacementIsNotOnSprite((target, Comp<SpriteComponent>(target)), ent.Comp.Layer);
     }
@@ -198,10 +221,9 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
 
-            if (!_sprite.LayerMapTryGet(target, proto.BodyPart, out var index, true))
-                continue;
-
             ent.Comp.MarkingsDisplacement.TryGetValue(proto.BodyPart, out var displacement);
+
+            var insertionPoints = new Dictionary<object, string>();
 
             for (var i = 0; i < proto.Sprites.Count; i++)
             {
@@ -211,14 +233,29 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
                 if (sprite is not SpriteSpecifier.Rsi rsi)
                     continue;
 
+                object bookmark = proto.SpriteLayerOverrides.TryGetValue(rsi.RsiState, out var mappedLayer)
+                    ? mappedLayer
+                    : proto.BodyPart;
+                object insertAfter = insertionPoints.TryGetValue(bookmark, out var previousLayer)
+                    ? previousLayer
+                    : bookmark;
+                int index;
+                var hasLayer = insertAfter is string layerName
+                    ? _sprite.LayerMapTryGet(target, layerName, out index, true)
+                    : _sprite.LayerMapTryGet(target, (Enum) insertAfter, out index, true);
+                if (!hasLayer)
+                    continue;
+
                 var layerId = $"{proto.ID}-{rsi.RsiState}";
 
                 if (!_sprite.LayerMapTryGet(target, layerId, out _, false))
                 {
-                    var spriteLayer = _sprite.AddLayer(target, sprite, index + i + 1);
+                    var spriteLayer = _sprite.AddLayer(target, sprite, index + 1);
                     _sprite.LayerMapSet(target, layerId, spriteLayer);
                     _sprite.LayerSetSprite(target, layerId, rsi);
                 }
+
+                insertionPoints[bookmark] = layerId;
 
                 if (marking.MarkingColors is not null && i < marking.MarkingColors.Count)
                     _sprite.LayerSetColor(target, layerId, marking.MarkingColors[i]);
@@ -226,12 +263,48 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
                     _sprite.LayerSetColor(target, layerId, Color.White);
 
                 if (displacement != null && proto.CanBeDisplaced)
-                    _displacement.TryAddDisplacement(displacement, (target, target.Comp), index + i + 1, layerId, out _);
+                    _displacement.TryAddDisplacement(displacement, (target, target.Comp), _sprite.LayerMapGet(target, layerId), layerId, out _);
             }
 
             applied.Add(marking);
         }
         ent.Comp.AppliedMarkings = applied;
+        ApplyMarkingOffsets(ent, target);
+    }
+
+    private void ApplyMarkingOffsets(Entity<VisualOrganMarkingsComponent> ent, Entity<SpriteComponent?> target)
+    {
+        if ((ent.Comp.FemaleLayerOffsets.Count == 0 && ent.Comp.LayerOffsets.Count == 0) ||
+            !Resolve(target, ref target.Comp, false))
+            return;
+
+        var female = CompOrNull<VisualOrganComponent>(ent)?.Profile.Sex == Sex.Female;
+        foreach (var marking in ent.Comp.AppliedMarkings)
+        {
+            if (!_marking.TryGetMarking(marking, out var proto))
+                continue;
+
+            var hasOffset = ent.Comp.LayerOffsets.TryGetValue(proto.BodyPart, out var offset);
+            if (female && ent.Comp.FemaleLayerOffsets.TryGetValue(proto.BodyPart, out var femaleOffset))
+            {
+                offset = femaleOffset;
+                hasOffset = true;
+            }
+
+            // Also reset an offset after changing a formerly female organ to male.
+            if (!hasOffset && !ent.Comp.FemaleLayerOffsets.ContainsKey(proto.BodyPart))
+                continue;
+
+            foreach (var sprite in proto.Sprites)
+            {
+                if (sprite is not SpriteSpecifier.Rsi rsi)
+                    continue;
+
+                var layerId = $"{proto.ID}-{rsi.RsiState}";
+                if (_sprite.LayerMapTryGet(target, layerId, out var index, false))
+                    _sprite.LayerSetOffset(target, index, offset);
+            }
+        }
     }
 
     private void RemoveMarkings(Entity<VisualOrganMarkingsComponent> ent, Entity<SpriteComponent?> target)

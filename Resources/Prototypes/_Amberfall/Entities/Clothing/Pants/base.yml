@@ -1,0 +1,14 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingPantsBase
+  components:
+  - type: Sprite
+    state: icon
+  - type: Clothing
+    slots: [ LEGS ]
+    wornLayer: pantsBody
+  - type: Item
+    size: Normal
+  - type: Tag
+    tags: [ ClothMade, WhitelistChameleon ]

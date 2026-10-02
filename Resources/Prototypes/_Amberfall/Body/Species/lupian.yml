@@ -1,0 +1,190 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceLupian
+  name: Lupian appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganLupianTorso
+      Head: OrganLupianHead
+      ArmLeft: OrganLupianArmLeft
+      ArmRight: OrganLupianArmRight
+      HandLeft: OrganLupianHandLeft
+      HandRight: OrganLupianHandRight
+      LegLeft: OrganLupianLegLeft
+      LegRight: OrganLupianLegRight
+      FootLeft: OrganLupianFootLeft
+      FootRight: OrganLupianFootRight
+      Tail: OrganLupianTail
+      Eyes: OrganLupianEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganHumanHeart
+      Stomach: OrganHumanStomach
+      Liver: OrganHumanLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Lupian
+
+- type: entity
+  parent: [ AppearanceLupian, BaseSpeciesMobOrganic ]
+  id: MobLupian
+  name: Lupian
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganLupianExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/Lupian/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Lupian/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Lupian
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganLupianExternal ]
+  id: OrganLupianTorso
+  components:
+  - type: BodyPart
+    slots: [ Head, ArmLeft, ArmRight, LegLeft, LegRight, Appendix, Lungs, Heart, Stomach, Liver, Kidneys, Tail ]
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganLupianExternal ]
+  id: OrganLupianHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, 0.03125
+      FacialHair: 0, 0.03125
+      HeadSide: 0, 0.03125
+      HeadTop: 0, 0.03125
+      Snout: 0, 0.03125
+      SnoutCover: 0, 0.03125
+    femaleLayerOffsets:
+      Hair: 0, -0.03125
+      FacialHair: 0, -0.03125
+      HeadSide: 0, -0.03125
+      HeadTop: 0, -0.03125
+      Snout: 0, -0.03125
+      SnoutCover: 0, -0.03125
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganLupianExternal ]
+  id: OrganLupianArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganLupianExternal ]
+  id: OrganLupianArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganLupianExternal ]
+  id: OrganLupianHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganLupianExternal ]
+  id: OrganLupianHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganLupianExternal ]
+  id: OrganLupianLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganLupianExternal ]
+  id: OrganLupianLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganLupianExternal ]
+  id: OrganLupianFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganLupianExternal ]
+  id: OrganLupianFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseTail, OrganLupianExternal ]
+  id: OrganLupianTail
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Tail: 0, 0.03125
+    femaleLayerOffsets:
+      Tail: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Tail ]
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLupianEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Lupian/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

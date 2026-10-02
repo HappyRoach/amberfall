@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from https://github.com/Twilight-Fortress-SS13/Twilight-Axis: icons/mob/sprite_accessory/antenna/moth_antenna.dmi",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "lovers_BEHIND",
+      "directions": 4
+    },
+    {
+      "name": "lovers_FRONT",
+      "directions": 4
+    }
+  ]
+}

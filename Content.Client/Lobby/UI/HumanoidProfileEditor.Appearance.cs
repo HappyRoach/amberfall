@@ -17,7 +17,6 @@ public sealed partial class HumanoidProfileEditor
     public event Action<List<ProtoId<GuideEntryPrototype>>>? OnOpenGuidebook;
 
     private ColorSelectorSliders _rgbSkinColorSelector;
-    private List<SpeciesPrototype> _species = new();
     private List<EmoteSoundsPrototype> _voices = new();
     private static readonly ProtoId<GuideEntryPrototype> DefaultSpeciesGuidebook = "Human";
 
@@ -185,43 +184,16 @@ public sealed partial class HumanoidProfileEditor
         SpawnPriorityButton.SelectId((int)Profile.SpawnPriority);
     }
 
-    /// <summary>
-    /// Refreshes the species selector.
-    /// </summary>
-    public void RefreshSpecies()
-    {
-        SpeciesButton.Clear();
-        _species.Clear();
-
-        _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart));
-        _species.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.CurrentCultureIgnoreCase));
-        var speciesIds = _species.Select(o => o.ID).ToList();
-
-        for (var i = 0; i < _species.Count; i++)
-        {
-            var name = Loc.GetString(_species[i].Name);
-            SpeciesButton.AddItem(name, i);
-
-            if (Profile?.Species.Equals(_species[i].ID) == true)
-            {
-                SpeciesButton.SelectId(i);
-            }
-        }
-
-        // If our species isn't available then reset it to default.
-        if (Profile != null)
-        {
-            if (!speciesIds.Contains(Profile.Species))
-            {
-                SetSpecies(HumanoidCharacterProfile.DefaultSpecies);
-            }
-        }
-    }
-
     private void SetSpecies(string newSpecies)
     {
         Profile = Profile?.WithSpecies(newSpecies);
+        UpdateSpeciesSelectors();
         OnSkinColorOnValueChanged(); // Species may have special color prefs, make sure to update it.
+        // The new species can introduce organ categories (e.g. tails or wings).
+        // Populate their profile data before the marking picker validates them.
+        if (Profile != null)
+            _markingsModel.OrganProfileData = _markingManager.GetProfileData(newSpecies, Profile.Sex,
+                Profile.Appearance.SkinColor, Profile.Appearance.EyeColor);
         _markingsModel.OrganData = _markingManager.GetMarkingData(newSpecies);
         _markingsModel.ValidateMarkings();
         // In case there's job restrictions for the species

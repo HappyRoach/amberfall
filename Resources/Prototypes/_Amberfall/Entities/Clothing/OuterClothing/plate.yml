@@ -1,0 +1,116 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterLeathercoat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/leathercoat.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/leathercoat.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/leathercoat.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/leathercoat_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterHalfplate
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/halfplate.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/halfplate.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/halfplate.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/halfplate_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterIronplate
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/ironplate.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/ironplate.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/ironplate.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/ironplate_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterPlateHarness
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/plate_harness.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/plate_harness.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/plate_harness.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/plate_harness_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.55
+        Piercing: 0.65
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSteelCuirass
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/steel_cuirass.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/steel_cuirass.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/steel_cuirass.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.65
+        Piercing: 0.7

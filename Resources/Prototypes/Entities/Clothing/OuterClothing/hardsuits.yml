@@ -808,7 +808,7 @@
 
 #Wizard Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitBase, ClothingOuterWizardBaseArmor, BaseMagicalContraband] # Goob edit
+  parent: [ClothingOuterHardsuitBase, BaseMagicalContraband] # Goob edit
   id: ClothingOuterHardsuitWizard
   name: wizard hardsuit # Goob edit
   description: A bizarre gem-encrusted suit that radiates magical energies.

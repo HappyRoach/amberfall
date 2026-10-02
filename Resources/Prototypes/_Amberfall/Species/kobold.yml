@@ -1,0 +1,9 @@
+- type: species
+  id: Kobold
+  name: species-name-kobold
+  category: Zard
+  roundStart: true
+  prototype: MobKobold
+  dollPrototype: AppearanceKobold
+  skinColoration: Hues
+  defaultSkinTone: "#9A7452"

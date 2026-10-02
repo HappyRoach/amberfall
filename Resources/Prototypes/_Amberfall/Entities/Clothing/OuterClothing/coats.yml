@@ -1,0 +1,40 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterLongcoat
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/longcoat.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/longcoat.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/longcoat.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/longcoat_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterWinterjacket
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/winterjacket.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/winterjacket.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/winterjacket.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/winterjacket_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves

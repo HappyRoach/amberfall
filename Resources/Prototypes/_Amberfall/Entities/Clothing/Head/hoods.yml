@@ -1,0 +1,52 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadBasicHood
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hoods/basic_hood.rsi
+    layers:
+    - state: icon
+      map: [ "enum.ToggleableVisuals.Layer" ]
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Head/Hoods/basic_hood.rsi
+  - type: ItemToggle
+    activated: true
+    onUse: false
+  - type: ToggleClothingPrefix
+    prefixOn: null
+    prefixOff: down
+  - type: ToggleHideLayers
+    layers:
+      Hair: HEAD
+  - type: ClothingModifyViewcone
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+          True: { state: icon }
+          False: { state: icon-down }
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadBanditHood
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hoods/bandit_hood.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Head/Hoods/bandit_hood.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadMonkhood
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Head/Hoods/monkhood.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Head/Hoods/monkhood.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Head/Hoods/monkhood.rsi
+    bodyProfile: true

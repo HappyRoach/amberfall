@@ -1,0 +1,195 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceMountainDwarf
+  name: MountainDwarf appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganMountainDwarfTorso
+      Head: OrganMountainDwarfHead
+      ArmLeft: OrganMountainDwarfArmLeft
+      ArmRight: OrganMountainDwarfArmRight
+      HandLeft: OrganMountainDwarfHandLeft
+      HandRight: OrganMountainDwarfHandRight
+      LegLeft: OrganMountainDwarfLegLeft
+      LegRight: OrganMountainDwarfLegRight
+      FootLeft: OrganMountainDwarfFootLeft
+      FootRight: OrganMountainDwarfFootRight
+      Eyes: OrganMountainDwarfEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganDwarfHeart
+      Stomach: OrganDwarfStomach
+      Liver: OrganDwarfLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Dwarf
+
+- type: entity
+  parent: [ AppearanceMountainDwarf, BaseSpeciesMobOrganic ]
+  id: MobMountainDwarf
+  name: MountainDwarf
+  components:
+  - type: Mutatable
+    dormant: [ MutationDwarfism, MutationRockEater ]
+  - type: ScaleVisuals
+    scale: 1, 1
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.35
+        density: 120
+        restitution: 0.0
+        mask: [ MobMask ]
+        layer: [ MobLayer ]
+  - type: Vocal
+    emoteSounds: UnisexDwarf
+  - type: ReplacementAccent
+    accent: dwarf
+  - type: Speech
+    speechSounds: Bass
+
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganMountainDwarfExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/MountainDwarf/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/MountainDwarf/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: MountainDwarf
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfTorso
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, -0.125
+      FacialHair: 0, -0.125
+      HeadSide: 0, -0.125
+      HeadTop: 0, -0.125
+      Snout: 0, -0.125
+      SnoutCover: 0, -0.125
+    femaleLayerOffsets:
+      Hair: 0, -0.15625
+      FacialHair: 0, -0.15625
+      HeadSide: 0, -0.15625
+      HeadTop: 0, -0.15625
+      Snout: 0, -0.15625
+      SnoutCover: 0, -0.15625
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganMountainDwarfExternal ]
+  id: OrganMountainDwarfFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganMountainDwarfEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/MountainDwarf/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

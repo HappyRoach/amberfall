@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="../Content.Amberfall.Common/Content.Amberfall.Common.csproj" />
     <ProjectReference Include="../Content.Shared/Content.Shared.csproj" />
+    <ProjectReference Include="../Content.Trauma.Shared/Content.Trauma.Shared.csproj" />
   </ItemGroup>
 
   <Import Project="../RobustToolbox/Imports/Shared.props" />

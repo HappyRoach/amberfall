@@ -771,7 +771,7 @@
 
 #Wizard Hardsuit
 - type: entity
-  parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadHatWizardBaseArmor] # Goob edit
+  parent: [ClothingHeadHardsuitWithLightBase] # Goob edit
   id: ClothingHeadHelmetHardsuitWizard
   name: wizard hardsuit helmet # Goob edit
   description: A bizarre gem-encrusted helmet that radiates magical energies.

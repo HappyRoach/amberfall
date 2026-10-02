@@ -1,0 +1,9 @@
+- type: species
+  id: Aasimar
+  name: species-name-aasimar
+  category: Godtouched
+  roundStart: true
+  prototype: MobAasimar
+  dollPrototype: AppearanceAasimar
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"

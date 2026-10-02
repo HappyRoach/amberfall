@@ -1,0 +1,55 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterWorkervest
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/workervest.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/workervest.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/workervest.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSailorvest
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/sailorvest.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/sailorvest.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/sailorvest.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRoguetownVest
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/vest.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/vest.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/vest.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterCorset
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/corset.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/corset.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/corset.rsi
+    bodyProfile: true
+    wornLayer: armorBody

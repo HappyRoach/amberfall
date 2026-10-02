@@ -1,0 +1,9 @@
+- type: species
+  id: Gnome
+  name: species-name-gnome
+  category: Dwarven
+  roundStart: true
+  prototype: MobGnome
+  dollPrototype: AppearanceGnome
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"

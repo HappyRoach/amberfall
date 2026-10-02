@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from https://github.com/Twilight-Fortress-SS13/Twilight-Axis: icons/mob/sprite_accessory/ears/ears.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "wolf_ADJ_1",
+      "directions": 4
+    },
+    {
+      "name": "wolf_ADJ_2",
+      "directions": 4
+    },
+    {
+      "name": "wolf_FRONT_1",
+      "directions": 4
+    },
+    {
+      "name": "wolf_FRONT_2",
+      "directions": 4
+    }
+  ]
+}

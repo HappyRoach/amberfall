@@ -1,0 +1,3868 @@
+[
+  {
+    "species": "Human",
+    "body": "Human",
+    "name": "Northern Human",
+    "category": "Humankind",
+    "sourceType": "/datum/species/human/northern",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mm.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {}
+  },
+  {
+    "species": "Dwarf",
+    "body": "MountainDwarf",
+    "name": "Mountain Dwarf",
+    "category": "Dwarven",
+    "sourceType": "/datum/species/dwarf/mountain",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/md.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fd.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          0
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -4
+        ],
+        "HEAD": [
+          0,
+          -4
+        ],
+        "FACE": [
+          0,
+          -4
+        ],
+        "BELT": [
+          0,
+          -5
+        ],
+        "BACK": [
+          0,
+          -4
+        ],
+        "NECK": [
+          0,
+          -4
+        ],
+        "MOUTH": [
+          0,
+          -4
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          -3
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -4
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "HANDS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -5
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -5
+        ],
+        "BACK": [
+          0,
+          -5
+        ],
+        "NECK": [
+          0,
+          -5
+        ],
+        "MOUTH": [
+          0,
+          -5
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      }
+    },
+    "markingOptions": {}
+  },
+  {
+    "species": "Gnome",
+    "body": "Gnome",
+    "name": "Gnome",
+    "category": "Dwarven",
+    "sourceType": "/datum/species/dwarf/gnome",
+    "sourceFile": "code/modules/mob/living/carbon/human/species_types/roguetown/dwarf/gnome.dm",
+    "male": "icons/roguetown/mob/bodies/m/mgn.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fd.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          0
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -5
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -5
+        ],
+        "BACK": [
+          0,
+          -4
+        ],
+        "NECK": [
+          0,
+          -5
+        ],
+        "MOUTH": [
+          0,
+          -5
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          -4
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -4
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "HANDS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -5
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -5
+        ],
+        "BACK": [
+          0,
+          -5
+        ],
+        "NECK": [
+          0,
+          -5
+        ],
+        "MOUTH": [
+          0,
+          -5
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      }
+    },
+    "markingOptions": {}
+  },
+  {
+    "species": "WoodElf",
+    "body": "WoodElf",
+    "name": "Northern Elf",
+    "category": "Elven",
+    "sourceType": "/datum/species/elf/wood",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/met.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          2
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          2
+        ],
+        "ARMOR": [
+          0,
+          2
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "ears": 5
+    }
+  },
+  {
+    "species": "SunElf",
+    "body": "SunElf",
+    "name": "Sun Elf",
+    "category": "Elven",
+    "sourceType": "/datum/species/elf/sun",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mem.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          0
+        ],
+        "GLOVES": [
+          0,
+          -1
+        ],
+        "WRISTS": [
+          0,
+          -1
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          0
+        ],
+        "HEAD": [
+          0,
+          0
+        ],
+        "FACE": [
+          0,
+          0
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          0
+        ],
+        "NECK": [
+          0,
+          0
+        ],
+        "MOUTH": [
+          0,
+          0
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          0
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "ears": 5
+    }
+  },
+  {
+    "species": "DarkElf",
+    "body": "DarkElf",
+    "name": "Dark Elf",
+    "category": "Elven",
+    "sourceType": "/datum/species/elf/dark",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mem.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          0
+        ],
+        "GLOVES": [
+          0,
+          -1
+        ],
+        "WRISTS": [
+          0,
+          -1
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          0
+        ],
+        "HEAD": [
+          0,
+          0
+        ],
+        "FACE": [
+          0,
+          0
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          0
+        ],
+        "NECK": [
+          0,
+          0
+        ],
+        "MOUTH": [
+          0,
+          0
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          0
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "ears": 5
+    }
+  },
+  {
+    "species": "HalfElf",
+    "body": "HalfElf",
+    "name": "Half-Elf",
+    "category": "Humankind",
+    "sourceType": "/datum/species/human/halfelf",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "ears": 5
+    }
+  },
+  {
+    "species": "HalfOrc",
+    "body": "HalfOrc",
+    "name": "Half Orc",
+    "category": "Humankind",
+    "sourceType": "/datum/species/halforc",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt_muscular.dmi",
+    "female": "icons/roguetown/mob/bodies/f/ft_muscular.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      }
+    },
+    "markingOptions": {
+      "horns": 2,
+      "ears": 6
+    }
+  },
+  {
+    "species": "HalfKin",
+    "body": "HalfKin",
+    "name": "Half-Kin",
+    "category": "Humankind",
+    "sourceType": "/datum/species/demihuman",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "ears": 59,
+      "horns": 55,
+      "wings": 26,
+      "tail": 65,
+      "neck_feature": 6
+    }
+  },
+  {
+    "species": "Aasimar",
+    "body": "Aasimar",
+    "name": "Aasimar",
+    "category": "Godtouched",
+    "sourceType": "/datum/species/aasimar",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "wings": 22,
+      "ears": 7,
+      "horns": 3,
+      "snout": 1
+    }
+  },
+  {
+    "species": "Tiefling",
+    "body": "Tiefling",
+    "name": "Tiefling",
+    "category": "Godtouched",
+    "sourceType": "/datum/species/tieberian",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "horns": 52,
+      "tail": 12,
+      "ears": 5
+    }
+  },
+  {
+    "species": "Revenant",
+    "body": "Revenant",
+    "name": "Revenant",
+    "category": "Godtouched",
+    "sourceType": "/datum/species/dullahan",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "snout": 85,
+      "horns": 57,
+      "wings": 26,
+      "tail": 61,
+      "ears": 56
+    }
+  },
+  {
+    "species": "MetalConstruct",
+    "body": "MetalConstruct",
+    "name": "Metal Construct",
+    "category": "Godtouched",
+    "sourceType": "/datum/species/construct/metal",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mcom.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fcom.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {}
+  },
+  {
+    "species": "Goblin",
+    "body": "Goblin",
+    "name": "Goblin",
+    "category": "Godtouched",
+    "sourceType": "/datum/species/goblinp",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/mob/species/anthro_small_male.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fd.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          -4
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -4
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -4
+        ],
+        "BACK": [
+          0,
+          -4
+        ],
+        "NECK": [
+          0,
+          -4
+        ],
+        "MOUTH": [
+          0,
+          -4
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          -3
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -5
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "HANDS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -5
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -4
+        ],
+        "BACK": [
+          0,
+          -5
+        ],
+        "NECK": [
+          0,
+          -5
+        ],
+        "MOUTH": [
+          0,
+          -5
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      }
+    },
+    "markingOptions": {
+      "ears": 4,
+      "horns": 2
+    }
+  },
+  {
+    "species": "Murkling",
+    "body": "Murkling",
+    "name": "Murkling",
+    "category": null,
+    "sourceType": "/datum/species/ooze",
+    "sourceFile": "code/modules/mob/living/carbon/human/species_types/roguetown/other/ooze.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "snout": 85,
+      "tail": 57,
+      "ears": 55,
+      "wings": 26
+    }
+  },
+  {
+    "species": "WildKin",
+    "body": "WildKin",
+    "name": "Wild-Kin",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/anthromorph",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mta.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fma.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "wings": 26,
+      "tail": 66,
+      "snout": 89,
+      "ears": 67,
+      "horns": 55,
+      "neck_feature": 6
+    }
+  },
+  {
+    "species": "Verminvolk",
+    "body": "Verminvolk",
+    "name": "Verminvolk",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/anthromorphsmall",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/mob/species/anthro_small_malea.dmi",
+    "female": "icons/mob/species/anthro_small_femalea.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          -4
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -4
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -4
+        ],
+        "BACK": [
+          0,
+          -4
+        ],
+        "NECK": [
+          0,
+          -4
+        ],
+        "MOUTH": [
+          0,
+          -4
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          -3
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -5
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "HANDS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -5
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -4
+        ],
+        "BACK": [
+          0,
+          -5
+        ],
+        "NECK": [
+          0,
+          -5
+        ],
+        "MOUTH": [
+          0,
+          -5
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      }
+    },
+    "markingOptions": {
+      "wings": 26,
+      "tail": 66,
+      "snout": 89,
+      "ears": 67,
+      "horns": 55,
+      "neck_feature": 6
+    }
+  },
+  {
+    "species": "Tabaxi",
+    "body": "Tabaxi",
+    "name": "Tabaxi",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/tabaxi",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mta.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fma.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "snout": 16,
+      "tail": 5,
+      "neck_feature": 6,
+      "ears": 4
+    }
+  },
+  {
+    "species": "Venardine",
+    "body": "Venardine",
+    "name": "Venardine",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/vulpkanin",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "tail": 6,
+      "snout": 17,
+      "ears": 8,
+      "neck_feature": 6
+    }
+  },
+  {
+    "species": "Lupian",
+    "body": "Lupian",
+    "name": "Lupian",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/lupian",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "tail": 8,
+      "snout": 25,
+      "ears": 7,
+      "neck_feature": 6
+    }
+  },
+  {
+    "species": "Axian",
+    "body": "Axian",
+    "name": "Axian",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/akula",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "snout": 13,
+      "tail": 2,
+      "ears": 2
+    }
+  },
+  {
+    "species": "Fluvian",
+    "body": "Fluvian",
+    "name": "Fluvian",
+    "category": "Beastvolk",
+    "sourceType": "/datum/species/moth",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/mob/species/moth_male.dmi",
+    "female": "icons/mob/species/moth_female.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          0
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "wings": 23,
+      "antennas": 17,
+      "neck_feature": 19,
+      "snout": 6,
+      "tail": 2
+    }
+  },
+  {
+    "species": "Zardman",
+    "body": "Zardman",
+    "name": "Zardman",
+    "category": "Zard",
+    "sourceType": "/datum/species/lizardfolk",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "tail": 4,
+      "snout": 14,
+      "ears": 3,
+      "horns": 53
+    }
+  },
+  {
+    "species": "Drakian",
+    "body": "Drakian",
+    "name": "Drakian",
+    "category": "Zard",
+    "sourceType": "/datum/species/dracon",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/roguetown/mob/bodies/m/mta.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fma.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          1
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -1
+        ]
+      }
+    },
+    "markingOptions": {
+      "wings": 6,
+      "tail": 4,
+      "snout": 14,
+      "ears": 67,
+      "horns": 53
+    }
+  },
+  {
+    "species": "Kobold",
+    "body": "Kobold",
+    "name": "Kobold",
+    "category": "Zard",
+    "sourceType": "/datum/species/kobold",
+    "sourceFile": "modular_twilight_axis/lore/code/species_types/roguetown_species.dm",
+    "male": "icons/mob/species/anthro_small_malea.dmi",
+    "female": "icons/mob/species/anthro_small_femalea.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          0
+        ],
+        "GLOVES": [
+          0,
+          -3
+        ],
+        "WRISTS": [
+          0,
+          -3
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -4
+        ],
+        "HEAD": [
+          0,
+          -4
+        ],
+        "FACE": [
+          0,
+          -4
+        ],
+        "BELT": [
+          0,
+          -4
+        ],
+        "BACK": [
+          0,
+          -3
+        ],
+        "NECK": [
+          0,
+          -4
+        ],
+        "MOUTH": [
+          0,
+          -4
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          -3
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -4
+        ],
+        "GLOVES": [
+          0,
+          -4
+        ],
+        "WRISTS": [
+          0,
+          -4
+        ],
+        "HANDS": [
+          0,
+          -4
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -5
+        ],
+        "HEAD": [
+          0,
+          -5
+        ],
+        "FACE": [
+          0,
+          -5
+        ],
+        "BELT": [
+          0,
+          -4
+        ],
+        "BACK": [
+          0,
+          -4
+        ],
+        "NECK": [
+          0,
+          -5
+        ],
+        "MOUTH": [
+          0,
+          -5
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          -4
+        ]
+      }
+    },
+    "markingOptions": {
+      "snout": 14,
+      "horns": 53
+    }
+  },
+  {
+    "species": "AuRa",
+    "body": "AuRa",
+    "name": "Au Ra",
+    "category": null,
+    "sourceType": "/datum/species/aura",
+    "sourceFile": "modular_twilight_axis/code/modules/mob/dead/new_player/living/carbon/human/species_types/furry/aura.dm",
+    "male": "icons/roguetown/mob/bodies/m/mt.dmi",
+    "female": "icons/roguetown/mob/bodies/f/fm.dmi",
+    "offsets": {
+      "m": {
+        "ID": [
+          0,
+          1
+        ],
+        "GLOVES": [
+          0,
+          1
+        ],
+        "WRISTS": [
+          0,
+          1
+        ],
+        "CLOAK": [
+          0,
+          1
+        ],
+        "FACEMASK": [
+          0,
+          1
+        ],
+        "HEAD": [
+          0,
+          1
+        ],
+        "FACE": [
+          0,
+          1
+        ],
+        "BELT": [
+          0,
+          1
+        ],
+        "BACK": [
+          0,
+          1
+        ],
+        "NECK": [
+          0,
+          1
+        ],
+        "MOUTH": [
+          0,
+          1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          1
+        ],
+        "ARMOR": [
+          0,
+          1
+        ],
+        "HANDS": [
+          0,
+          1
+        ],
+        "UNDIES": [
+          0,
+          1
+        ]
+      },
+      "f": {
+        "ID": [
+          0,
+          -1
+        ],
+        "GLOVES": [
+          0,
+          0
+        ],
+        "WRISTS": [
+          0,
+          0
+        ],
+        "HANDS": [
+          0,
+          0
+        ],
+        "CLOAK": [
+          0,
+          0
+        ],
+        "FACEMASK": [
+          0,
+          -1
+        ],
+        "HEAD": [
+          0,
+          -1
+        ],
+        "FACE": [
+          0,
+          -1
+        ],
+        "BELT": [
+          0,
+          0
+        ],
+        "BACK": [
+          0,
+          -1
+        ],
+        "NECK": [
+          0,
+          -1
+        ],
+        "MOUTH": [
+          0,
+          -1
+        ],
+        "PANTS": [
+          0,
+          0
+        ],
+        "SHIRT": [
+          0,
+          0
+        ],
+        "ARMOR": [
+          0,
+          0
+        ],
+        "UNDIES": [
+          0,
+          0
+        ]
+      }
+    },
+    "markingOptions": {
+      "horns": 2,
+      "tail": 1
+    }
+  }
+]

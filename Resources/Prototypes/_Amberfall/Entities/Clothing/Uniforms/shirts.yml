@@ -1,0 +1,169 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformApothshirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/apothshirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/apothshirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/apothshirt.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/apothshirt_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformArtishirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/artishirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/artishirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/artishirt.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/artishirt_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformBlouse
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/blouse.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/blouse.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/blouse.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/blouse_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformButlershirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/butlershirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/butlershirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/butlershirt.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/butlershirt_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformJestershirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/jestershirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/jestershirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/jestershirt.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/jestershirt_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformLowcut
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/lowcut.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/lowcut.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/lowcut.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/lowcut_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformStewardtunic
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/stewardtunic.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/stewardtunic.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/stewardtunic.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/stewardtunic_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformLinenShirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/linen_shirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/linen_shirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/linen_shirt.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/linen_shirt_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformShortShirt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/short_shirt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/short_shirt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/short_shirt.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/short_shirt_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformTravelTunic
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/travel_tunic.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/travel_tunic.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/travel_tunic.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/travel_tunic_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves

@@ -1,9 +1,10 @@
 - type: species
   id: Dwarf
   name: species-name-dwarf
+  category: Dwarven
   roundStart: true
-  prototype: MobDwarf
-  dollPrototype: AppearanceDwarf
+  prototype: MobMountainDwarf
+  dollPrototype: AppearanceMountainDwarf
   skinColoration: HumanToned
   knowledge: Dwarf # Trauma
   defaultSoundsBySex:

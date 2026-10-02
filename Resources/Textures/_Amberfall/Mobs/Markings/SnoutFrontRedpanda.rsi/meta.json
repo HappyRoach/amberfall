@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from https://github.com/Twilight-Fortress-SS13/Twilight-Axis: icons/mob/sprite_accessory/snouts/snouts.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "fwah_FRONT_1",
+      "directions": 4
+    },
+    {
+      "name": "fwah_FRONT_2",
+      "directions": 4
+    },
+    {
+      "name": "fwah_FRONT_3",
+      "directions": 4
+    }
+  ]
+}

@@ -33,6 +33,18 @@ public sealed partial class VisualOrganComponent : Component
     public Dictionary<Sex, string>? SexStateOverrides;
 
     /// <summary>
+    /// Optional second sprite drawn above another body part, while still belonging to this organ.
+    /// </summary>
+    [DataField]
+    public string? OverlayLayer;
+
+    [DataField]
+    public string? OverlayState;
+
+    [DataField]
+    public Dictionary<Sex, string>? OverlaySexStateOverrides;
+
+    /// <summary>
     /// The current profile data of this organ, used for alternate sprite selection and colouration.
     /// </summary>
     [DataField, AutoNetworkedField]

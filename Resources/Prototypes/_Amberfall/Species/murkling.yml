@@ -1,0 +1,8 @@
+- type: species
+  id: Murkling
+  name: species-name-murkling
+  roundStart: true
+  prototype: MobMurkling
+  dollPrototype: AppearanceMurkling
+  skinColoration: Hues
+  defaultSkinTone: "#79F299"

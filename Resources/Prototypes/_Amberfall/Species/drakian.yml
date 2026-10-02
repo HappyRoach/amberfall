@@ -1,0 +1,9 @@
+- type: species
+  id: Drakian
+  name: species-name-drakian
+  category: Zard
+  roundStart: true
+  prototype: MobDrakian
+  dollPrototype: AppearanceDrakian
+  skinColoration: Hues
+  defaultSkinTone: "#9B5656"

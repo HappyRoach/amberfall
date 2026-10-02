@@ -1,0 +1,136 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsLeatherGloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/leather_gloves.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Hands/Gloves/leather_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsFingerlessGloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/fingerless_gloves.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Hands/Gloves/fingerless_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsClothwraps
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/clothwraps.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/clothwraps.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/clothwraps.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGauntlets
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/gauntlets.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/gauntlets.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/gauntlets.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsPaddedmitts
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/paddedmitts.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/paddedmitts.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/paddedmitts.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsRoguegloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/roguegloves.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/roguegloves.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/roguegloves.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsAgauntlets
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/agauntlets.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/agauntlets.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/agauntlets.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsBcgloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/bcgloves.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/bcgloves.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/bcgloves.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsBplategloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/bplategloves.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/bplategloves.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/bplategloves.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsFeldgloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/feldgloves.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/feldgloves.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/feldgloves.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsChainGloves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Hands/Gloves/chain_gloves.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Hands/Gloves/chain_gloves.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Hands/Gloves/chain_gloves.rsi
+    bodyProfile: true

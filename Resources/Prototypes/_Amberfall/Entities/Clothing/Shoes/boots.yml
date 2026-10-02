@@ -1,0 +1,110 @@
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesLeatherBoots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/leather_boots.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Shoes/Boots/leather_boots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesShortBoots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/short_boots.rsi
+  - type: Clothing
+    bodyProfile: true
+    sprite: _Amberfall/Clothing/Shoes/Boots/short_boots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBlackboots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/blackboots.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/blackboots.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/blackboots.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesFurlinedboots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/furlinedboots.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/furlinedboots.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/furlinedboots.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesSoldierboots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/soldierboots.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/soldierboots.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/soldierboots.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesNobleboots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/nobleboots.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/nobleboots.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/nobleboots.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesAncientboots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/ancientboots.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/ancientboots.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/ancientboots.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBronzegreaves
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/bronzegreaves.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/bronzegreaves.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/bronzegreaves.rsi
+    bodyProfile: true
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesPlateBoots
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Shoes/Boots/plate_boots.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Shoes/Boots/plate_boots.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Shoes/Boots/plate_boots.rsi
+    bodyProfile: true

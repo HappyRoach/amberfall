@@ -1,0 +1,9 @@
+- type: species
+  id: WildKin
+  name: species-name-wildkin
+  category: Beastvolk
+  roundStart: true
+  prototype: MobWildKin
+  dollPrototype: AppearanceWildKin
+  skinColoration: Hues
+  defaultSkinTone: "#FFFFFF"

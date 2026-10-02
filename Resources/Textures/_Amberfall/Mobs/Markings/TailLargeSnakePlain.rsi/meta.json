@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from https://github.com/Twilight-Fortress-SS13/Twilight-Axis: icons/mob/tails/large_snake.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "large_snake_plain_FRONT",
+      "directions": 4
+    },
+    {
+      "name": "large_snake_plain_BEHIND",
+      "directions": 4
+    }
+  ]
+}

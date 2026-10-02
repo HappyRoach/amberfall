@@ -4,6 +4,11 @@
   components:
   - type: Sprite
     layers:
+    - map: [ "cloakBehind" ]
+    - map: [ "markingsBehind" ]
+    - map: [ "tailBehind" ]
+    - map: [ "wingsBehind" ]
+
     # Torso
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
 
@@ -14,28 +19,37 @@
     - map: [ "enum.HumanoidVisualLayers.Eyes" ]
     - map: [ "enum.HumanoidVisualLayers.Special" ] # Trauma
 
-    # Limbs
-    - map: [ "enum.HumanoidVisualLayers.RArm" ]
-    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+    # Legs and underwear stay below split clothing body sprites.
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-
-    # Underwear & clothing
+    - map: [ "rLegAbove" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
+
+    # Clothing bodies cover the legs but stay below the arms.
+    - map: [ "pantsBody" ]
+    - map: [ "shirtBody" ]
+    - map: [ "armorBody" ]
+
+    # Arms
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+
+    # Legacy one-piece clothing and the pants slot.
     - map: ["jumpsuit"]
+    - map: ["pants"]
 
     # Extremities
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
+    - map: [ "shirtSleeves" ]
 
     # Stuff that goes over the body but below equipment
     - map: ["enum.HumanoidVisualLayers.Overlay"]
 
     # More equipment
-    - map: [ "gloves" ]
     - map: [ "shoes" ]
     - map: [ "ears" ]
     # <Trauma>
@@ -53,6 +67,9 @@
     - map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
+    - map: [ "armorSleeves" ]
+    - map: [ "gloveSleeves" ]
+    - map: [ "gloves" ]
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "suitstorage" ]

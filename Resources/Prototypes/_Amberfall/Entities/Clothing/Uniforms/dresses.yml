@@ -1,0 +1,169 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformBluedress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/bluedress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/bluedress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/bluedress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/bluedress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformCourtesandress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/courtesandress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/courtesandress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/courtesandress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/courtesandress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformGreendress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/greendress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/greendress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/greendress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/greendress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformMaiddressfancy
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/maiddressfancy.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/maiddressfancy.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/maiddressfancy.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/maiddressfancy_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformMaidgown
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/maidgown.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/maidgown.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/maidgown.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/maidgown_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformNightgown
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/nightgown.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/nightgown.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/nightgown.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/nightgown_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformNobledress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/nobledress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/nobledress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/nobledress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/nobledress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformSilkydress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/silkydress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/silkydress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/silkydress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/silkydress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformTaverndress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/taverndress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/taverndress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/taverndress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/taverndress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformVelvetdress
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/velvetdress.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/velvetdress.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Uniforms/Shirts/velvetdress.rsi
+    bodyProfile: true
+    wornLayer: shirtBody
+    sleeveSprite: _Amberfall/Clothing/Uniforms/Shirts/velvetdress_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: shirtSleeves

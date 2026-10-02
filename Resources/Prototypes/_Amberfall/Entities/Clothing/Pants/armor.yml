@@ -1,0 +1,160 @@
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsSplintlegs
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Armor/splintlegs.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Armor/splintlegs.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Armor/splintlegs.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsBplatelegs
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Armor/bplatelegs.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Armor/bplatelegs.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Armor/bplatelegs.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsIronsplintlegs
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Armor/ironsplintlegs.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Armor/ironsplintlegs.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Armor/ironsplintlegs.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsChainLeggings
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/chain_leggings.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/chain_leggings.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/chain_leggings.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.75
+        Piercing: 0.85
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsPlateLeggings
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/plate_leggings.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/plate_leggings.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/plate_leggings.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.65
+        Piercing: 0.75
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsChainhose
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/chainhose.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/chainhose.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/chainhose.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsChainkilt
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/chainkilt.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/chainkilt.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/chainkilt.rsi
+    bodyProfile: true
+    wornLayer: pantsBody
+  - type: Armor
+    coverage: [ Leg ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8
+
+- type: entity
+  parent: ClothingPantsBase
+  id: ClothingPantsUpchainhose
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/Pants/Trousers/upchainhose.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/Pants/Trousers/upchainhose.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/Pants/Trousers/upchainhose.rsi
+    bodyProfile: true
+    wornLayer: pantsBody

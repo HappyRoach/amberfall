@@ -1,0 +1,71 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterBrigandine
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/brigandine.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/brigandine.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/brigandine.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/brigandine_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterLightBrigandine
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/light_brigandine.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/light_brigandine.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/light_brigandine.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/light_brigandine_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterCoatOfPlates
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/coat_of_plates.rsi
+    state: icon
+  - type: Item
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/coat_of_plates.rsi
+  - type: Clothing
+    sprite: _Amberfall/Clothing/OuterClothing/Armor/coat_of_plates.rsi
+    bodyProfile: true
+    wornLayer: armorBody
+    sleeveSprite: _Amberfall/Clothing/OuterClothing/Armor/coat_of_plates_sleeves.rsi
+    sleeveState: equipped-SLEEVES
+    sleeveLayer: armorSleeves
+  - type: Armor
+    coverage: [ Torso ]
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.7
+        Piercing: 0.8

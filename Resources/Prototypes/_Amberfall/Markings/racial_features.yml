@@ -1,0 +1,6037 @@
+- type: marking
+  id: AntennaMothBurntOff
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      burnt_off_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      burnt_off_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    burnt_off_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothBurntOff.rsi
+    state: burnt_off_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothBurntOff.rsi
+    state: burnt_off_FRONT
+
+- type: marking
+  id: AntennaMothDeathhead
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      deathhead_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      deathhead_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    deathhead_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothDeathhead.rsi
+    state: deathhead_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothDeathhead.rsi
+    state: deathhead_FRONT
+
+- type: marking
+  id: AntennaMothFirewatch
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      firewatch_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      firewatch_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    firewatch_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothFirewatch.rsi
+    state: firewatch_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothFirewatch.rsi
+    state: firewatch_FRONT
+
+- type: marking
+  id: AntennaMothGothic
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      gothic_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      gothic_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    gothic_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothGothic.rsi
+    state: gothic_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothGothic.rsi
+    state: gothic_FRONT
+
+- type: marking
+  id: AntennaMothJungle
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      jungle_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      jungle_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    jungle_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothJungle.rsi
+    state: jungle_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothJungle.rsi
+    state: jungle_FRONT
+
+- type: marking
+  id: AntennaMothLovers
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      lovers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      lovers_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    lovers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothLovers.rsi
+    state: lovers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothLovers.rsi
+    state: lovers_FRONT
+
+- type: marking
+  id: AntennaMothMoonfly
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      moonfly_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      moonfly_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    moonfly_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothMoonfly.rsi
+    state: moonfly_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothMoonfly.rsi
+    state: moonfly_FRONT
+
+- type: marking
+  id: AntennaMothMothra
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      mothra_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      mothra_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    mothra_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothMothra.rsi
+    state: mothra_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothMothra.rsi
+    state: mothra_FRONT
+
+- type: marking
+  id: AntennaMothOakworm
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      oakworm_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      oakworm_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    oakworm_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothOakworm.rsi
+    state: oakworm_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothOakworm.rsi
+    state: oakworm_FRONT
+
+- type: marking
+  id: AntennaMothPlain
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      plain_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      plain_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    plain_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothPlain.rsi
+    state: plain_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothPlain.rsi
+    state: plain_FRONT
+
+- type: marking
+  id: AntennaMothPoison
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      poison_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      poison_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    poison_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothPoison.rsi
+    state: poison_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothPoison.rsi
+    state: poison_FRONT
+
+- type: marking
+  id: AntennaMothRagged
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ragged_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      ragged_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    ragged_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothRagged.rsi
+    state: ragged_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothRagged.rsi
+    state: ragged_FRONT
+
+- type: marking
+  id: AntennaMothReddish
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      reddish_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      reddish_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    reddish_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothReddish.rsi
+    state: reddish_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothReddish.rsi
+    state: reddish_FRONT
+
+- type: marking
+  id: AntennaMothRegal
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      regal_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      regal_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    regal_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothRegal.rsi
+    state: regal_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothRegal.rsi
+    state: regal_FRONT
+
+- type: marking
+  id: AntennaMothRoyal
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      royal_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      royal_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    royal_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothRoyal.rsi
+    state: royal_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothRoyal.rsi
+    state: royal_FRONT
+
+- type: marking
+  id: AntennaMothWhitefly
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      whitefly_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      whitefly_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    whitefly_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothWhitefly.rsi
+    state: whitefly_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothWhitefly.rsi
+    state: whitefly_FRONT
+
+- type: marking
+  id: AntennaMothWitchwing
+  bodyPart: HeadTop
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      witchwing_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      witchwing_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    witchwing_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothWitchwing.rsi
+    state: witchwing_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/AntennaMothWitchwing.rsi
+    state: witchwing_FRONT
+
+- type: marking
+  id: EarsAntennaFuzzball1
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball1.rsi
+    state: antenna_fuzzball1_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball1.rsi
+    state: antenna_fuzzball1_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball1.rsi
+    state: antenna_fuzzball1_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball1.rsi
+    state: antenna_fuzzball1_FRONT_2
+
+- type: marking
+  id: EarsAntennaFuzzball2
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball2.rsi
+    state: antenna_fuzzball2_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball2.rsi
+    state: antenna_fuzzball2_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball2.rsi
+    state: antenna_fuzzball2_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaFuzzball2.rsi
+    state: antenna_fuzzball2_FRONT_2
+
+- type: marking
+  id: EarsAntennaSimple1
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaSimple1.rsi
+    state: antenna_simple1_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaSimple1.rsi
+    state: antenna_simple1_FRONT
+
+- type: marking
+  id: EarsAntennaSimple2
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaSimple2.rsi
+    state: antenna_simple2_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaSimple2.rsi
+    state: antenna_simple2_FRONT
+
+- type: marking
+  id: EarsAntennaSimple3
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaSimple3.rsi
+    state: antenna_simple3_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsAntennaSimple3.rsi
+    state: antenna_simple3_FRONT
+
+- type: marking
+  id: EarsAxolotl
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsAxolotl.rsi
+    state: axolotl_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsAxolotl.rsi
+    state: axolotl_FRONT
+
+- type: marking
+  id: EarsBat
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBat.rsi
+    state: bat_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBat.rsi
+    state: bat_ADJ_2
+
+- type: marking
+  id: EarsBear
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBear.rsi
+    state: bear_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsBear.rsi
+    state: bear_FRONT
+
+- type: marking
+  id: EarsBigAcradorLong
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigAcradorLong.rsi
+    state: acrador_long_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigAcradorLong.rsi
+    state: acrador_long_ADJ_2
+
+- type: marking
+  id: EarsBigAcradorShort
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigAcradorShort.rsi
+    state: acrador_short_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigAcradorShort.rsi
+    state: acrador_short_ADJ_2
+
+- type: marking
+  id: EarsBigBunnyFloppy
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    bunny_floppy_BEHIND_1: markingsBehind
+    bunny_floppy_BEHIND_2: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigBunnyFloppy.rsi
+    state: bunny_floppy_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigBunnyFloppy.rsi
+    state: bunny_floppy_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigBunnyFloppy.rsi
+    state: bunny_floppy_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigBunnyFloppy.rsi
+    state: bunny_floppy_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigBunnyFloppy.rsi
+    state: bunny_floppy_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/EarsBigBunnyFloppy.rsi
+    state: bunny_floppy_ADJ_1
+
+- type: marking
+  id: EarsBigRabbitFloppy
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitFloppy.rsi
+    state: rabbit_floppy_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitFloppy.rsi
+    state: rabbit_floppy_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitFloppy.rsi
+    state: rabbit_floppy_ADJ_3
+
+- type: marking
+  id: EarsBigRabbitFloppyalt
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitFloppyalt.rsi
+    state: rabbit_floppy_flip_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitFloppyalt.rsi
+    state: rabbit_floppy_flip_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitFloppyalt.rsi
+    state: rabbit_floppy_flip_ADJ_3
+
+- type: marking
+  id: EarsBigRabbitLarge
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitLarge.rsi
+    state: rabbit_large_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitLarge.rsi
+    state: rabbit_large_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitLarge.rsi
+    state: rabbit_large_ADJ_3
+
+- type: marking
+  id: EarsBigRabbitMedium
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitMedium.rsi
+    state: rabbit_medium_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitMedium.rsi
+    state: rabbit_medium_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitMedium.rsi
+    state: rabbit_medium_ADJ_3
+
+- type: marking
+  id: EarsBigRabbitSmall
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitSmall.rsi
+    state: rabbit_small_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitSmall.rsi
+    state: rabbit_small_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigRabbitSmall.rsi
+    state: rabbit_small_ADJ_3
+
+- type: marking
+  id: EarsBigSandfoxLarge
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigSandfoxLarge.rsi
+    state: sandfox_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigSandfoxLarge.rsi
+    state: sandfox_ADJ_2
+
+- type: marking
+  id: EarsBigwolf
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolf.rsi
+    state: bigwolf_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolf.rsi
+    state: bigwolf_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolf.rsi
+    state: bigwolf_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolf.rsi
+    state: bigwolf_FRONT_2
+
+- type: marking
+  id: EarsBigwolfInner
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      bigwolf_inner_ADJ_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      bigwolf_inner_FRONT_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolfInner.rsi
+    state: bigwolf_inner_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolfInner.rsi
+    state: bigwolf_inner_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolfInner.rsi
+    state: bigwolf_inner_ADJ_extra
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolfInner.rsi
+    state: bigwolf_inner_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolfInner.rsi
+    state: bigwolf_inner_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBigwolfInner.rsi
+    state: bigwolf_inner_FRONT_extra
+
+- type: marking
+  id: EarsBunny
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBunny.rsi
+    state: bunny_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBunny.rsi
+    state: bunny_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBunny.rsi
+    state: bunny_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBunny.rsi
+    state: bunny_FRONT_2
+
+- type: marking
+  id: EarsBunnyLong
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyLong.rsi
+    state: bunnylong_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyLong.rsi
+    state: bunnylong_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyLong.rsi
+    state: bunnylong_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyLong.rsi
+    state: bunnylong_FRONT_2
+
+- type: marking
+  id: EarsBunnyPerky
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyPerky.rsi
+    state: bunny_perky_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyPerky.rsi
+    state: bunny_perky_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyPerky.rsi
+    state: bunny_perky_ADJ_3
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyPerky.rsi
+    state: bunny_perky_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyPerky.rsi
+    state: bunny_perky_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsBunnyPerky.rsi
+    state: bunny_perky_FRONT_3
+
+- type: marking
+  id: EarsCat
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      cat_BEHIND_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      cat_FRONT_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    cat_BEHIND: markingsBehind
+    cat_BEHIND_extra: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCat.rsi
+    state: cat_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/EarsCat.rsi
+    state: cat_BEHIND_extra
+  - sprite: _Amberfall/Mobs/Markings/EarsCat.rsi
+    state: cat_FRONT
+  - sprite: _Amberfall/Mobs/Markings/EarsCat.rsi
+    state: cat_FRONT_extra
+
+- type: marking
+  id: EarsCatBig
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCatBig.rsi
+    state: catbig_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsCatBig.rsi
+    state: catbig_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsCatBig.rsi
+    state: catbig_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsCatBig.rsi
+    state: catbig_FRONT_2
+
+- type: marking
+  id: EarsCatNormal
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCatNormal.rsi
+    state: catnormal_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsCatNormal.rsi
+    state: catnormal_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsCatNormal.rsi
+    state: catnormal_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsCatNormal.rsi
+    state: catnormal_FRONT_2
+
+- type: marking
+  id: EarsCobrahood
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCobrahood.rsi
+    state: cobrahood_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsCobrahood.rsi
+    state: cobrahood_ADJ_2
+
+- type: marking
+  id: EarsCobrahoodears
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCobrahoodears.rsi
+    state: cobraears_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsCobrahoodears.rsi
+    state: cobraears_ADJ_2
+
+- type: marking
+  id: EarsCow
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCow.rsi
+    state: cow_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsCow.rsi
+    state: cow_FRONT
+
+- type: marking
+  id: EarsCurled
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsCurled.rsi
+    state: horn_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsCurled.rsi
+    state: horn_FRONT
+
+- type: marking
+  id: EarsDeer
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsDeer.rsi
+    state: deer_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsDeer.rsi
+    state: deer_FRONT
+
+- type: marking
+  id: EarsDormouse
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouse.rsi
+    state: dormouse_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouse.rsi
+    state: dormouse_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouse.rsi
+    state: dormouse_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouse.rsi
+    state: dormouse_FRONT_2
+
+- type: marking
+  id: EarsDormouseRings
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseRings.rsi
+    state: dormouse_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseRings.rsi
+    state: dormouse_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseRings.rsi
+    state: dormouse_ADJ_3
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseRings.rsi
+    state: dormouse_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseRings.rsi
+    state: dormouse_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseRings.rsi
+    state: dormouse_FRONT_3
+
+- type: marking
+  id: EarsDormouseSkin
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkin.rsi
+    state: dormouse2_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkin.rsi
+    state: dormouse2_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkin.rsi
+    state: dormouse2_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkin.rsi
+    state: dormouse2_FRONT_2
+
+- type: marking
+  id: EarsDormouseSkinRings
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkinRings.rsi
+    state: dormouse2_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkinRings.rsi
+    state: dormouse2_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkinRings.rsi
+    state: dormouse2_ADJ_3
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkinRings.rsi
+    state: dormouse2_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkinRings.rsi
+    state: dormouse2_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsDormouseSkinRings.rsi
+    state: dormouse2_FRONT_3
+
+- type: marking
+  id: EarsEevee
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsEevee.rsi
+    state: eevee_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsEevee.rsi
+    state: eevee_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsEevee.rsi
+    state: eevee_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsEevee.rsi
+    state: eevee_FRONT_2
+
+- type: marking
+  id: EarsElephant
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsElephant.rsi
+    state: elephant_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsElephant.rsi
+    state: elephant_FRONT
+
+- type: marking
+  id: EarsElf
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, DarkElf, Drakian, HalfElf, HalfKin, HalfOrc, Murkling, Revenant, SunElf, Tiefling, Verminvolk, WildKin, WoodElf ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsElf.rsi
+    state: elf_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsElf.rsi
+    state: elf_FRONT
+
+- type: marking
+  id: EarsElfLong
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, DarkElf, HalfElf, SunElf, Tiefling, WoodElf ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsElfLong.rsi
+    state: elflong_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsElfLong.rsi
+    state: elflong_FRONT
+
+- type: marking
+  id: EarsElfShort
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, DarkElf, HalfElf, SunElf, Tiefling, WoodElf ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsElfShort.rsi
+    state: elfshort_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsElfShort.rsi
+    state: elfshort_FRONT
+
+- type: marking
+  id: EarsElfSmall
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, DarkElf, HalfElf, SunElf, Tiefling, WoodElf ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsElfSmall.rsi
+    state: elfsmall_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsElfSmall.rsi
+    state: elfsmall_FRONT
+
+- type: marking
+  id: EarsElfw
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, DarkElf, Drakian, HalfElf, HalfKin, HalfOrc, Murkling, Revenant, SunElf, Tiefling, Verminvolk, WildKin, WoodElf ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsElfw.rsi
+    state: elfw_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsElfw.rsi
+    state: elfw_FRONT
+
+- type: marking
+  id: EarsFennec
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsFennec.rsi
+    state: fennec_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsFennec.rsi
+    state: fennec_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsFennec.rsi
+    state: fennec_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsFennec.rsi
+    state: fennec_FRONT_2
+
+- type: marking
+  id: EarsFish
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsFish.rsi
+    state: fish_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsFish.rsi
+    state: fish_FRONT
+
+- type: marking
+  id: EarsFox
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsFox.rsi
+    state: fox_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsFox.rsi
+    state: fox_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsFox.rsi
+    state: fox_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsFox.rsi
+    state: fox_FRONT_2
+
+- type: marking
+  id: EarsGoblin
+  bodyPart: HeadSide
+  groupWhitelist: [ Goblin, HalfOrc ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsGoblin.rsi
+    state: goblin_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsGoblin.rsi
+    state: goblin_FRONT
+
+- type: marking
+  id: EarsGoblinAlt
+  bodyPart: HeadSide
+  groupWhitelist: [ Goblin, HalfOrc ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsGoblinAlt.rsi
+    state: goblinalt_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsGoblinAlt.rsi
+    state: goblinalt_FRONT
+
+- type: marking
+  id: EarsGoblinSmall
+  bodyPart: HeadSide
+  groupWhitelist: [ Goblin, HalfOrc ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsGoblinSmall.rsi
+    state: goblinsmall_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsGoblinSmall.rsi
+    state: goblinsmall_FRONT
+
+- type: marking
+  id: EarsHalforc
+  bodyPart: HeadSide
+  groupWhitelist: [ Goblin, HalfOrc ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsHalforc.rsi
+    state: halforc_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsHalforc.rsi
+    state: halforc_FRONT
+
+- type: marking
+  id: EarsHusky
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsHusky.rsi
+    state: wolf_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsHusky.rsi
+    state: wolf_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsHusky.rsi
+    state: wolf_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsHusky.rsi
+    state: wolf_FRONT_2
+
+- type: marking
+  id: EarsJellyfish
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsJellyfish.rsi
+    state: jellyfish_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsJellyfish.rsi
+    state: jellyfish_FRONT
+
+- type: marking
+  id: EarsKangaroo
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsKangaroo.rsi
+    state: kangaroo_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsKangaroo.rsi
+    state: kangaroo_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsKangaroo.rsi
+    state: kangaroo_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsKangaroo.rsi
+    state: kangaroo_FRONT_2
+
+- type: marking
+  id: EarsLab
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsLab.rsi
+    state: lab_ADJ
+  - sprite: _Amberfall/Mobs/Markings/EarsLab.rsi
+    state: lab_FRONT
+
+- type: marking
+  id: EarsLunasune
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsLunasune.rsi
+    state: lunasune_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsLunasune.rsi
+    state: lunasune_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsLunasune.rsi
+    state: lunasune_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsLunasune.rsi
+    state: lunasune_FRONT_2
+
+- type: marking
+  id: EarsLynx
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsLynx.rsi
+    state: lynx_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsLynx.rsi
+    state: lynx_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsLynx.rsi
+    state: lynx_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/EarsLynx.rsi
+    state: lynx_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsLynx.rsi
+    state: lynx_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsLynx.rsi
+    state: lynx_ADJ_3
+
+- type: marking
+  id: EarsMiqote
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsMiqote.rsi
+    state: miqote_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsMiqote.rsi
+    state: miqote_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsMiqote.rsi
+    state: miqote_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsMiqote.rsi
+    state: miqote_FRONT_2
+
+- type: marking
+  id: EarsMouse
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsMouse.rsi
+    state: mouse_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsMouse.rsi
+    state: mouse_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsMouse.rsi
+    state: mouse_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsMouse.rsi
+    state: mouse_FRONT_2
+
+- type: marking
+  id: EarsMurid
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsMurid.rsi
+    state: murid_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsMurid.rsi
+    state: murid_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsMurid.rsi
+    state: murid_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsMurid.rsi
+    state: murid_FRONT_2
+
+- type: marking
+  id: EarsNajaHood
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsNajaHood.rsi
+    state: naja_hood_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsNajaHood.rsi
+    state: naja_hood_ADJ_2
+
+- type: marking
+  id: EarsOtie
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsOtie.rsi
+    state: otie_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsOtie.rsi
+    state: otie_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsOtie.rsi
+    state: otie_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsOtie.rsi
+    state: otie_FRONT_2
+
+- type: marking
+  id: EarsPede
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsPede.rsi
+    state: pede_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsPede.rsi
+    state: pede_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsPede.rsi
+    state: pede_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsPede.rsi
+    state: pede_FRONT_2
+
+- type: marking
+  id: EarsPerky
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsPerky.rsi
+    state: perky_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsPerky.rsi
+    state: perky_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsPerky.rsi
+    state: perky_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsPerky.rsi
+    state: perky_FRONT_2
+
+- type: marking
+  id: EarsPossum
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsPossum.rsi
+    state: possum_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsPossum.rsi
+    state: possum_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsPossum.rsi
+    state: possum_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsPossum.rsi
+    state: possum_FRONT_2
+
+- type: marking
+  id: EarsRabbit
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsRabbit.rsi
+    state: rabbitlop_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsRabbit.rsi
+    state: rabbitlop_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsRabbit.rsi
+    state: rabbitlop_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsRabbit.rsi
+    state: rabbitlop_FRONT_2
+
+- type: marking
+  id: EarsRaccoon
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsRaccoon.rsi
+    state: raccoon_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsRaccoon.rsi
+    state: raccoon_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsRaccoon.rsi
+    state: raccoon_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsRaccoon.rsi
+    state: raccoon_FRONT_2
+
+- type: marking
+  id: EarsSabresune
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      sabresune_ADJ_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      sabresune_FRONT_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsSabresune.rsi
+    state: sabresune_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSabresune.rsi
+    state: sabresune_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsSabresune.rsi
+    state: sabresune_ADJ_extra
+  - sprite: _Amberfall/Mobs/Markings/EarsSabresune.rsi
+    state: sabresune_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSabresune.rsi
+    state: sabresune_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsSabresune.rsi
+    state: sabresune_FRONT_extra
+
+- type: marking
+  id: EarsSergal
+  bodyPart: HeadSide
+  groupWhitelist: [ Axian, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsSergal.rsi
+    state: sergal_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSergal.rsi
+    state: sergal_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsSergal.rsi
+    state: sergal_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSergal.rsi
+    state: sergal_FRONT_2
+
+- type: marking
+  id: EarsShark
+  bodyPart: HeadSide
+  groupWhitelist: [ Axian, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsShark.rsi
+    state: shark_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsShark.rsi
+    state: shark_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsShark.rsi
+    state: shark_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsShark.rsi
+    state: shark_FRONT_2
+
+- type: marking
+  id: EarsSkunk
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsSkunk.rsi
+    state: skunk_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSkunk.rsi
+    state: skunk_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsSkunk.rsi
+    state: skunk_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSkunk.rsi
+    state: skunk_FRONT_2
+
+- type: marking
+  id: EarsSmall
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      small_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      small_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      small_FRONT_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      small_FRONT_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsSmall.rsi
+    state: small_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSmall.rsi
+    state: small_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsSmall.rsi
+    state: small_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSmall.rsi
+    state: small_FRONT_2
+
+- type: marking
+  id: EarsSquirrel
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsSquirrel.rsi
+    state: squirrel_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSquirrel.rsi
+    state: squirrel_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsSquirrel.rsi
+    state: squirrel_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsSquirrel.rsi
+    state: squirrel_FRONT_2
+
+- type: marking
+  id: EarsVulp
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsVulp.rsi
+    state: vulp_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsVulp.rsi
+    state: vulp_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsVulp.rsi
+    state: vulp_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsVulp.rsi
+    state: vulp_FRONT_2
+
+- type: marking
+  id: EarsWispy
+  bodyPart: HeadSide
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      wispy_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      wispy_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      wispy_FRONT_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      wispy_FRONT_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsWispy.rsi
+    state: wispy_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsWispy.rsi
+    state: wispy_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsWispy.rsi
+    state: wispy_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsWispy.rsi
+    state: wispy_FRONT_2
+
+- type: marking
+  id: EarsWolf
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsWolf.rsi
+    state: wolf_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/EarsWolf.rsi
+    state: wolf_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/EarsWolf.rsi
+    state: wolf_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsWolf.rsi
+    state: wolf_FRONT_2
+
+- type: marking
+  id: EarsZorzor
+  bodyPart: HeadSide
+  groupWhitelist: [ Drakian, HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/EarsZorzor.rsi
+    state: zorgoia_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/EarsZorzor.rsi
+    state: zorgoia_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/EarsZorzor.rsi
+    state: zorgoia_FRONT_3
+
+- type: marking
+  id: HornsAngler
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, KoboldMarkings, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      angler_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsAngler.rsi
+    state: angler_FRONT
+
+- type: marking
+  id: HornsAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsAntlers.rsi
+    state: antlers_FRONT
+
+- type: marking
+  id: HornsBigcurlyhorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      bigcurly_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsBigcurlyhorns.rsi
+    state: bigcurly_FRONT
+
+- type: marking
+  id: HornsBillberry
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      billberry_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsBillberry.rsi
+    state: billberry_FRONT
+
+- type: marking
+  id: HornsBroken
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      broken_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsBroken.rsi
+    state: broken_FRONT
+
+- type: marking
+  id: HornsBrokenliftedhorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      liftedbroken_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsBrokenliftedhorns.rsi
+    state: liftedbroken_FRONT
+
+- type: marking
+  id: HornsBunhorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      bunhorns_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsBunhorns.rsi
+    state: bunhorns_FRONT
+
+- type: marking
+  id: HornsChiroptera
+  bodyPart: HeadTop
+  groupWhitelist: [ HalfKin, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      chiroptera_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      chiroptera_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsChiroptera.rsi
+    state: chiroptera_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsChiroptera.rsi
+    state: chiroptera_FRONT
+
+- type: marking
+  id: HornsCurled
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      curled_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsCurled.rsi
+    state: curled_FRONT
+
+- type: marking
+  id: HornsCurledramhorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ramcurled_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsCurledramhorns.rsi
+    state: ramcurled_FRONT
+
+- type: marking
+  id: HornsCurledramhornsalt
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ramcurledalt_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsCurledramhornsalt.rsi
+    state: ramcurledalt_FRONT
+
+- type: marking
+  id: HornsDoublehorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      doublehorns_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsDoublehorns.rsi
+    state: doublehorns_FRONT
+
+- type: marking
+  id: HornsDragonfaceguard
+  bodyPart: HeadTop
+  groupWhitelist: [ AuRa ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      dragonfaceguard_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsDragonfaceguard.rsi
+    state: dragonfaceguard_FRONT
+
+- type: marking
+  id: HornsDragonhorn
+  bodyPart: HeadTop
+  groupWhitelist: [ AuRa ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      dragonhorn_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsDragonhorn.rsi
+    state: dragonhorn_FRONT
+
+- type: marking
+  id: HornsDrake
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      drake_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsDrake.rsi
+    state: drake_FRONT
+
+- type: marking
+  id: HornsDrakeWide
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      drake_wide_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsDrakeWide.rsi
+    state: drake_wide_FRONT
+
+- type: marking
+  id: HornsFaceguard
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      faceguard_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsFaceguard.rsi
+    state: faceguard_FRONT
+
+- type: marking
+  id: HornsGreathorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      great_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsGreathorns.rsi
+    state: great_FRONT
+
+- type: marking
+  id: HornsGuilmon
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      guilmon_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsGuilmon.rsi
+    state: guilmon_FRONT
+
+- type: marking
+  id: HornsHalforc
+  bodyPart: HeadTop
+  groupWhitelist: [ Goblin, HalfOrc, Revenant ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      orctusk_FRONT:
+        type: !type:SimpleColoring
+          color: "#F4F4BE"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsHalforc.rsi
+    state: orctusk_FRONT
+
+- type: marking
+  id: HornsHalo
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      halo_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsHalo.rsi
+    state: halo_FRONT
+
+- type: marking
+  id: HornsKnight
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      knight_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsKnight.rsi
+    state: knight_FRONT
+
+- type: marking
+  id: HornsLargeBigAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      big_antlers_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      big_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      big_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    big_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeBigAntlers.rsi
+    state: big_antlers_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeBigAntlers.rsi
+    state: big_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeBigAntlers.rsi
+    state: big_antlers_FRONT
+
+- type: marking
+  id: HornsLargeBranchingAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      branching_antlers_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      branching_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      branching_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    branching_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeBranchingAntlers.rsi
+    state: branching_antlers_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeBranchingAntlers.rsi
+    state: branching_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeBranchingAntlers.rsi
+    state: branching_antlers_FRONT
+
+- type: marking
+  id: HornsLargeDukelyAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      dukely_antlers_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      dukely_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      dukely_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    dukely_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeDukelyAntlers.rsi
+    state: dukely_antlers_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeDukelyAntlers.rsi
+    state: dukely_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeDukelyAntlers.rsi
+    state: dukely_antlers_FRONT
+
+- type: marking
+  id: HornsLargeHighrise
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      toweringhorns_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      toweringhorns_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    toweringhorns_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeHighrise.rsi
+    state: toweringhorns_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeHighrise.rsi
+    state: toweringhorns_FRONT
+
+- type: marking
+  id: HornsLargeLargeAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      large_antlers_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      large_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      large_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    large_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeLargeAntlers.rsi
+    state: large_antlers_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeLargeAntlers.rsi
+    state: large_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeLargeAntlers.rsi
+    state: large_antlers_FRONT
+
+- type: marking
+  id: HornsLargePronghorn
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      pronghorn_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      pronghorn_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    pronghorn_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargePronghorn.rsi
+    state: pronghorn_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargePronghorn.rsi
+    state: pronghorn_antlers_FRONT
+
+- type: marking
+  id: HornsLargeRegalAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      regal_antlers_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      regal_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      regal_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    regal_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeRegalAntlers.rsi
+    state: regal_antlers_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeRegalAntlers.rsi
+    state: regal_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeRegalAntlers.rsi
+    state: regal_antlers_FRONT
+
+- type: marking
+  id: HornsLargeShortAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      short_antlers_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      short_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      short_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    short_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeShortAntlers.rsi
+    state: short_antlers_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeShortAntlers.rsi
+    state: short_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeShortAntlers.rsi
+    state: short_antlers_FRONT
+
+- type: marking
+  id: HornsLargeSpire
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      spirehorns_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      spirehorns_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    spirehorns_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeSpire.rsi
+    state: spirehorns_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeSpire.rsi
+    state: spirehorns_FRONT
+
+- type: marking
+  id: HornsLargeWideAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      wide_antlers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+      wide_antlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    wide_antlers_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeWideAntlers.rsi
+    state: wide_antlers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/HornsLargeWideAntlers.rsi
+    state: wide_antlers_FRONT
+
+- type: marking
+  id: HornsLbroken
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      lbroken_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLbroken.rsi
+    state: lbroken_FRONT
+
+- type: marking
+  id: HornsLiftedhorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      lifted_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLiftedhorns.rsi
+    state: lifted_FRONT
+
+- type: marking
+  id: HornsLmessenger
+  bodyPart: HeadTop
+  groupWhitelist: [ Aasimar, HalfKin, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      lmessenger_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      lmessenger_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      lmessenger_FRONT_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      lmessenger_FRONT_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      lmessenger_BEHIND_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      lmessenger_BEHIND_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+  spriteLayerOverrides:
+    lmessenger_BEHIND_1: markingsBehind
+    lmessenger_BEHIND_2: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLmessenger.rsi
+    state: lmessenger_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/HornsLmessenger.rsi
+    state: lmessenger_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/HornsLmessenger.rsi
+    state: lmessenger_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/HornsLmessenger.rsi
+    state: lmessenger_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/HornsLmessenger.rsi
+    state: lmessenger_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/HornsLmessenger.rsi
+    state: lmessenger_BEHIND_2
+
+- type: marking
+  id: HornsLonghorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      longhorns_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLonghorns.rsi
+    state: longhorns_FRONT
+
+- type: marking
+  id: HornsLongtusk
+  bodyPart: HeadTop
+  groupWhitelist: [ Goblin, HalfOrc, Revenant ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      longtusk_FRONT:
+        type: !type:SimpleColoring
+          color: "#F4F4BE"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsLongtusk.rsi
+    state: longtusk_FRONT
+
+- type: marking
+  id: HornsMarauder
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      marauder_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsMarauder.rsi
+    state: marauder_FRONT
+
+- type: marking
+  id: HornsMessenger
+  bodyPart: HeadTop
+  groupWhitelist: [ Aasimar, HalfKin, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      messenger_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      messenger_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      messenger_FRONT_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      messenger_FRONT_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsMessenger.rsi
+    state: messenger_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/HornsMessenger.rsi
+    state: messenger_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/HornsMessenger.rsi
+    state: messenger_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/HornsMessenger.rsi
+    state: messenger_FRONT_2
+
+- type: marking
+  id: HornsNightstalker
+  bodyPart: HeadTop
+  groupWhitelist: [ HalfKin, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      nightstalker_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#555555"
+      nightstalker_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#B41919"
+      nightstalker_FRONT_1:
+        type: !type:SimpleColoring
+          color: "#555555"
+      nightstalker_FRONT_2:
+        type: !type:SimpleColoring
+          color: "#B41919"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsNightstalker.rsi
+    state: nightstalker_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/HornsNightstalker.rsi
+    state: nightstalker_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/HornsNightstalker.rsi
+    state: nightstalker_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/HornsNightstalker.rsi
+    state: nightstalker_FRONT_2
+
+- type: marking
+  id: HornsOni
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      oni_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+      oni_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    oni_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsOni.rsi
+    state: oni_FRONT
+  - sprite: _Amberfall/Mobs/Markings/HornsOni.rsi
+    state: oni_BEHIND
+
+- type: marking
+  id: HornsOniLarge
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      oni_large_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+      oni_large_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      oni_large_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    oni_large_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsOniLarge.rsi
+    state: oni_large_FRONT
+  - sprite: _Amberfall/Mobs/Markings/HornsOniLarge.rsi
+    state: oni_large_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsOniLarge.rsi
+    state: oni_large_BEHIND
+
+- type: marking
+  id: HornsOutstretched
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      outstretched_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsOutstretched.rsi
+    state: outstretched_FRONT
+
+- type: marking
+  id: HornsRam
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ram_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsRam.rsi
+    state: ram_FRONT
+
+- type: marking
+  id: HornsRamalt
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ramalt_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsRamalt.rsi
+    state: ramalt_FRONT
+
+- type: marking
+  id: HornsRbroken
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      rbroken_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsRbroken.rsi
+    state: rbroken_FRONT
+
+- type: marking
+  id: HornsRmessenger
+  bodyPart: HeadTop
+  groupWhitelist: [ Aasimar, HalfKin, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      rmessenger_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      rmessenger_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      rmessenger_FRONT_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      rmessenger_FRONT_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      rmessenger_BEHIND_1:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+      rmessenger_BEHIND_2:
+        type: !type:SimpleColoring
+          color: "#EAEAEA"
+  spriteLayerOverrides:
+    rmessenger_BEHIND_1: markingsBehind
+    rmessenger_BEHIND_2: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsRmessenger.rsi
+    state: rmessenger_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/HornsRmessenger.rsi
+    state: rmessenger_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/HornsRmessenger.rsi
+    state: rmessenger_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/HornsRmessenger.rsi
+    state: rmessenger_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/HornsRmessenger.rsi
+    state: rmessenger_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/HornsRmessenger.rsi
+    state: rmessenger_BEHIND_2
+
+- type: marking
+  id: HornsSheephorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      sheep_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsSheephorns.rsi
+    state: sheep_FRONT
+
+- type: marking
+  id: HornsShort
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      short_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsShort.rsi
+    state: short_FRONT
+
+- type: marking
+  id: HornsSideswept
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      sideswept_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsSideswept.rsi
+    state: sideswept_FRONT
+
+- type: marking
+  id: HornsSimple
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      simple_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsSimple.rsi
+    state: simple_FRONT
+
+- type: marking
+  id: HornsSmallantlers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      smallantlers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsSmallantlers.rsi
+    state: smallantlers_FRONT
+
+- type: marking
+  id: HornsSmallramhorns
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ramcurledsmall_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsSmallramhorns.rsi
+    state: ramcurledsmall_FRONT
+
+- type: marking
+  id: HornsSmallramhornsalt
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ramcurledsmallalt_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsSmallramhornsalt.rsi
+    state: ramcurledsmallalt_FRONT
+
+- type: marking
+  id: HornsStabbers
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      stabbers_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsStabbers.rsi
+    state: stabbers_FRONT
+
+- type: marking
+  id: HornsTiefling
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      tiebhorns_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsTiefling.rsi
+    state: tiebhorns_FRONT
+
+- type: marking
+  id: HornsTieflingalt
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      tiebhornsalt_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsTieflingalt.rsi
+    state: tiebhornsalt_FRONT
+
+- type: marking
+  id: HornsUni
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      uni_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+      uni_ADJ:
+        type: !type:SimpleColoring
+          color: "#555555"
+      uni_BEHIND:
+        type: !type:SimpleColoring
+          color: "#555555"
+  spriteLayerOverrides:
+    uni_BEHIND: markingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsUni.rsi
+    state: uni_FRONT
+  - sprite: _Amberfall/Mobs/Markings/HornsUni.rsi
+    state: uni_ADJ
+  - sprite: _Amberfall/Mobs/Markings/HornsUni.rsi
+    state: uni_BEHIND
+
+- type: marking
+  id: HornsUnihorn
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, HalfKin, KoboldMarkings, Revenant, Tiefling, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      unihorn_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsUnihorn.rsi
+    state: unihorn_FRONT
+
+- type: marking
+  id: HornsZard
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, KoboldMarkings, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      zard_FRONT:
+        type: !type:SimpleColoring
+          color: "#555555"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsZard.rsi
+    state: zard_FRONT
+
+- type: marking
+  id: HornsZardCloth
+  bodyPart: HeadTop
+  groupWhitelist: [ Drakian, KoboldMarkings, Zardman ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      zard_cloth_ADJ_1:
+        type: !type:SimpleColoring
+          color: "#555555"
+      zard_cloth_ADJ_2:
+        type: !type:SimpleColoring
+          color: "#B41919"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/HornsZardCloth.rsi
+    state: zard_cloth_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/HornsZardCloth.rsi
+    state: zard_cloth_ADJ_2
+
+- type: marking
+  id: NeckFeatureMammalFluffFluff
+  bodyPart: SnoutCover
+  groupWhitelist: [ HalfKin, Lupian, Tabaxi, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffFluff.rsi
+    state: fluff_ADJ
+
+- type: marking
+  id: NeckFeatureMammalFluffFluffDual
+  bodyPart: SnoutCover
+  groupWhitelist: [ HalfKin, Lupian, Tabaxi, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffFluffDual.rsi
+    state: fluffdual_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffFluffDual.rsi
+    state: fluffdual_ADJ_2
+
+- type: marking
+  id: NeckFeatureMammalFluffFluffDualFront
+  bodyPart: SnoutCover
+  groupWhitelist: [ HalfKin, Lupian, Tabaxi, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffFluffDualFront.rsi
+    state: ffluffdual_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffFluffDualFront.rsi
+    state: ffluffdual_FRONT_2
+
+- type: marking
+  id: NeckFeatureMammalFluffFluffFront
+  bodyPart: SnoutCover
+  groupWhitelist: [ HalfKin, Lupian, Tabaxi, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffFluffFront.rsi
+    state: ffluff_FRONT
+
+- type: marking
+  id: NeckFeatureMammalFluffInsectF
+  bodyPart: SnoutCover
+  groupWhitelist: [ HalfKin, Lupian, Tabaxi, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffInsectF.rsi
+    state: insectf_ADJ
+
+- type: marking
+  id: NeckFeatureMammalFluffInsectM
+  bodyPart: SnoutCover
+  groupWhitelist: [ HalfKin, Lupian, Tabaxi, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMammalFluffInsectM.rsi
+    state: insectm_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffAtlas
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      atlas_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffAtlas.rsi
+    state: atlas_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffDeathhead
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      deathhead_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffDeathhead.rsi
+    state: deathhead_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffFirewatch
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      firewatch_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffFirewatch.rsi
+    state: firewatch_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffGothic
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      gothic_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffGothic.rsi
+    state: gothic_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffJungle
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      jungle_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffJungle.rsi
+    state: jungle_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffLovers
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      lovers_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffLovers.rsi
+    state: lovers_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffLuna
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      luna_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffLuna.rsi
+    state: luna_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffMonarch
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      monarch_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffMonarch.rsi
+    state: monarch_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffMoonfly
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      moonfly_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffMoonfly.rsi
+    state: moonfly_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffOakworm
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      oakworm_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffOakworm.rsi
+    state: oakworm_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffPlain
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      plain_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffPlain.rsi
+    state: plain_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffPoison
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      poison_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffPoison.rsi
+    state: poison_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffPunished
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      burnt_off_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffPunished.rsi
+    state: burnt_off_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffRagged
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ragged_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffRagged.rsi
+    state: ragged_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffReddish
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      redish_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffReddish.rsi
+    state: redish_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffRoyal
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      royal_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffRoyal.rsi
+    state: royal_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffSnow
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      snow_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffSnow.rsi
+    state: snow_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffWhitefly
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      whitefly_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffWhitefly.rsi
+    state: whitefly_ADJ
+
+- type: marking
+  id: NeckFeatureMothFluffWitchwing
+  bodyPart: SnoutCover
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      witchwing_ADJ:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/NeckFeatureMothFluffWitchwing.rsi
+    state: witchwing_ADJ
+
+- type: marking
+  id: SnoutAlienlizard
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutAlienlizard.rsi
+    state: alienlizard_ADJ
+
+- type: marking
+  id: SnoutAlienlizardteeth
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      alienlizardteeth_ADJ_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutAlienlizardteeth.rsi
+    state: alienlizardteeth_ADJ
+  - sprite: _Amberfall/Mobs/Markings/SnoutAlienlizardteeth.rsi
+    state: alienlizardteeth_ADJ_extra
+
+- type: marking
+  id: SnoutBigbeak
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutBigbeak.rsi
+    state: bigbeak_ADJ
+
+- type: marking
+  id: SnoutBigbeakshort
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutBigbeakshort.rsi
+    state: bigbeakshort_ADJ
+
+- type: marking
+  id: SnoutBird
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutBird.rsi
+    state: bird_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutBird.rsi
+    state: bird_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutBird.rsi
+    state: bird_ADJ_3
+
+- type: marking
+  id: SnoutBovine
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutBovine.rsi
+    state: bovine_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutBovine.rsi
+    state: bovine_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutBovine.rsi
+    state: bovine_ADJ_3
+
+- type: marking
+  id: SnoutBug
+  bodyPart: Snout
+  groupWhitelist: [ Fluvian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutBug.rsi
+    state: bug_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutBug.rsi
+    state: bug_ADJ_2
+
+- type: marking
+  id: SnoutBugna
+  bodyPart: Snout
+  groupWhitelist: [ Fluvian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutBugna.rsi
+    state: bugna_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutBugna.rsi
+    state: bugna_ADJ_2
+
+- type: marking
+  id: SnoutCat
+  bodyPart: Snout
+  groupWhitelist: [ Tabaxi ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutCat.rsi
+    state: cat_ADJ
+
+- type: marking
+  id: SnoutElephant
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutElephant.rsi
+    state: elephant_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutElephant.rsi
+    state: elephant_ADJ_2
+
+- type: marking
+  id: SnoutFrontBigbeak
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBigbeak.rsi
+    state: fbigbeak_FRONT
+
+- type: marking
+  id: SnoutFrontBird
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBird.rsi
+    state: fbird_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBird.rsi
+    state: fbird_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBird.rsi
+    state: fbird_FRONT_3
+
+- type: marking
+  id: SnoutFrontBovine
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBovine.rsi
+    state: fbovine_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBovine.rsi
+    state: fbovine_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBovine.rsi
+    state: fbovine_FRONT_3
+
+- type: marking
+  id: SnoutFrontBug
+  bodyPart: Snout
+  groupWhitelist: [ Fluvian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBug.rsi
+    state: fbug_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBug.rsi
+    state: fbug_FRONT_2
+
+- type: marking
+  id: SnoutFrontBugna
+  bodyPart: Snout
+  groupWhitelist: [ Fluvian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBugna.rsi
+    state: fbugna_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontBugna.rsi
+    state: fbugna_FRONT_2
+
+- type: marking
+  id: SnoutFrontElephant
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontElephant.rsi
+    state: felephant_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontElephant.rsi
+    state: felephant_FRONT_2
+
+- type: marking
+  id: SnoutFrontHusky
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontHusky.rsi
+    state: fhusky_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontHusky.rsi
+    state: fhusky_FRONT_2
+
+- type: marking
+  id: SnoutFrontLcanid
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontLcanid.rsi
+    state: flcanid_FRONT
+
+- type: marking
+  id: SnoutFrontLcanidalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontLcanidalt.rsi
+    state: flcanidalt_FRONT
+
+- type: marking
+  id: SnoutFrontLcanidstriped
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontLcanidstriped.rsi
+    state: flcanidstripe_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontLcanidstriped.rsi
+    state: flcanidstripe_FRONT_2
+
+- type: marking
+  id: SnoutFrontLcanidstripedalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontLcanidstripedalt.rsi
+    state: flcanidstripealt_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontLcanidstripedalt.rsi
+    state: flcanidstripealt_FRONT_2
+
+- type: marking
+  id: SnoutFrontOtie
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontOtie.rsi
+    state: fotie_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontOtie.rsi
+    state: fotie_FRONT_2
+
+- type: marking
+  id: SnoutFrontOtiesmile
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontOtiesmile.rsi
+    state: fotiesmile_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontOtiesmile.rsi
+    state: fotiesmile_FRONT_2
+
+- type: marking
+  id: SnoutFrontPede
+  bodyPart: Snout
+  groupWhitelist: [ Fluvian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontPede.rsi
+    state: fpede_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontPede.rsi
+    state: fpede_FRONT_2
+
+- type: marking
+  id: SnoutFrontRedpanda
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRedpanda.rsi
+    state: fwah_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRedpanda.rsi
+    state: fwah_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRedpanda.rsi
+    state: fwah_FRONT_3
+
+- type: marking
+  id: SnoutFrontRedpandaalt
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRedpandaalt.rsi
+    state: fwahalt_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRedpandaalt.rsi
+    state: fwahalt_FRONT_2
+
+- type: marking
+  id: SnoutFrontRhino
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRhino.rsi
+    state: frhino_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRhino.rsi
+    state: frhino_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRhino.rsi
+    state: frhino_FRONT_3
+
+- type: marking
+  id: SnoutFrontRodent
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRodent.rsi
+    state: frodent_FRONT
+
+- type: marking
+  id: SnoutFrontRound
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRound.rsi
+    state: fround_FRONT
+
+- type: marking
+  id: SnoutFrontRoundlight
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontRoundlight.rsi
+    state: froundlight_FRONT
+
+- type: marking
+  id: SnoutFrontScanid
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanid.rsi
+    state: fscanid_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanid.rsi
+    state: fscanid_FRONT_2
+
+- type: marking
+  id: SnoutFrontScanidalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanidalt.rsi
+    state: fscanidalt_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanidalt.rsi
+    state: fscanidalt_FRONT_2
+
+- type: marking
+  id: SnoutFrontScanidalt2
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanidalt2.rsi
+    state: fscanidalt2_FRONT
+
+- type: marking
+  id: SnoutFrontScanidalt3
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanidalt3.rsi
+    state: fscanidalt3_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontScanidalt3.rsi
+    state: fscanidalt3_FRONT_2
+
+- type: marking
+  id: SnoutFrontSergal
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSergal.rsi
+    state: fsergal_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSergal.rsi
+    state: fsergal_FRONT_2
+
+- type: marking
+  id: SnoutFrontSharp
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSharp.rsi
+    state: fsharp_FRONT
+
+- type: marking
+  id: SnoutFrontSharplight
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSharplight.rsi
+    state: fsharplight_FRONT
+
+- type: marking
+  id: SnoutFrontSkulldog
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      fskulldog_FRONT_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSkulldog.rsi
+    state: fskulldog_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSkulldog.rsi
+    state: fskulldog_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontSkulldog.rsi
+    state: fskulldog_FRONT_extra
+
+- type: marking
+  id: SnoutFrontToucan
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontToucan.rsi
+    state: ftoucan_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontToucan.rsi
+    state: ftoucan_FRONT_2
+
+- type: marking
+  id: SnoutFrontWolf
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontWolf.rsi
+    state: fwolf_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontWolf.rsi
+    state: fwolf_FRONT_2
+
+- type: marking
+  id: SnoutFrontWolfalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutFrontWolfalt.rsi
+    state: fwolfalt_FRONT
+
+- type: marking
+  id: SnoutHanubus
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHanubus.rsi
+    state: hanubus_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHanubus.rsi
+    state: hanubus_ADJ_2
+
+- type: marking
+  id: SnoutHhorse
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHhorse.rsi
+    state: hhorse_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHhorse.rsi
+    state: hhorse_ADJ_2
+
+- type: marking
+  id: SnoutHjackal
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHjackal.rsi
+    state: hjackal_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHjackal.rsi
+    state: hjackal_ADJ_2
+
+- type: marking
+  id: SnoutHookbeak
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHookbeak.rsi
+    state: hookbeak_ADJ
+
+- type: marking
+  id: SnoutHookbeakbig
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHookbeakbig.rsi
+    state: hookbeakbig_ADJ
+
+- type: marking
+  id: SnoutHpanda
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHpanda.rsi
+    state: hpanda_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHpanda.rsi
+    state: hpanda_ADJ_2
+
+- type: marking
+  id: SnoutHspots
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHspots.rsi
+    state: hspots_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHspots.rsi
+    state: hspots_ADJ_2
+
+- type: marking
+  id: SnoutHusky
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHusky.rsi
+    state: husky_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHusky.rsi
+    state: husky_ADJ_2
+
+- type: marking
+  id: SnoutHzebra
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutHzebra.rsi
+    state: hzebra_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutHzebra.rsi
+    state: hzebra_ADJ_2
+
+- type: marking
+  id: SnoutLcanid
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutLcanid.rsi
+    state: lcanid_ADJ
+
+- type: marking
+  id: SnoutLcanidalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutLcanidalt.rsi
+    state: lcanidalt_ADJ
+
+- type: marking
+  id: SnoutLcanidstriped
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutLcanidstriped.rsi
+    state: lcanidstripe_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutLcanidstriped.rsi
+    state: lcanidstripe_ADJ_2
+
+- type: marking
+  id: SnoutLcanidstripedalt
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutLcanidstripedalt.rsi
+    state: lcanidstripealt_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutLcanidstripedalt.rsi
+    state: lcanidstripealt_ADJ_2
+
+- type: marking
+  id: SnoutMasked
+  bodyPart: Snout
+  groupWhitelist: [ Aasimar ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutMasked.rsi
+    state: masked_ADJ
+  - sprite: _Amberfall/Mobs/Markings/SnoutMasked.rsi
+    state: masked_FRONT
+
+- type: marking
+  id: SnoutOtie
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutOtie.rsi
+    state: otie_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutOtie.rsi
+    state: otie_ADJ_2
+
+- type: marking
+  id: SnoutOtiesmile
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutOtiesmile.rsi
+    state: otiesmile_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutOtiesmile.rsi
+    state: otiesmile_ADJ_2
+
+- type: marking
+  id: SnoutPede
+  bodyPart: Snout
+  groupWhitelist: [ Fluvian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutPede.rsi
+    state: pede_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutPede.rsi
+    state: pede_ADJ_2
+
+- type: marking
+  id: SnoutRat
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRat.rsi
+    state: rat_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutRat.rsi
+    state: rat_ADJ_2
+
+- type: marking
+  id: SnoutRedpanda
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRedpanda.rsi
+    state: wah_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutRedpanda.rsi
+    state: wah_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutRedpanda.rsi
+    state: wah_ADJ_3
+
+- type: marking
+  id: SnoutRedpandaalt
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRedpandaalt.rsi
+    state: wahalt_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutRedpandaalt.rsi
+    state: wahalt_ADJ_2
+
+- type: marking
+  id: SnoutRhino
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRhino.rsi
+    state: rhino_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutRhino.rsi
+    state: rhino_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutRhino.rsi
+    state: rhino_ADJ_3
+
+- type: marking
+  id: SnoutRodent
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRodent.rsi
+    state: rodent_ADJ
+
+- type: marking
+  id: SnoutRound
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRound.rsi
+    state: round_ADJ
+
+- type: marking
+  id: SnoutRounddualcolor
+  bodyPart: Snout
+  groupWhitelist: [ Drakian, KoboldMarkings, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRounddualcolor.rsi
+    state: m_snout_round_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutRounddualcolor.rsi
+    state: m_snout_round_ADJ_2
+
+- type: marking
+  id: SnoutRoundlight
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRoundlight.rsi
+    state: roundlight_ADJ
+
+- type: marking
+  id: SnoutRoundlightdualcolor
+  bodyPart: Snout
+  groupWhitelist: [ Drakian, KoboldMarkings, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutRoundlightdualcolor.rsi
+    state: m_snout_roundlight_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutRoundlightdualcolor.rsi
+    state: m_snout_roundlight_ADJ_2
+
+- type: marking
+  id: SnoutSbeak
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSbeak.rsi
+    state: corvid_ADJ
+
+- type: marking
+  id: SnoutScanid
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanid.rsi
+    state: scanid_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanid.rsi
+    state: scanid_ADJ_2
+
+- type: marking
+  id: SnoutScanidalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanidalt.rsi
+    state: scanidalt_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanidalt.rsi
+    state: scanidalt_ADJ_2
+
+- type: marking
+  id: SnoutScanidalt2
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanidalt2.rsi
+    state: scanidalt2_ADJ
+
+- type: marking
+  id: SnoutScanidalt3
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanidalt3.rsi
+    state: scanidalt3_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutScanidalt3.rsi
+    state: scanidalt3_ADJ_2
+
+- type: marking
+  id: SnoutSergal
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSergal.rsi
+    state: sergal_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutSergal.rsi
+    state: sergal_ADJ_2
+
+- type: marking
+  id: SnoutShark
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutShark.rsi
+    state: shark_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutShark.rsi
+    state: shark_ADJ_2
+
+- type: marking
+  id: SnoutSharkeyes
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharkeyes.rsi
+    state: sharkeyes_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharkeyes.rsi
+    state: sharkeyes_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharkeyes.rsi
+    state: sharkeyes_ADJ_3
+
+- type: marking
+  id: SnoutSharp
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharp.rsi
+    state: sharp_ADJ
+
+- type: marking
+  id: SnoutSharpdualcolor
+  bodyPart: Snout
+  groupWhitelist: [ Drakian, KoboldMarkings, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharpdualcolor.rsi
+    state: m_snout_sharp_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharpdualcolor.rsi
+    state: m_snout_sharp_ADJ_2
+
+- type: marking
+  id: SnoutSharplight
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharplight.rsi
+    state: sharplight_ADJ
+
+- type: marking
+  id: SnoutSharplightdualcolor
+  bodyPart: Snout
+  groupWhitelist: [ Drakian, KoboldMarkings, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharplightdualcolor.rsi
+    state: m_snout_sharplight_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutSharplightdualcolor.rsi
+    state: m_snout_sharplight_ADJ_2
+
+- type: marking
+  id: SnoutShortnosed
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutShortnosed.rsi
+    state: shortnosed_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutShortnosed.rsi
+    state: shortnosed_ADJ_2
+
+- type: marking
+  id: SnoutSkulldog
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      skulldog_ADJ_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSkulldog.rsi
+    state: skulldog_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutSkulldog.rsi
+    state: skulldog_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutSkulldog.rsi
+    state: skulldog_ADJ_extra
+
+- type: marking
+  id: SnoutSlimbeak
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSlimbeak.rsi
+    state: slimbeak_ADJ
+
+- type: marking
+  id: SnoutSlimbeakalt
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSlimbeakalt.rsi
+    state: slimbeakalt_ADJ
+
+- type: marking
+  id: SnoutSlimbeakshort
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutSlimbeakshort.rsi
+    state: slimbeakshort_ADJ
+
+- type: marking
+  id: SnoutStubby
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutStubby.rsi
+    state: stubby_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutStubby.rsi
+    state: stubby_ADJ_2
+
+- type: marking
+  id: SnoutStubbyalt
+  bodyPart: Snout
+  groupWhitelist: [ Axian, Drakian, KoboldMarkings, Murkling, Revenant, Tabaxi, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutStubbyalt.rsi
+    state: stubbyalt_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutStubbyalt.rsi
+    state: stubbyalt_ADJ_2
+
+- type: marking
+  id: SnoutTajaran
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutTajaran.rsi
+    state: ntajaran_ADJ
+
+- type: marking
+  id: SnoutToucan
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutToucan.rsi
+    state: toucan_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutToucan.rsi
+    state: toucan_ADJ_2
+
+- type: marking
+  id: SnoutVskunk
+  bodyPart: Snout
+  groupWhitelist: [ Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutVskunk.rsi
+    state: vskunk_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutVskunk.rsi
+    state: vskunk_ADJ_2
+  - sprite: _Amberfall/Mobs/Markings/SnoutVskunk.rsi
+    state: vskunk_ADJ_3
+
+- type: marking
+  id: SnoutVulp
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutVulp.rsi
+    state: vulp_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutVulp.rsi
+    state: vulp_ADJ_2
+
+- type: marking
+  id: SnoutWolf
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutWolf.rsi
+    state: wolf_ADJ_1
+  - sprite: _Amberfall/Mobs/Markings/SnoutWolf.rsi
+    state: wolf_ADJ_2
+
+- type: marking
+  id: SnoutWolfalt
+  bodyPart: Snout
+  groupWhitelist: [ Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/SnoutWolfalt.rsi
+    state: wolfalt_ADJ
+
+- type: marking
+  id: TailAuraDragontail
+  bodyPart: Tail
+  groupWhitelist: [ AuRa ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailAuraDragontail.rsi
+    state: dragontail
+
+- type: marking
+  id: TailAustralianShepherd
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    australianshepherd_BEHIND_1: tailBehind
+    australianshepherd_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailAustralianShepherd.rsi
+    state: australianshepherd_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailAustralianShepherd.rsi
+    state: australianshepherd_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailAustralianShepherd.rsi
+    state: australianshepherd_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailAustralianShepherd.rsi
+    state: australianshepherd_BEHIND_2
+
+- type: marking
+  id: TailAxolotl
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    axolotl_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailAxolotl.rsi
+    state: axolotl_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailAxolotl.rsi
+    state: axolotl_BEHIND
+
+- type: marking
+  id: TailBatl
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    batl_BEHIND_1: tailBehind
+    batl_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailBatl.rsi
+    state: batl_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailBatl.rsi
+    state: batl_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailBatl.rsi
+    state: batl_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailBatl.rsi
+    state: batl_BEHIND_2
+
+- type: marking
+  id: TailBats
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    bats_BEHIND_1: tailBehind
+    bats_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailBats.rsi
+    state: bats_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailBats.rsi
+    state: bats_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailBats.rsi
+    state: bats_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailBats.rsi
+    state: bats_BEHIND_2
+
+- type: marking
+  id: TailBee
+  bodyPart: Tail
+  groupWhitelist: [ Fluvian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    bee_BEHIND_1: tailBehind
+    bee_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailBee.rsi
+    state: bee_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailBee.rsi
+    state: bee_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailBee.rsi
+    state: bee_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailBee.rsi
+    state: bee_BEHIND_2
+
+- type: marking
+  id: TailCat
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailCat.rsi
+    state: cat_FRONT
+
+- type: marking
+  id: TailCatbig
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    catbig_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailCatbig.rsi
+    state: catbig_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailCatbig.rsi
+    state: catbig_BEHIND
+
+- type: marking
+  id: TailCorvid
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    crow_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailCorvid.rsi
+    state: crow_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailCorvid.rsi
+    state: crow_BEHIND
+
+- type: marking
+  id: TailCow
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    cow_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailCow.rsi
+    state: cow_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailCow.rsi
+    state: cow_BEHIND
+
+- type: marking
+  id: TailDataShark
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    datashark_BEHIND_1: tailBehind
+    datashark_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailDataShark.rsi
+    state: datashark_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailDataShark.rsi
+    state: datashark_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailDataShark.rsi
+    state: datashark_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailDataShark.rsi
+    state: datashark_BEHIND_2
+
+- type: marking
+  id: TailDeer
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    deer_BEHIND_1: tailBehind
+    deer_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailDeer.rsi
+    state: deer_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailDeer.rsi
+    state: deer_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailDeer.rsi
+    state: deer_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailDeer.rsi
+    state: deer_BEHIND_2
+
+- type: marking
+  id: TailEevee
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    eevee_BEHIND_1: tailBehind
+    eevee_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailEevee.rsi
+    state: eevee_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailEevee.rsi
+    state: eevee_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailEevee.rsi
+    state: eevee_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailEevee.rsi
+    state: eevee_BEHIND_2
+
+- type: marking
+  id: TailFennec
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    fennec_BEHIND_1: tailBehind
+    fennec_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailFennec.rsi
+    state: fennec_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailFennec.rsi
+    state: fennec_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailFennec.rsi
+    state: fennec_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailFennec.rsi
+    state: fennec_BEHIND_2
+
+- type: marking
+  id: TailFish
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    fish_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailFish.rsi
+    state: fish_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailFish.rsi
+    state: fish_BEHIND
+
+- type: marking
+  id: TailForkedLong
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    forked_long_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailForkedLong.rsi
+    state: forked_long_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailForkedLong.rsi
+    state: forked_long_BEHIND
+
+- type: marking
+  id: TailFox
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    fox_BEHIND_1: tailBehind
+    fox_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailFox.rsi
+    state: fox_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailFox.rsi
+    state: fox_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailFox.rsi
+    state: fox_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailFox.rsi
+    state: fox_BEHIND_2
+
+- type: marking
+  id: TailFox2
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    fox2_BEHIND_1: tailBehind
+    fox2_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailFox2.rsi
+    state: fox2_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailFox2.rsi
+    state: fox2_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailFox2.rsi
+    state: fox2_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailFox2.rsi
+    state: fox2_BEHIND_2
+
+- type: marking
+  id: TailGuilmon
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    guilmon_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailGuilmon.rsi
+    state: guilmon_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailGuilmon.rsi
+    state: guilmon_BEHIND
+
+- type: marking
+  id: TailHaven
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    haven_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailHaven.rsi
+    state: haven_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailHaven.rsi
+    state: haven_BEHIND
+
+- type: marking
+  id: TailHawk
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    hawk_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailHawk.rsi
+    state: hawk_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailHawk.rsi
+    state: hawk_BEHIND
+
+- type: marking
+  id: TailHorse
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    horse_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailHorse.rsi
+    state: horse_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailHorse.rsi
+    state: horse_BEHIND
+
+- type: marking
+  id: TailHusky
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    husky_BEHIND_1: tailBehind
+    husky_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailHusky.rsi
+    state: husky_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailHusky.rsi
+    state: husky_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailHusky.rsi
+    state: husky_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailHusky.rsi
+    state: husky_BEHIND_2
+
+- type: marking
+  id: TailInsect
+  bodyPart: Tail
+  groupWhitelist: [ Fluvian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    insect_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailInsect.rsi
+    state: insect_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailInsect.rsi
+    state: insect_BEHIND
+
+- type: marking
+  id: TailJackal
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    jackal_BEHIND_1: tailBehind
+    jackal_BEHIND_2: tailBehind
+    jackal_BEHIND_3: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailJackal.rsi
+    state: jackal_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailJackal.rsi
+    state: jackal_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailJackal.rsi
+    state: jackal_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/TailJackal.rsi
+    state: jackal_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailJackal.rsi
+    state: jackal_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/TailJackal.rsi
+    state: jackal_BEHIND_3
+
+- type: marking
+  id: TailKangaroo
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    kangaroo_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailKangaroo.rsi
+    state: kangaroo_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailKangaroo.rsi
+    state: kangaroo_BEHIND
+
+- type: marking
+  id: TailKitsune
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    kitsune_BEHIND_1: tailBehind
+    kitsune_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailKitsune.rsi
+    state: kitsune_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailKitsune.rsi
+    state: kitsune_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailKitsune.rsi
+    state: kitsune_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailKitsune.rsi
+    state: kitsune_BEHIND_2
+
+- type: marking
+  id: TailLab
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    lab_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLab.rsi
+    state: lab_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLab.rsi
+    state: lab_BEHIND
+
+- type: marking
+  id: TailLargeSnake
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    large_snake_BEHIND_1: tailBehind
+    large_snake_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLargeSnake.rsi
+    state: large_snake_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailLargeSnake.rsi
+    state: large_snake_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailLargeSnake.rsi
+    state: large_snake_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailLargeSnake.rsi
+    state: large_snake_BEHIND_2
+
+- type: marking
+  id: TailLargeSnakePlain
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    large_snake_plain_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLargeSnakePlain.rsi
+    state: large_snake_plain_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLargeSnakePlain.rsi
+    state: large_snake_plain_BEHIND
+
+- type: marking
+  id: TailLeopard
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    leopard_BEHIND_1: tailBehind
+    leopard_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLeopard.rsi
+    state: leopard_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailLeopard.rsi
+    state: leopard_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailLeopard.rsi
+    state: leopard_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailLeopard.rsi
+    state: leopard_BEHIND_2
+
+- type: marking
+  id: TailLizardDtiger
+  bodyPart: Tail
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    dtiger_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLizardDtiger.rsi
+    state: dtiger_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLizardDtiger.rsi
+    state: dtiger_BEHIND
+
+- type: marking
+  id: TailLizardLtiger
+  bodyPart: Tail
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    ltiger_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLizardLtiger.rsi
+    state: ltiger_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLizardLtiger.rsi
+    state: ltiger_BEHIND
+
+- type: marking
+  id: TailLizardSmooth
+  bodyPart: Tail
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    smooth_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLizardSmooth.rsi
+    state: smooth_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLizardSmooth.rsi
+    state: smooth_BEHIND
+
+- type: marking
+  id: TailLizardSpikes
+  bodyPart: Tail
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin, Zardman ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    spikes_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLizardSpikes.rsi
+    state: spikes_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLizardSpikes.rsi
+    state: spikes_BEHIND
+
+- type: marking
+  id: TailLunasune
+  bodyPart: Tail
+  groupWhitelist: [ Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    lunasune_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLunasune.rsi
+    state: lunasune_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailLunasune.rsi
+    state: lunasune_BEHIND
+
+- type: marking
+  id: TailLynx
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    lynx_BEHIND_1: tailBehind
+    lynx_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailLynx.rsi
+    state: lynx_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailLynx.rsi
+    state: lynx_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailLynx.rsi
+    state: lynx_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailLynx.rsi
+    state: lynx_BEHIND_2
+
+- type: marking
+  id: TailMonkey
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    monkey_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailMonkey.rsi
+    state: monkey_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailMonkey.rsi
+    state: monkey_BEHIND
+
+- type: marking
+  id: TailMurid
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    murid_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailMurid.rsi
+    state: murid_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailMurid.rsi
+    state: murid_BEHIND
+
+- type: marking
+  id: TailMuridAlt
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    murid2_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailMuridAlt.rsi
+    state: murid2_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailMuridAlt.rsi
+    state: murid2_BEHIND
+
+- type: marking
+  id: TailMuridDormouse
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tiefling, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    murid3_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailMuridDormouse.rsi
+    state: murid3_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailMuridDormouse.rsi
+    state: murid3_BEHIND
+
+- type: marking
+  id: TailOrca
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    orca_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailOrca.rsi
+    state: orca_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailOrca.rsi
+    state: orca_BEHIND
+
+- type: marking
+  id: TailOtie
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    otie_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailOtie.rsi
+    state: otie_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailOtie.rsi
+    state: otie_BEHIND
+
+- type: marking
+  id: TailOwl
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    owl_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailOwl.rsi
+    state: owl_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailOwl.rsi
+    state: owl_BEHIND
+
+- type: marking
+  id: TailPede
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    pede_BEHIND_1: tailBehind
+    pede_BEHIND_2: tailBehind
+    pede_BEHIND_3: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailPede.rsi
+    state: pede_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailPede.rsi
+    state: pede_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailPede.rsi
+    state: pede_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/TailPede.rsi
+    state: pede_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailPede.rsi
+    state: pede_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/TailPede.rsi
+    state: pede_BEHIND_3
+
+- type: marking
+  id: TailRabbit
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    rabbit_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailRabbit.rsi
+    state: rabbit_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailRabbit.rsi
+    state: rabbit_BEHIND
+
+- type: marking
+  id: TailRaccoon
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    raccoon_BEHIND_1: tailBehind
+    raccoon_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailRaccoon.rsi
+    state: raccoon_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailRaccoon.rsi
+    state: raccoon_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailRaccoon.rsi
+    state: raccoon_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailRaccoon.rsi
+    state: raccoon_BEHIND_2
+
+- type: marking
+  id: TailRaptor
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    raptor_BEHIND_1: tailBehind
+    raptor_BEHIND_2: tailBehind
+    raptor_BEHIND_3: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailRaptor.rsi
+    state: raptor_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailRaptor.rsi
+    state: raptor_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailRaptor.rsi
+    state: raptor_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/TailRaptor.rsi
+    state: raptor_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailRaptor.rsi
+    state: raptor_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/TailRaptor.rsi
+    state: raptor_BEHIND_3
+
+- type: marking
+  id: TailRattlesnake
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    rattlesnake_BEHIND_1: tailBehind
+    rattlesnake_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailRattlesnake.rsi
+    state: rattlesnake_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailRattlesnake.rsi
+    state: rattlesnake_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailRattlesnake.rsi
+    state: rattlesnake_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailRattlesnake.rsi
+    state: rattlesnake_BEHIND_2
+
+- type: marking
+  id: TailRedpanda
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    wah_BEHIND_1: tailBehind
+    wah_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailRedpanda.rsi
+    state: wah_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailRedpanda.rsi
+    state: wah_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailRedpanda.rsi
+    state: wah_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailRedpanda.rsi
+    state: wah_BEHIND_2
+
+- type: marking
+  id: TailSabresune
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    sabresune_BEHIND_1: tailBehind
+    sabresune_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSabresune.rsi
+    state: sabresune_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailSabresune.rsi
+    state: sabresune_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailSabresune.rsi
+    state: sabresune_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailSabresune.rsi
+    state: sabresune_BEHIND_2
+
+- type: marking
+  id: TailSergal
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    sergal_BEHIND_1: tailBehind
+    sergal_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSergal.rsi
+    state: sergal_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailSergal.rsi
+    state: sergal_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailSergal.rsi
+    state: sergal_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailSergal.rsi
+    state: sergal_BEHIND_2
+
+- type: marking
+  id: TailShark
+  bodyPart: Tail
+  groupWhitelist: [ Axian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    shark_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailShark.rsi
+    state: shark_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailShark.rsi
+    state: shark_BEHIND
+
+- type: marking
+  id: TailSharknofin
+  bodyPart: Tail
+  groupWhitelist: [ Axian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    sharknofin_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSharknofin.rsi
+    state: sharknofin_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailSharknofin.rsi
+    state: sharknofin_BEHIND
+
+- type: marking
+  id: TailShepherd
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    shepherd_BEHIND_1: tailBehind
+    shepherd_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailShepherd.rsi
+    state: shepherd_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailShepherd.rsi
+    state: shepherd_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailShepherd.rsi
+    state: shepherd_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailShepherd.rsi
+    state: shepherd_BEHIND_2
+
+- type: marking
+  id: TailSkunk
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    skunk_BEHIND_1: tailBehind
+    skunk_BEHIND_2: tailBehind
+    skunk_BEHIND_3: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSkunk.rsi
+    state: skunk_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailSkunk.rsi
+    state: skunk_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailSkunk.rsi
+    state: skunk_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/TailSkunk.rsi
+    state: skunk_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailSkunk.rsi
+    state: skunk_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/TailSkunk.rsi
+    state: skunk_BEHIND_3
+
+- type: marking
+  id: TailSpade
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    spade_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSpade.rsi
+    state: spade_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailSpade.rsi
+    state: spade_BEHIND
+
+- type: marking
+  id: TailSquirrel
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    squirrel_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSquirrel.rsi
+    state: squirrel_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailSquirrel.rsi
+    state: squirrel_BEHIND
+
+- type: marking
+  id: TailStraighttail
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    straighttail_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailStraighttail.rsi
+    state: straighttail_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailStraighttail.rsi
+    state: straighttail_BEHIND
+
+- type: marking
+  id: TailStripe
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    stripe_BEHIND_1: tailBehind
+    stripe_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailStripe.rsi
+    state: stripe_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailStripe.rsi
+    state: stripe_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailStripe.rsi
+    state: stripe_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailStripe.rsi
+    state: stripe_BEHIND_2
+
+- type: marking
+  id: TailSwallow
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    swallow_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailSwallow.rsi
+    state: swallow_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailSwallow.rsi
+    state: swallow_BEHIND
+
+- type: marking
+  id: TailTamamoKitsune
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Venardine, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    9sune_BEHIND_1: tailBehind
+    9sune_BEHIND_2: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTamamoKitsune.rsi
+    state: 9sune_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailTamamoKitsune.rsi
+    state: 9sune_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailTamamoKitsune.rsi
+    state: 9sune_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailTamamoKitsune.rsi
+    state: 9sune_BEHIND_2
+
+- type: marking
+  id: TailTentacle
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    tentacle_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTentacle.rsi
+    state: tentacle_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailTentacle.rsi
+    state: tentacle_BEHIND
+
+- type: marking
+  id: TailTiefling
+  bodyPart: Tail
+  groupWhitelist: [ Revenant, Tiefling ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    tiebtail_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTiefling.rsi
+    state: tiebtail_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailTiefling.rsi
+    state: tiebtail_BEHIND
+
+- type: marking
+  id: TailTieflingDrake
+  bodyPart: Tail
+  groupWhitelist: [ Revenant, Tiefling ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    draketail_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTieflingDrake.rsi
+    state: draketail_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailTieflingDrake.rsi
+    state: draketail_BEHIND
+
+- type: marking
+  id: TailTieflingHeart
+  bodyPart: Tail
+  groupWhitelist: [ Revenant, Tiefling ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    hearttail_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTieflingHeart.rsi
+    state: hearttail_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailTieflingHeart.rsi
+    state: hearttail_BEHIND
+
+- type: marking
+  id: TailTieflingSpear
+  bodyPart: Tail
+  groupWhitelist: [ Revenant, Tiefling ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    speartail_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTieflingSpear.rsi
+    state: speartail_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailTieflingSpear.rsi
+    state: speartail_BEHIND
+
+- type: marking
+  id: TailTiger
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Tabaxi, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    tiger_BEHIND_1: tailBehind
+    tiger_BEHIND_2: tailBehind
+    tiger_BEHIND_3: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTiger.rsi
+    state: tiger_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailTiger.rsi
+    state: tiger_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailTiger.rsi
+    state: tiger_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/TailTiger.rsi
+    state: tiger_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailTiger.rsi
+    state: tiger_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/TailTiger.rsi
+    state: tiger_BEHIND_3
+
+- type: marking
+  id: TailTwocat
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    twocat_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailTwocat.rsi
+    state: twocat_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailTwocat.rsi
+    state: twocat_BEHIND
+
+- type: marking
+  id: TailWolf
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Lupian, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    wolf_BEHIND: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailWolf.rsi
+    state: wolf_FRONT
+  - sprite: _Amberfall/Mobs/Markings/TailWolf.rsi
+    state: wolf_BEHIND
+
+- type: marking
+  id: TailZorzor
+  bodyPart: Tail
+  groupWhitelist: [ HalfKin, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    zorgoia_BEHIND_1: tailBehind
+    zorgoia_BEHIND_2: tailBehind
+    zorgoia_BEHIND_3: tailBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/TailZorzor.rsi
+    state: zorgoia_FRONT_1
+  - sprite: _Amberfall/Mobs/Markings/TailZorzor.rsi
+    state: zorgoia_FRONT_2
+  - sprite: _Amberfall/Mobs/Markings/TailZorzor.rsi
+    state: zorgoia_FRONT_3
+  - sprite: _Amberfall/Mobs/Markings/TailZorzor.rsi
+    state: zorgoia_BEHIND_1
+  - sprite: _Amberfall/Mobs/Markings/TailZorzor.rsi
+    state: zorgoia_BEHIND_2
+  - sprite: _Amberfall/Mobs/Markings/TailZorzor.rsi
+    state: zorgoia_BEHIND_3
+
+- type: marking
+  id: WingsBat
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    bat_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsBat.rsi
+    state: bat_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsBat.rsi
+    state: bat_FRONT
+
+- type: marking
+  id: WingsBee
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    bee_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsBee.rsi
+    state: bee_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsBee.rsi
+    state: bee_FRONT
+
+- type: marking
+  id: WingsDragonClipped
+  bodyPart: Wings
+  groupWhitelist: [ Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    clipped_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsDragonClipped.rsi
+    state: clipped_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsDragonClipped.rsi
+    state: clipped_FRONT
+
+- type: marking
+  id: WingsFairy
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    fairy_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsFairy.rsi
+    state: fairy_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsFairy.rsi
+    state: fairy_FRONT
+
+- type: marking
+  id: WingsFeathery
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    feathery_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsFeathery.rsi
+    state: feathery_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsFeathery.rsi
+    state: feathery_FRONT
+
+- type: marking
+  id: WingsFeatheryv2
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    featheryv2_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsFeatheryv2.rsi
+    state: featheryv2_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsFeatheryv2.rsi
+    state: featheryv2_FRONT
+
+- type: marking
+  id: WingsHugeAngel
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    angel_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsHugeAngel.rsi
+    state: angel_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsHugeAngel.rsi
+    state: angel_ADJ
+  - sprite: _Amberfall/Mobs/Markings/WingsHugeAngel.rsi
+    state: angel_FRONT
+
+- type: marking
+  id: WingsHugeDragon
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    dragon_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsHugeDragon.rsi
+    state: dragon_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsHugeDragon.rsi
+    state: dragon_ADJ
+  - sprite: _Amberfall/Mobs/Markings/WingsHugeDragon.rsi
+    state: dragon_FRONT
+
+- type: marking
+  id: WingsLargeHarpybatAlt
+  bodyPart: Wings
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpybat_alt_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpybatAlt.rsi
+    state: harpybat_alt_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpybatAlt.rsi
+    state: harpybat_alt_FRONT
+
+- type: marking
+  id: WingsLargeHarpyfluff
+  bodyPart: Wings
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpyfluff_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyfluff.rsi
+    state: harpyfluff_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyfluff.rsi
+    state: harpyfluff_FRONT
+
+- type: marking
+  id: WingsLargeHarpyfolded
+  bodyPart: Wings
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpyfolded_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyfolded.rsi
+    state: harpyfolded_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyfolded.rsi
+    state: harpyfolded_FRONT
+
+- type: marking
+  id: WingsLargeHarpyowl
+  bodyPart: Wings
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpyowl_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyowl.rsi
+    state: harpyowl_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyowl.rsi
+    state: harpyowl_FRONT
+
+- type: marking
+  id: WingsLargeHarpyswept
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpys_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyswept.rsi
+    state: harpys_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpyswept.rsi
+    state: harpys_FRONT
+
+- type: marking
+  id: WingsLargeHarpysweptAlt
+  bodyPart: Wings
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpys_alt_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpysweptAlt.rsi
+    state: harpys_alt_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsLargeHarpysweptAlt.rsi
+    state: harpys_alt_FRONT
+
+- type: marking
+  id: WingsMothAtlas
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      atlas_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      atlas_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    atlas_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothAtlas.rsi
+    state: atlas_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothAtlas.rsi
+    state: atlas_FRONT
+
+- type: marking
+  id: WingsMothBrown
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      brown_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      brown_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    brown_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothBrown.rsi
+    state: brown_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothBrown.rsi
+    state: brown_FRONT
+
+- type: marking
+  id: WingsMothDeathhead
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      deathhead_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      deathhead_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    deathhead_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothDeathhead.rsi
+    state: deathhead_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothDeathhead.rsi
+    state: deathhead_FRONT
+
+- type: marking
+  id: WingsMothFeatherful
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      featherful_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      featherful_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    featherful_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothFeatherful.rsi
+    state: featherful_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothFeatherful.rsi
+    state: featherful_FRONT
+
+- type: marking
+  id: WingsMothFirewatch
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      firewatch_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      firewatch_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    firewatch_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothFirewatch.rsi
+    state: firewatch_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothFirewatch.rsi
+    state: firewatch_FRONT
+
+- type: marking
+  id: WingsMothGothic
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      gothic_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      gothic_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    gothic_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothGothic.rsi
+    state: gothic_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothGothic.rsi
+    state: gothic_FRONT
+
+- type: marking
+  id: WingsMothJungle
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      jungle_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      jungle_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    jungle_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothJungle.rsi
+    state: jungle_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothJungle.rsi
+    state: jungle_FRONT
+
+- type: marking
+  id: WingsMothLovers
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      lovers_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      lovers_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    lovers_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothLovers.rsi
+    state: lovers_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothLovers.rsi
+    state: lovers_FRONT
+
+- type: marking
+  id: WingsMothLuna
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      luna_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      luna_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    luna_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothLuna.rsi
+    state: luna_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothLuna.rsi
+    state: luna_FRONT
+
+- type: marking
+  id: WingsMothMonarch
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      monarch_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      monarch_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    monarch_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothMonarch.rsi
+    state: monarch_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothMonarch.rsi
+    state: monarch_FRONT
+
+- type: marking
+  id: WingsMothMoonfly
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      moonfly_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      moonfly_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    moonfly_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothMoonfly.rsi
+    state: moonfly_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothMoonfly.rsi
+    state: moonfly_FRONT
+
+- type: marking
+  id: WingsMothOakworm
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      oakworm_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      oakworm_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    oakworm_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothOakworm.rsi
+    state: oakworm_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothOakworm.rsi
+    state: oakworm_FRONT
+
+- type: marking
+  id: WingsMothPlain
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      plain_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      plain_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    plain_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPlain.rsi
+    state: plain_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPlain.rsi
+    state: plain_FRONT
+
+- type: marking
+  id: WingsMothPlasmafire
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      plasmafire_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      plasmafire_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    plasmafire_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPlasmafire.rsi
+    state: plasmafire_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPlasmafire.rsi
+    state: plasmafire_FRONT
+
+- type: marking
+  id: WingsMothPoison
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      poison_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      poison_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    poison_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPoison.rsi
+    state: poison_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPoison.rsi
+    state: poison_FRONT
+
+- type: marking
+  id: WingsMothPunished
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      burnt_off_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      burnt_off_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    burnt_off_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPunished.rsi
+    state: burnt_off_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothPunished.rsi
+    state: burnt_off_FRONT
+
+- type: marking
+  id: WingsMothRagged
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      ragged_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      ragged_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    ragged_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothRagged.rsi
+    state: ragged_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothRagged.rsi
+    state: ragged_FRONT
+
+- type: marking
+  id: WingsMothReddish
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      redish_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      redish_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    redish_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothReddish.rsi
+    state: redish_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothReddish.rsi
+    state: redish_FRONT
+
+- type: marking
+  id: WingsMothRosy
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      rosy_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      rosy_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    rosy_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothRosy.rsi
+    state: rosy_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothRosy.rsi
+    state: rosy_FRONT
+
+- type: marking
+  id: WingsMothRoyal
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      royal_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      royal_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    royal_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothRoyal.rsi
+    state: royal_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothRoyal.rsi
+    state: royal_FRONT
+
+- type: marking
+  id: WingsMothSnow
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      snow_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      snow_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    snow_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothSnow.rsi
+    state: snow_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothSnow.rsi
+    state: snow_FRONT
+
+- type: marking
+  id: WingsMothWhitefly
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      whitefly_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      whitefly_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    whitefly_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothWhitefly.rsi
+    state: whitefly_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothWhitefly.rsi
+    state: whitefly_FRONT
+
+- type: marking
+  id: WingsMothWitchwing
+  bodyPart: Wings
+  groupWhitelist: [ Fluvian ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      witchwing_BEHIND:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      witchwing_FRONT:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    witchwing_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsMothWitchwing.rsi
+    state: witchwing_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsMothWitchwing.rsi
+    state: witchwing_FRONT
+
+- type: marking
+  id: WingsPinioned
+  bodyPart: Wings
+  groupWhitelist: [ HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    pinioned_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsPinioned.rsi
+    state: pinioned_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsPinioned.rsi
+    state: pinioned_FRONT
+
+- type: marking
+  id: WingsWideDragonAlt1
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    dragonalt1_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideDragonAlt1.rsi
+    state: dragonalt1_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideDragonAlt1.rsi
+    state: dragonalt1_FRONT
+
+- type: marking
+  id: WingsWideDragonAlt2
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    dragonalt2_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideDragonAlt2.rsi
+    state: dragonalt2_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideDragonAlt2.rsi
+    state: dragonalt2_FRONT
+
+- type: marking
+  id: WingsWideFeatheralt1
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    featheryalt1_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideFeatheralt1.rsi
+    state: featheryalt1_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideFeatheralt1.rsi
+    state: featheryalt1_FRONT
+
+- type: marking
+  id: WingsWideFeatheralt2
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    featheryalt2_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideFeatheralt2.rsi
+    state: featheryalt2_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideFeatheralt2.rsi
+    state: featheryalt2_FRONT
+
+- type: marking
+  id: WingsWideHarpywings
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpy_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywings.rsi
+    state: harpy_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywings.rsi
+    state: harpy_FRONT
+
+- type: marking
+  id: WingsWideHarpywingsTop
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsTop.rsi
+    state: harpy_top_FRONT
+
+- type: marking
+  id: WingsWideHarpywingsalt1
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpyalt_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsalt1.rsi
+    state: harpyalt_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsalt1.rsi
+    state: harpyalt_FRONT
+
+- type: marking
+  id: WingsWideHarpywingsalt1Top
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsalt1Top.rsi
+    state: harpyalt_top_FRONT
+
+- type: marking
+  id: WingsWideHarpywingsalt2
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    harpybat_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsalt2.rsi
+    state: harpybat_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsalt2.rsi
+    state: harpybat_FRONT
+
+- type: marking
+  id: WingsWideHarpywingsalt2Top
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideHarpywingsalt2Top.rsi
+    state: harpybat_top_FRONT
+
+- type: marking
+  id: WingsWideLowWings
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    low_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideLowWings.rsi
+    state: low_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideLowWings.rsi
+    state: low_FRONT
+
+- type: marking
+  id: WingsWideLowWingsTop
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    low_top_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideLowWingsTop.rsi
+    state: low_top_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideLowWingsTop.rsi
+    state: low_top_FRONT
+
+- type: marking
+  id: WingsWideSpider
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  spriteLayerOverrides:
+    spider_legs_BEHIND: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideSpider.rsi
+    state: spider_legs_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideSpider.rsi
+    state: spider_legs_FRONT
+
+- type: marking
+  id: WingsWideSuccubus
+  bodyPart: Wings
+  groupWhitelist: [ Aasimar, Drakian, HalfKin, Murkling, Revenant, Verminvolk, WildKin ]
+  canBeDisplaced: false
+  coloring:
+    default:
+      type: !type:SkinColoring {}
+    layers:
+      succubus_BEHIND_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+      succubus_FRONT_extra:
+        type: !type:SimpleColoring
+          color: "#FFFFFF"
+  spriteLayerOverrides:
+    succubus_BEHIND: wingsBehind
+    succubus_BEHIND_extra: wingsBehind
+  sprites:
+  - sprite: _Amberfall/Mobs/Markings/WingsWideSuccubus.rsi
+    state: succubus_BEHIND
+  - sprite: _Amberfall/Mobs/Markings/WingsWideSuccubus.rsi
+    state: succubus_BEHIND_extra
+  - sprite: _Amberfall/Mobs/Markings/WingsWideSuccubus.rsi
+    state: succubus_FRONT
+  - sprite: _Amberfall/Mobs/Markings/WingsWideSuccubus.rsi
+    state: succubus_FRONT_extra

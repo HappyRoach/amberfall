@@ -1,0 +1,9 @@
+- type: species
+  id: Zardman
+  name: species-name-zardman
+  category: Zard
+  roundStart: true
+  prototype: MobZardman
+  dollPrototype: AppearanceZardman
+  skinColoration: Hues
+  defaultSkinTone: "#789360"

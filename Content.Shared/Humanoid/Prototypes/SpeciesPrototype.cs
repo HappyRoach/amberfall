@@ -22,6 +22,19 @@ public sealed partial class SpeciesPrototype : IPrototype
     public string Name { get; private set; } = default!;
 
     /// <summary>
+    /// Category of the species.
+    /// </summary>
+    [DataField]
+    public ProtoId<SpeciesCategoryPrototype>? Category { get; private set; }
+
+    /// <summary>
+    /// Clothing cut used by both sexes of this species, when specified.
+    /// Does not change the character's body, voice or gender.
+    /// </summary>
+    [DataField]
+    public Sex? ClothingSex { get; private set; }
+
+    /// <summary>
     ///     Descriptor. Unused...? This is intended
     ///     for an eventual integration into IdentitySystem
     ///     (i.e., young human person, young lizard person, etc.)

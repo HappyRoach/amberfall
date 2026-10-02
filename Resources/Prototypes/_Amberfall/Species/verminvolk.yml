@@ -1,0 +1,9 @@
+- type: species
+  id: Verminvolk
+  name: species-name-verminvolk
+  category: Beastvolk
+  roundStart: true
+  prototype: MobVerminvolk
+  dollPrototype: AppearanceVerminvolk
+  skinColoration: Hues
+  defaultSkinTone: "#FFFFFF"

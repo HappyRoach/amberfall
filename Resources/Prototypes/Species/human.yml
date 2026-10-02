@@ -1,6 +1,7 @@
 - type: species
   id: Human
   name: species-name-human
+  category: Humankind
   roundStart: true
   prototype: MobHuman
   dollPrototype: AppearanceHuman

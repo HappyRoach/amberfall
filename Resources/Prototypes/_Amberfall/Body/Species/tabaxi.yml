@@ -1,0 +1,190 @@
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceTabaxi
+  name: Tabaxi appearance
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InitialBody
+    organs:
+      Torso: OrganTabaxiTorso
+      Head: OrganTabaxiHead
+      ArmLeft: OrganTabaxiArmLeft
+      ArmRight: OrganTabaxiArmRight
+      HandLeft: OrganTabaxiHandLeft
+      HandRight: OrganTabaxiHandRight
+      LegLeft: OrganTabaxiLegLeft
+      LegRight: OrganTabaxiLegRight
+      FootLeft: OrganTabaxiFootLeft
+      FootRight: OrganTabaxiFootRight
+      Tail: OrganTabaxiTail
+      Eyes: OrganTabaxiEyes
+      Brain: OrganHumanBrain
+      Tongue: OrganHumanTongue
+      Appendix: OrganHumanAppendix
+      Ears: OrganHumanEars
+      Lungs: OrganHumanLungs
+      Heart: OrganHumanHeart
+      Stomach: OrganHumanStomach
+      Liver: OrganHumanLiver
+      Kidneys: OrganHumanKidneys
+  - type: HumanoidProfile
+    species: Tabaxi
+
+- type: entity
+  parent: [ AppearanceTabaxi, BaseSpeciesMobOrganic ]
+  id: MobTabaxi
+  name: Tabaxi
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+    - id: MaterialBones1
+      amount: 3
+
+- type: entity
+  parent: OrganHumanExternal
+  id: OrganTabaxiExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Amberfall/Mobs/Tabaxi/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Tabaxi/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Tabaxi
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganTabaxiExternal ]
+  id: OrganTabaxiTorso
+  components:
+  - type: BodyPart
+    slots: [ Head, ArmLeft, ArmRight, LegLeft, LegRight, Appendix, Lungs, Heart, Stomach, Liver, Kidneys, Tail ]
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganTabaxiExternal ]
+  id: OrganTabaxiHead
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Hair: 0, 0.03125
+      FacialHair: 0, 0.03125
+      HeadSide: 0, 0.03125
+      HeadTop: 0, 0.03125
+      Snout: 0, 0.03125
+      SnoutCover: 0, 0.03125
+    femaleLayerOffsets:
+      Hair: 0, -0.03125
+      FacialHair: 0, -0.03125
+      HeadSide: 0, -0.03125
+      HeadTop: 0, -0.03125
+      Snout: 0, -0.03125
+      SnoutCover: 0, -0.03125
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.FacialHair
+    - enum.HumanoidVisualLayers.HeadSide
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.Snout
+    - enum.HumanoidVisualLayers.SnoutCover
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganTabaxiExternal ]
+  id: OrganTabaxiArmLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_arm
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganTabaxiExternal ]
+  id: OrganTabaxiArmRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_arm
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganTabaxiExternal ]
+  id: OrganTabaxiHandLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_hand
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganTabaxiExternal ]
+  id: OrganTabaxiHandRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_hand
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganTabaxiExternal ]
+  id: OrganTabaxiLegLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_leg
+      Female: l_leg_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganTabaxiExternal ]
+  id: OrganTabaxiLegRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_leg
+      Female: r_leg_f
+    overlayLayer: rLegAbove
+    overlayState: r_leg_above
+    overlaySexStateOverrides:
+      Female: r_leg_above_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganTabaxiExternal ]
+  id: OrganTabaxiFootLeft
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: l_foot
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganTabaxiExternal ]
+  id: OrganTabaxiFootRight
+  components:
+  - type: VisualOrgan
+    sexStateOverrides:
+      Male: r_foot
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseTail, OrganTabaxiExternal ]
+  id: OrganTabaxiTail
+  components:
+  - type: VisualOrganMarkings
+    layerOffsets:
+      Tail: 0, 0.03125
+    femaleLayerOffsets:
+      Tail: 0, -0.03125
+    hideableLayers: [ enum.HumanoidVisualLayers.Tail ]
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganTabaxiEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Amberfall/Mobs/Tabaxi/eyes.rsi
+    sexStateOverrides:
+      Male: eyes
+      Female: eyes_f

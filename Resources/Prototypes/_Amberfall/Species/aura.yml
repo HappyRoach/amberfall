@@ -1,0 +1,8 @@
+- type: species
+  id: AuRa
+  name: species-name-aura
+  roundStart: true
+  prototype: MobAuRa
+  dollPrototype: AppearanceAuRa
+  skinColoration: HumanToned
+  defaultSkinTone: "#FFFFFF"
